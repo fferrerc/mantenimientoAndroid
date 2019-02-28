@@ -1,0 +1,59 @@
+<mvc:View
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:f="sap.f"
+	xmlns:v="sap.ui.fl.variants"
+	xmlns:mdc="sap.ui.mdc"
+	xmlns:core="sap.ui.core"
+	xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1"
+	template:require="{
+		CORE: 'sap/fe/core/AnnotationHelper'
+	}"
+	controllerName="sap.fe.templates.ListReport.ListReportController">
+
+	<f:DynamicPage id="template::listReportPage" showFooter="false">
+		<f:title>
+			<f:DynamicPageTitle>
+				<f:heading>
+					<template:if test="{viewData>/noPageVariantManagement}">
+						<template:then>
+							<Title
+								id="template::listReportPageTitle"
+								text="{= ${manifest>/sap.app/appSubTitle} || ${manifest>/sap.app/title} }" />
+						</template:then>
+						<template:else>
+							<v:VariantManagement
+								id="template::listReportPageVariantManagement"
+								for="template::listReportPage"
+								showSetAsDefault="false"
+								showExecuteOnSelection="false"/>
+						</template:else>
+					</template:if>
+				</f:heading>
+				<f:snappedContent>
+					<Text id="template::listReportFilterSummary" text="{sap.fe.templates.ListReport>/filterSummary}"></Text>
+				</f:snappedContent>
+			</f:DynamicPageTitle>
+		</f:title>
+		<f:header>
+			<f:DynamicPageHeader pinnable="true">
+				<mdc:FilterBar
+					id="template::listReportFilterBar"
+					listBindingNames="{entitySet>@sapui.name}"
+					metadataContexts="{ model: 'entitySet', path:'',  name: 'entitySet'}"
+					search=".handlers.onSearch"
+					change=".handlers.onFilterBarChange"
+					conditionModelName="sap.fe.cm"
+					searchOnStart="{= ${viewData>/filterOnStart} === false ? false : true }"
+					liveUpdate="{= ${viewData>/filterLiveUpdate} === false ? false : true }"
+					filterSummary="{sap.fe.templates.ListReport>/filterSummary}"/>
+			</f:DynamicPageHeader>
+		</f:header>
+		<f:content>
+			<template:with path="entitySet>" helper="CORE.getPresentationContext" var="annotationPath">
+				<core:Fragment fragmentName="sap.fe.controls.ViewSwitchContainer.ViewSwitchContainer" type="XML"/>
+			</template:with>
+		</f:content>
+	</f:DynamicPage>
+
+</mvc:View>

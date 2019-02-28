@@ -1,0 +1,291 @@
+[{
+	"ObservationId": 6865,
+	"ResultId": "1993",
+	"RecipientType": "RecipientType 1",
+	"Comment": "Comment 1",
+	"Material": false,
+	"Blueprint": true,
+	"RecipientOffice": 8063,
+	"Signature": false,
+	"Note": false,
+	"ContactId": 2979,
+	"RealizationDate": "/Date(1088618804000+0000)/",
+	"Description": "Description 1",
+	"RecipientId": 2707,
+	"WOId": 9456,
+	"__metadata": {
+		"uri": "VisitDetailSet(RecipientType='RecipientType%201',RecipientOffice=8063,RecipientId=2707,WOId=9456)",
+		"type": "ZGW_APPROVE_MNT_SRV.VisitDetail"
+	},
+	"ToAttachments": {
+		"__deferred": {
+			"uri": "VisitDetailSet(RecipientType='RecipientType%201',RecipientOffice=8063,RecipientId=2707,WOId=9456)/ToAttachments"
+		}
+	},
+	"ToContact": {
+		"__deferred": {
+			"uri": "VisitDetailSet(RecipientType='RecipientType%201',RecipientOffice=8063,RecipientId=2707,WOId=9456)/ToContact"
+		}
+	}
+}, {
+	"ObservationId": 5182,
+	"ResultId": "1993",
+	"RecipientType": "RecipientType 2",
+	"Comment": "Comment 2",
+	"Material": false,
+	"Blueprint": true,
+	"RecipientOffice": 6936,
+	"Signature": false,
+	"Note": false,
+	"ContactId": 8146,
+	"RealizationDate": "/Date(1450462004000+0000)/",
+	"Description": "Description 2",
+	"RecipientId": 7616,
+	"WOId": 8775,
+	"__metadata": {
+		"uri": "VisitDetailSet(RecipientType='RecipientType%202',RecipientOffice=6936,RecipientId=7616,WOId=8775)",
+		"type": "ZGW_APPROVE_MNT_SRV.VisitDetail"
+	},
+	"ToAttachments": {
+		"__deferred": {
+			"uri": "VisitDetailSet(RecipientType='RecipientType%202',RecipientOffice=6936,RecipientId=7616,WOId=8775)/ToAttachments"
+		}
+	},
+	"ToContact": {
+		"__deferred": {
+			"uri": "VisitDetailSet(RecipientType='RecipientType%202',RecipientOffice=6936,RecipientId=7616,WOId=8775)/ToContact"
+		}
+	}
+}, {
+	"ObservationId": 2518,
+	"ResultId": "1993",
+	"RecipientType": "RecipientType 3",
+	"Comment": "Comment 3",
+	"Material": true,
+	"Blueprint": false,
+	"RecipientOffice": 298,
+	"Signature": true,
+	"Note": true,
+	"ContactId": 2340,
+	"RealizationDate": "/Date(1125425204000+0000)/",
+	"Description": "Description 3",
+	"RecipientId": 6126,
+	"WOId": 3983,
+	"__metadata": {
+		"uri": "VisitDetailSet(RecipientType='RecipientType%203',RecipientOffice=298,RecipientId=6126,WOId=3983)",
+		"type": "ZGW_APPROVE_MNT_SRV.VisitDetail"
+	},
+	"ToAttachments": {
+		"__deferred": {
+			"uri": "VisitDetailSet(RecipientType='RecipientType%203',RecipientOffice=298,RecipientId=6126,WOId=3983)/ToAttachments"
+		}
+	},
+	"ToContact": {
+		"__deferred": {
+			"uri": "VisitDetailSet(RecipientType='RecipientType%203',RecipientOffice=298,RecipientId=6126,WOId=3983)/ToContact"
+		}
+	}
+}, {
+	"ObservationId": 7932,
+	"ResultId": "1993",
+	"RecipientType": "RecipientType 4",
+	"Comment": "Comment 4",
+	"Material": true,
+	"Blueprint": true,
+	"RecipientOffice": 7367,
+	"Signature": true,
+	"Note": true,
+	"ContactId": 2683,
+	"RealizationDate": "/Date(1542218804000+0000)/",
+	"Description": "Description 4",
+	"RecipientId": 3029,
+	"WOId": 7304,
+	"__metadata": {
+		"uri": "VisitDetailSet(RecipientType='RecipientType%204',RecipientOffice=7367,RecipientId=3029,WOId=7304)",
+		"type": "ZGW_APPROVE_MNT_SRV.VisitDetail"
+	},
+	"ToAttachments": {
+		"__deferred": {
+			"uri": "VisitDetailSet(RecipientType='RecipientType%204',RecipientOffice=7367,RecipientId=3029,WOId=7304)/ToAttachments"
+		}
+	},
+	"ToContact": {
+		"__deferred": {
+			"uri": "VisitDetailSet(RecipientType='RecipientType%204',RecipientOffice=7367,RecipientId=3029,WOId=7304)/ToContact"
+		}
+	}
+}, {
+	"ObservationId": 1100,
+	"ResultId": "1993",
+	"RecipientType": "RecipientType 5",
+	"Comment": "Comment 5",
+	"Material": false,
+	"Blueprint": false,
+	"RecipientOffice": 7636,
+	"Signature": true,
+	"Note": true,
+	"ContactId": 9223,
+	"RealizationDate": "/Date(1245348404000+0000)/",
+	"Description": "Description 5",
+	"RecipientId": 9819,
+	"WOId": 5502,
+	"__metadata": {
+		"uri": "VisitDetailSet(RecipientType='RecipientType%205',RecipientOffice=7636,RecipientId=9819,WOId=5502)",
+		"type": "ZGW_APPROVE_MNT_SRV.VisitDetail"
+	},
+	"ToAttachments": {
+		"__deferred": {
+			"uri": "VisitDetailSet(RecipientType='RecipientType%205',RecipientOffice=7636,RecipientId=9819,WOId=5502)/ToAttachments"
+		}
+	},
+	"ToContact": {
+		"__deferred": {
+			"uri": "VisitDetailSet(RecipientType='RecipientType%205',RecipientOffice=7636,RecipientId=9819,WOId=5502)/ToContact"
+		}
+	}
+}, {
+	"ObservationId": 5874,
+	"ResultId": "1993",
+	"RecipientType": "RecipientType 6",
+	"Comment": "Comment 6",
+	"Material": false,
+	"Blueprint": true,
+	"RecipientOffice": 9459,
+	"Signature": true,
+	"Note": false,
+	"ContactId": 1271,
+	"RealizationDate": "/Date(1105898804000+0000)/",
+	"Description": "Description 6",
+	"RecipientId": 6909,
+	"WOId": 9575,
+	"__metadata": {
+		"uri": "VisitDetailSet(RecipientType='RecipientType%206',RecipientOffice=9459,RecipientId=6909,WOId=9575)",
+		"type": "ZGW_APPROVE_MNT_SRV.VisitDetail"
+	},
+	"ToAttachments": {
+		"__deferred": {
+			"uri": "VisitDetailSet(RecipientType='RecipientType%206',RecipientOffice=9459,RecipientId=6909,WOId=9575)/ToAttachments"
+		}
+	},
+	"ToContact": {
+		"__deferred": {
+			"uri": "VisitDetailSet(RecipientType='RecipientType%206',RecipientOffice=9459,RecipientId=6909,WOId=9575)/ToContact"
+		}
+	}
+}, {
+	"ObservationId": 3078,
+	"ResultId": "ResultId 7",
+	"RecipientType": "RecipientType 7",
+	"Comment": "Comment 7",
+	"Material": true,
+	"Blueprint": true,
+	"RecipientOffice": 9509,
+	"Signature": true,
+	"Note": false,
+	"ContactId": 6607,
+	"RealizationDate": "/Date(1499191604000+0000)/",
+	"Description": "Description 7",
+	"RecipientId": 445,
+	"WOId": 6652,
+	"__metadata": {
+		"uri": "VisitDetailSet(RecipientType='RecipientType%207',RecipientOffice=9509,RecipientId=445,WOId=6652)",
+		"type": "ZGW_APPROVE_MNT_SRV.VisitDetail"
+	},
+	"ToAttachments": {
+		"__deferred": {
+			"uri": "VisitDetailSet(RecipientType='RecipientType%207',RecipientOffice=9509,RecipientId=445,WOId=6652)/ToAttachments"
+		}
+	},
+	"ToContact": {
+		"__deferred": {
+			"uri": "VisitDetailSet(RecipientType='RecipientType%207',RecipientOffice=9509,RecipientId=445,WOId=6652)/ToContact"
+		}
+	}
+}, {
+	"ObservationId": 106,
+	"ResultId": "1993",
+	"RecipientType": "RecipientType 8",
+	"Comment": "Comment 8",
+	"Material": true,
+	"Blueprint": true,
+	"RecipientOffice": 2617,
+	"Signature": true,
+	"Note": false,
+	"ContactId": 7356,
+	"RealizationDate": "/Date(1201108004000+0000)/",
+	"Description": "Description 8",
+	"RecipientId": 9851,
+	"WOId": 4001,
+	"__metadata": {
+		"uri": "VisitDetailSet(RecipientType='RecipientType%208',RecipientOffice=2617,RecipientId=9851,WOId=4001)",
+		"type": "ZGW_APPROVE_MNT_SRV.VisitDetail"
+	},
+	"ToAttachments": {
+		"__deferred": {
+			"uri": "VisitDetailSet(RecipientType='RecipientType%208',RecipientOffice=2617,RecipientId=9851,WOId=4001)/ToAttachments"
+		}
+	},
+	"ToContact": {
+		"__deferred": {
+			"uri": "VisitDetailSet(RecipientType='RecipientType%208',RecipientOffice=2617,RecipientId=9851,WOId=4001)/ToContact"
+		}
+	}
+}, {
+	"ObservationId": 7314,
+	"ResultId": "1993",
+	"RecipientType": "RecipientType 9",
+	"Comment": "Comment 9",
+	"Material": false,
+	"Blueprint": false,
+	"RecipientOffice": 3739,
+	"Signature": false,
+	"Note": true,
+	"ContactId": 9019,
+	"RealizationDate": "/Date(1480788404000+0000)/",
+	"Description": "Description 9",
+	"RecipientId": 8378,
+	"WOId": 6534,
+	"__metadata": {
+		"uri": "VisitDetailSet(RecipientType='RecipientType%209',RecipientOffice=3739,RecipientId=8378,WOId=6534)",
+		"type": "ZGW_APPROVE_MNT_SRV.VisitDetail"
+	},
+	"ToAttachments": {
+		"__deferred": {
+			"uri": "VisitDetailSet(RecipientType='RecipientType%209',RecipientOffice=3739,RecipientId=8378,WOId=6534)/ToAttachments"
+		}
+	},
+	"ToContact": {
+		"__deferred": {
+			"uri": "VisitDetailSet(RecipientType='RecipientType%209',RecipientOffice=3739,RecipientId=8378,WOId=6534)/ToContact"
+		}
+	}
+}, {
+	"ObservationId": 5579,
+	"ResultId": "1993",
+	"RecipientType": "RecipientType 10",
+	"Comment": "Comment 10",
+	"Material": false,
+	"Blueprint": false,
+	"RecipientOffice": 2311,
+	"Signature": true,
+	"Note": true,
+	"ContactId": 3784,
+	"RealizationDate": "/Date(1127066804000+0000)/",
+	"Description": "Description 10",
+	"RecipientId": 2182,
+	"WOId": 8140,
+	"__metadata": {
+		"uri": "VisitDetailSet(RecipientType='RecipientType%2010',RecipientOffice=2311,RecipientId=2182,WOId=8140)",
+		"type": "ZGW_APPROVE_MNT_SRV.VisitDetail"
+	},
+	"ToAttachments": {
+		"__deferred": {
+			"uri": "VisitDetailSet(RecipientType='RecipientType%2010',RecipientOffice=2311,RecipientId=2182,WOId=8140)/ToAttachments"
+		}
+	},
+	"ToContact": {
+		"__deferred": {
+			"uri": "VisitDetailSet(RecipientType='RecipientType%2010',RecipientOffice=2311,RecipientId=2182,WOId=8140)/ToContact"
+		}
+	}
+}]

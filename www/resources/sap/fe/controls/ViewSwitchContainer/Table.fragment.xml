@@ -1,0 +1,27 @@
+<core:FragmentDefinition xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1" xmlns="sap.m"
+						 xmlns:odata="sap.ui.mdc.odata.v4"
+						 xmlns:core="sap.ui.core">
+
+	<odata:Table
+			id="{= 'template::'+ ${collection>@sapui.name} + '::Table'}"
+			metadataContexts="{ model: 'collection', path:'',  name: 'collection'}{model: 'presentation', path:'',  name: 'presentation'}"
+			editMode="{= (${collection>$kind} === 'EntitySet') ? 'Display' : '{ui>/editable}'}"
+			busy="{ui>/busy}"
+			type="ResponsiveTable"
+			rowPress="{=  ${viewData>/navigation} &amp;&amp; ${viewData>/navigation}[${collection>@sapui.name}] &amp;&amp; ${viewData>/navigation}[${collection>@sapui.name}]['detail']
+							? ${viewData>/navigation}[${collection>@sapui.name}]['detail']['outbound']
+								? '.routing.navigateOutbound(\'' + ${viewData>/navigation/detail/outbound} + '\', ${$parameters>bindingContext})'
+								: ( ${viewData>/navigation}[${collection>@sapui.name}]['detail']['route']
+									? '.routing.navigateToContext(${$parameters>bindingContext} )'
+									: undefined )
+							: undefined }"
+			rowAction="{= ${viewData>/navigation} &amp;&amp; ${viewData>/navigation}[${collection>@sapui.name}] &amp;&amp; ${viewData>/navigation}[${collection>@sapui.name}]['detail'] ? 'Navigation' : undefined }"
+			selectionMode="Multi"
+			onCallBoundAction=".transaction.callBoundAction"
+			onCreate=".editFlow.createDocument"
+			creatable="{= (${collection>$kind} === 'EntitySet') ? 'true' : '{= ${ui>/editable} === \'Editable\'}' }"
+			selectedContextsModel="ui"
+	>
+
+	</odata:Table>
+</core:FragmentDefinition>

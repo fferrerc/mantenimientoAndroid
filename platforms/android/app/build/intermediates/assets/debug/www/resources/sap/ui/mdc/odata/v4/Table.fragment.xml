@@ -1,0 +1,52 @@
+<!--
+/**
+ * OData v4 Table
+
+ * mandatory parameters:
+ * @param metadataContext:collection mandatory context to a collection (entitySet or 1:n navigation)
+ * @param metadataContext:presentation mandatory context to a presentation (lineItem w or w/o qualifier / PV)
+ * optional parameters:
+ * @param [id] of the table
+ * @param [rows] list binding information for rows - if not specified it is created from the metadata information
+ * @param [type] the table type (ResponsiveTable, GridTable) / Default: ResponsiveTable
+ * @param [editMode] edit mode of the table / fields (Display,Editable,ReadOnly,Disabled) / Default: Display
+ * @param [rowPress] event handler to react on row press
+ * @param [rowAction] Specifies the possible actions available on the table row (Navigation,null) / Default: null
+ * @param [selectionMode] Specifies the selection mode (None,Single,Multi,Auto) / Default: None - should be Auto
+ * @param [busy] the busy mode of table
+ * @param [onCallBoundAction] event handler to be used to trigger actions. if specified all available actions in the
+             annotations are rendered, either in the toolbar or as inline actions. Toolbar actions require a
+             selectedContextsModel and an id as well as well
+ * @param [onCreate] event handler to be used to create new documents. if specified and if collection is creatable
+             a + button is rendered. the visibility of the button can be controlled via creatable property
+ * @param [creatable] boolean to decide if a create (+) button is rendered. onCreate needs to be specified / Default: true
+ * @param [selectedContextsModel] name of a model in which the selected contexts are stored (under /$contexts/)
+ * TODO: add groupId as parameter
+ */
+-->
+
+<core:FragmentDefinition xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1" xmlns="sap.m"
+						 xmlns:mdc="sap.ui.mdc"
+						 xmlns:core="sap.ui.core">
+
+	<mdc:Table
+			id="{this>id}"
+			busy="{this>busy}"
+			type="{= ${this>type} || 'ResponsiveTable'}"
+			metadataDelegate="sap/ui/mdc/odata/v4/TableDelegate"
+			rowPress="{this>rowPress}"
+			rowAction="{this>rowAction}"
+			rows="{= ${this>rows} || '{path:\'' + (${collection>$kind} === 'EntitySet' ? '/' : '') + ${collection>@sapui.name} + '\',parameters:{id: \'' + ${collection>@sapui.name} +'\', $count : true, $$groupId : \'$auto.associations\' }}'}"
+			selectionMode="{= ${this>selectionMode} || 'None'}"
+			selectionChange="{= ${this>selectedContextsModel} ? ('sap.ui.mdc.odata.v4.table.TableRuntime.setContexts(${$source>/}, \'' + ${this>selectedContextsModel} + '\', \'' + ${this>id} + '\')') : undefined}"
+			showRowCount="true"
+			header="{collection>./@com.sap.vocabularies.UI.v1.HeaderInfo/TypeNamePlural}"
+	>
+		<mdc:actions>
+			<core:Fragment fragmentName="sap.ui.mdc.odata.v4.table.Actions" type="XML"/>
+		</mdc:actions>
+		<mdc:columns>
+			<core:Fragment fragmentName="sap.ui.mdc.odata.v4.table.Columns" type="XML"/>
+		</mdc:columns>
+	</mdc:Table>
+</core:FragmentDefinition>

@@ -1,0 +1,15 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.ui.layout.form"
+	controllerName="ABMcontactos.TGN-ABMcontactos.controller.SyncDetail" xmlns:html="http://www.w3.org/1999/xhtml">
+			<Page title="Detail" showNavButton="true" navButtonPress="_onNavBack" class="sapUiResponsiveMargin">
+				<content>
+					<f:Form id="FormToolbar" editable="true">
+						<f:layout>
+							<f:ResponsiveGridLayout labelSpanXL="5" labelSpanL="5" labelSpanM="5" labelSpanS="12" emptySpanXL="0" emptySpanL="3" emptySpanM="3"
+								emptySpanS="0" columnsXL="1" columnsL="1" columnsM="1" singleContainerFullSize="false"/>
+						</f:layout>
+						<f:FormContainer id="formContainer">
+						</f:FormContainer>
+					</f:Form>
+				</content>
+			</Page>
+</mvc:View>

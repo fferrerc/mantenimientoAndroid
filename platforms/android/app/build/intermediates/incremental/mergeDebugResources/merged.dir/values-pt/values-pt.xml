@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="afaria_provider_name">"Credenciais Afaria"</string>
+    <string name="afariapassword_input">"Inserir senha Afaria"</string>
+    <string name="afariauser_input">"Inserir nome do usuário Afaria"</string>
+    <string name="app_picker_name">Aplicativos</string>
+    <string name="authentication_required">"Autenticação obrigatória"</string>
+    <string name="basic_auth_message">"O servidor %1$s requer um nome de usuário e uma senha."</string>
+    <string name="bookmark_picker_name">Favoritos</string>
+    <string name="button_add_calendar">Adicionar ao calendário</string>
+    <string name="button_add_contact">Adicionar contato</string>
+    <string name="button_book_search">Procurar livro</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="button_custom_product_search">Pesquisa Personalizada</string>
+    <string name="button_dial">Marcar número</string>
+    <string name="button_email">Enviar e-mail</string>
+    <string name="button_get_directions">Obter direções</string>
+    <string name="button_mms">Enviar MMS</string>
+    <string name="button_ok">OK</string>
+    <string name="button_open_browser">Abrir navegador</string>
+    <string name="button_product_search">Procurar produto</string>
+    <string name="button_search_book_contents">Pesquisar conteúdos</string>
+    <string name="button_share_app">Aplicativoc</string>
+    <string name="button_share_bookmark">Favorito</string>
+    <string name="button_share_by_email">Compartilhar via e-mail</string>
+    <string name="button_share_by_sms">Compartilhar via SMS</string>
+    <string name="button_share_clipboard">Área de transferência</string>
+    <string name="button_share_contact">Contato</string>
+    <string name="button_show_map">Visualizar mapa</string>
+    <string name="button_sms">Enviar SMS</string>
+    <string name="button_web_search">Pesquisa na Web</string>
+    <string name="button_wifi">Conectar à rede</string>
+    <string name="cancel">"Cancelar"</string>
+    <string name="cert_provider_description">"O provedor de certificado Afaria precisa baixar seu certificado do servidor. Seu certificado será armazenado com segurança."</string>
+    <string name="cert_provider_get">"OK"</string>
+    <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Um app exige uma atualização do app Android Wear."</string>
+    <string msgid="3046420540094071256" name="common_android_wear_update_text">"Este app só funciona com uma versão atualizada do app Android Wear."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Atualizar o Android Wear"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Ativar o Google Play Services"</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"Este app só funciona com o Google Play Services ativado."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Ative o Google Play Services"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Solicitado por <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Instalar o Google Play Services"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"Este app não funciona sem o Google Play Services, que não está instalado em seu telefone."</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"Este app não funciona sem o Google Play Services, que não está instalado em seu tablet."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Instale o Google Play Services"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"A conta especificada não existe no dispositivo. Escolha outra conta."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Conta inválida"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Um app requer a ativação do Google Play Services."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"É necessária uma conexão de dados para conectar ao Google Play Services."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Erro na rede"</string>
+    <string msgid="8120534356798772974" name="common_google_play_services_notification_needs_installation_title">"Um app requer a instalação do Google Play Services."</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Um app requer a atualização do Google Play Services."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Erro do Google Play Services"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"Erro ao fazer login na conta especificada. Escolha outra conta."</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"Falha de login"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Problema desconhecido com o Google Play Services."</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"O Google Play Services, necessário para alguns dos apps, não é compatível com seu dispositivo. Entre em contato com o fabricante para obter assistência."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Play Services"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Atualizar"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"Este app só funciona com uma versão atualizada do Google Play Services."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Atualize o Google Play Services"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Abrir no smartphone"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"Login"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Fazer login com o Google"</string>
+    <string msgid="5000919058582214855" name="commono_google_play_services_api_unavailable_text">"Este app exige um ou mais serviços do Google Play, que não estão disponíveis no momento. Entre em contato com o desenvolvedor para receber assistência."</string>
+    <string name="contents_contact">Informação de contato</string>
+    <string name="contents_email">Endereço de e-mail</string>
+    <string name="contents_location">Coordenadas geográficas</string>
+    <string name="contents_phone">Número de telefone</string>
+    <string name="contents_sms">Endereço SMS</string>
+    <string name="contents_text">Texto simples</string>
+    <string name="error_message">"Ocorreu um erro! Contate o administrador."</string>
+    <string name="history_clear_one_history_text">Limpar</string>
+    <string name="history_clear_text">Limpar histórico</string>
+    <string name="history_email_title">Histórico do Barcode Scanner</string>
+    <string name="history_empty">Vazio</string>
+    <string name="history_empty_detail">Nenhum código de barras foram registrados</string>
+    <string name="history_send">Enviar histórico</string>
+    <string name="history_title">Histórico</string>
+    <string name="log_in">"Iniciar sessão"</string>
+    <string name="logon_app_will_reload">"A senha foi modificada. A página será recarregada agora."</string>
+    <string name="logon_ok">"OK"</string>
+    <string name="logon_password_changed">"Senha modificada"</string>
+    <string name="menu_encode_mecard">Usar MECARD</string>
+    <string name="menu_encode_vcard">Usar vCard</string>
+    <string name="menu_help">Ajuda</string>
+    <string name="menu_history">Histórico</string>
+    <string name="menu_settings">Configurações</string>
+    <string name="menu_share">Compartilhar</string>
+    <string name="msg_bulk_mode_scanned">Modo em massa: código de barras lido e guardado</string>
+    <string name="msg_camera_framework_bug">Desculpe, a câmera do Android encontrou um problema. Poderá precisar reiniciar o dispositivo.</string>
+    <string name="msg_default_format">Formato</string>
+    <string name="msg_default_meta">Metadata</string>
+    <string name="msg_default_mms_subject">Olá</string>
+    <string name="msg_default_status">Alinhar código de barras com o exemplo para ser lido.</string>
+    <string name="msg_default_time">Tempo</string>
+    <string name="msg_default_type">Tipo</string>
+    <string name="msg_encode_contents_failed">Não foi possível codificar o código de barras a partir dos dados fornecidos.</string>
+    <string name="msg_error">Erro</string>
+    <string name="msg_google_books">Google</string>
+    <string name="msg_google_product">Google</string>
+    <string name="msg_intent_failed">Desculpe, o aplicativo solicitada não pode ser iniciado. O conteúdo do código de barras poderá ser inválido.</string>
+    <string name="msg_invalid_value">Valor inválido</string>
+    <string name="msg_redirect">Redirecionar</string>
+    <string name="msg_sbc_book_not_searchable">Desculpe, este livro não é pesquisável.</string>
+    <string name="msg_sbc_failed">Desculpe, foi encontrado um erro na pesquisa.</string>
+    <string name="msg_sbc_no_page_returned">Nenhuma página obtida</string>
+    <string name="msg_sbc_page">Página</string>
+    <string name="msg_sbc_results">Resultados</string>
+    <string name="msg_sbc_searching_book">Procurando livro\u2026</string>
+    <string name="msg_sbc_snippet_unavailable">Trecho não disponível</string>
+    <string name="msg_share_explanation">Pode compartilhar dados exibindo um código de barras na sua tela e lendo-o com outro celular</string>
+    <string name="msg_share_text">Ou digite algum texto e pressione Enter</string>
+    <string name="msg_sure">Tem certeza?</string>
+    <string name="msg_unmount_usb">Desculpe, o cartão SD não está disponível.</string>
+    <string name="no_viewer_message">"Este arquivo não pode ser exibido. Instale o app Android que pode exibir este tipo de arquivo. %1$s"</string>
+    <string name="no_viewer_title">"Nenhum visualizador"</string>
+    <string name="password">"Senha"</string>
+    <string name="preferences_actions_title">Quando o código de barras é encontrado\u2026</string>
+    <string name="preferences_auto_focus_title">Usar foco automático</string>
+    <string name="preferences_auto_open_web_title">Abrir páginas da web automaticamente</string>
+    <string name="preferences_bulk_mode_summary">Ler e guardar códigos de barras continuamente</string>
+    <string name="preferences_bulk_mode_title">Modo em massa</string>
+    <string name="preferences_copy_to_clipboard_title">Copiar para a área de transferência</string>
+    <string formatted="false" name="preferences_custom_product_search_summary">Substituições: %s = conteúdos, %f = formato, %t = tipo</string>
+    <string name="preferences_custom_product_search_title">Pesquisa personalizada de URL</string>
+    <string name="preferences_decode_1D_industrial_title">Indústrial 1D</string>
+    <string name="preferences_decode_1D_product_title">Produto 1D</string>
+    <string name="preferences_decode_Aztec_title">Aztec</string>
+    <string name="preferences_decode_Data_Matrix_title">Data Matrix</string>
+    <string name="preferences_decode_PDF417_title">PDF417 (β)</string>
+    <string name="preferences_decode_QR_title">QR Codes</string>
+    <string name="preferences_device_bug_workarounds_title">Soluções alternativas de dispositivos com erros</string>
+    <string name="preferences_disable_barcode_scene_mode_title">No modo de cena de código de barras</string>
+    <string name="preferences_disable_continuous_focus_summary">Use apenas o modo de foco padrão</string>
+    <string name="preferences_disable_continuous_focus_title">No foco contínuo</string>
+    <string name="preferences_disable_exposure_title">Nenhuma exposição</string>
+    <string name="preferences_disable_metering_title">Sem medição</string>
+    <string name="preferences_front_light_auto">Automático</string>
+    <string name="preferences_front_light_off">Inativo</string>
+    <string name="preferences_front_light_on">Ativo</string>
+    <string name="preferences_front_light_summary">Melhora a leitura em luz fraca em alguns telefones, mas pode causar clarões. Não disponível em certos dispositivos.</string>
+    <string name="preferences_front_light_title">Usar luz frontal</string>
+    <string name="preferences_general_title">Configurações Gerais</string>
+    <string name="preferences_history_summary">Armazene seus scans em História</string>
+    <string name="preferences_history_title">Adicionar à História</string>
+    <string name="preferences_invert_scan_summary">Procurar por códigos de barras brancos em fundo preto. Não disponível em certos dispositivos.</string>
+    <string name="preferences_invert_scan_title">Inverter leitura</string>
+    <string name="preferences_name">Configurações</string>
+    <string name="preferences_orientation_title">Sem rotação automática</string>
+    <string name="preferences_play_beep_title">Apitar</string>
+    <string name="preferences_remember_duplicates_summary">Guardar pesquisas múltiplas do mesmo código de barras no histórico</string>
+    <string name="preferences_remember_duplicates_title">Lembrar duplicados</string>
+    <string name="preferences_result_title">Definições do resultado</string>
+    <string name="preferences_scanning_title">Quando procurar por códigos de barras, decodificar\u2026</string>
+    <string name="preferences_search_country">Procurar País</string>
+    <string name="preferences_supplemental_summary">Tentar recuperar mais informação sobre os conteúdos dos códigos de barras</string>
+    <string name="preferences_supplemental_title">Recuperar mais informação</string>
+    <string name="preferences_vibrate_title">Vibrar</string>
+    <string name="progress_message">"Solicitando certificado Afaria"</string>
+    <string name="restriction_description_allowSavingFormCredentials">"Permitir que credenciais de formulário sejam gravadas e predefinidas no futuro."</string>
+    <string name="restriction_description_appID">"O ID de app utilizado para identificar a aplicação no cofre de dados. Se você estiver utilizando SMP, isto deve ser consistente com o ID de app da aplicação de destino. Considere que este valor é distinto do nome do pacote que é utilizado principalmente para identificar a sua aplicação em lojas de apps."</string>
+    <string name="restriction_description_appName">"Uma propriedade opcional utilizada para personalizar o nome da aplicação Fiori exibido na tela de logon. Por padrão, o nome do app é SAP Fiori Client. Quando esse campo está em branco, é utilizado o padrão."</string>
+    <string name="restriction_description_authType">"Indicar o tipo de autorização só para OAuth (como oauth2) ou SAML (como saml2.web.post)."</string>
+    <string name="restriction_description_autoSelectSingleCert">"Selecionar automaticamente esse certificado para autenticação mútua se só estiver disponível um certificado do client."</string>
+    <string name="restriction_description_certificate">"Provedor do certificado do client"</string>
+    <string name="restriction_description_communicatorId">"ID de Communicator para registro SMP/HCPms. O padrão é REST."</string>
+    <string name="restriction_description_disablePasscode">"Se verdadeiro, a tela de código não aparece. Deve ser falso se o suporte multiusuário estiver ativado."</string>
+    <string name="restriction_description_enableCacheManager">"Ativa o plug-in de administrador de cache."</string>
+    <string name="restriction_description_fioriURL">"O URL completo da aplicação de destino. Se a sua aplicação não utilizar SMP, ela navega diretamente para este URL logo que o logon esteja concluído. Se o seu app utilizar SMP, este URL é analisado sintaticamente e utilizado da seguinte forma: 1. O esquema de URL (que deve ser HTTP ou HTTPS) determina o valor inicial do flag \'https\' no diálogo de registro. De mesmo modo, o host e a porta no URL determinam os seus valores iniciais correspondentes no diálogo de registro, com procedimento para proposta de porta como 443, se não estiver indicada. 2. O sufixo de URL (tudo após o host e a porta) é anexado ao URL em que o usuário se registra. Embora este seja provavelmente o mesmo que o esquema, host e porta de 1., o usuário pode modificar esses valores. Contudo, o sufixo não pode ser modificado. Se você estiver utilizando SMP, indique o esquema, o host e a porta do seu servidor SMP, seguido pelo sufixo do ponto de acesso Fiori. Por exemplo: \'https://my.smp.server:8081/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html\'"</string>
+    <string name="restriction_description_fioriURLIsSMP">"Se você estiver utilizando SMP, defina como verdadeiro para executar o registro."</string>
+    <string name="restriction_description_idpLogonURL">"URL que recarrega o logon de provedor de identidade com o nome de usuário/código passado pelo SAP Authenticator para SSO."</string>
+    <string name="restriction_description_keysize">"Um argumento opcional para o AfariaCertificateProvider. Este argumento define a taxa de bits das chaves públicas/privadas. Um valor em branco ou inválido fica predefinido como 2048."</string>
+    <string name="restriction_description_oauth2.authorizationEndpoint">"O URL que autoriza o usuário."</string>
+    <string name="restriction_description_oauth2.clientID">"O ID de cliente que identifica a aplicação."</string>
+    <string name="restriction_description_oauth2.grantType">"O tipo de concessão a ser utilizado."</string>
+    <string name="restriction_description_oauth2.tokenEndpoint">"O URL para chamar os tokens."</string>
+    <string name="restriction_description_passcodePolicyAllowFingerprint">"A política de códigos do cofre de dados. Nota: se SAP Mobile Platform estiver sendo utilizado, a política de códigos é determinada pelo servidor."</string>
+    <string name="restriction_description_passcodePolicyDefaultAllowed">"A política de códigos do cofre de dados. Nota: se SMP estiver sendo utilizado, a política de códigos é determinada pelo servidor."</string>
+    <string name="restriction_description_passcodePolicyExpirationDays">"A política de códigos do cofre de dados. Nota: se SMP estiver sendo utilizado, a política de códigos é determinada pelo servidor."</string>
+    <string name="restriction_description_passcodePolicyHasDigits">"A política de códigos do cofre de dados. Nota: se SMP estiver sendo utilizado, a política de códigos é determinada pelo servidor."</string>
+    <string name="restriction_description_passcodePolicyHasLowerCaseLetters">"A política de códigos do cofre de dados. Nota: se SMP estiver sendo utilizado, a política de códigos é determinada pelo servidor."</string>
+    <string name="restriction_description_passcodePolicyHasSpecialLetters">"A política de códigos do cofre de dados. Nota: se SMP estiver sendo utilizado, a política de códigos é determinada pelo servidor."</string>
+    <string name="restriction_description_passcodePolicyHasUpperCaseLetters">"A política de códigos do cofre de dados. Nota: se SMP estiver sendo utilizado, a política de códigos é determinada pelo servidor."</string>
+    <string name="restriction_description_passcodePolicyLockTimeout">"A política de códigos do cofre de dados. Nota: se SMP estiver sendo utilizado, a política de códigos é determinada pelo servidor."</string>
+    <string name="restriction_description_passcodePolicyMinLength">"A política de códigos do cofre de dados. Nota: se SMP estiver sendo utilizado, a política de códigos é determinada pelo servidor."</string>
+    <string name="restriction_description_passcodePolicyMinUniqueChars">"A política de códigos do cofre de dados. Nota: se SMP estiver sendo utilizado, a política de códigos é determinada pelo servidor."</string>
+    <string name="restriction_description_passcodePolicyRetryLimit">"A política de códigos do cofre de dados. Nota: se SMP estiver sendo utilizado, a política de códigos é determinada pelo servidor."</string>
+    <string name="restriction_description_prefetch">"Chama os ativos da Web do app SAP Fiori do servidor front-end SAP Fiori e baixa os mesmos para o dispositivo do usuário. Após o download inicial, chama e baixa quaisquer atualizações app do servidor front-end SAP Fiori."</string>
+    <string name="restriction_title_allowSavingFormCredentials">"Credenciais de formulário"</string>
+    <string name="restriction_title_appID">"ID da aplicação"</string>
+    <string name="restriction_title_appName">"Nome do aplicativo"</string>
+    <string name="restriction_title_authType">"Tipo de autorização"</string>
+    <string name="restriction_title_autoSelectSingleCert">"Selecionar automaticamente provedor de certificado do client"</string>
+    <string name="restriction_title_certificate">"Provedor do certificado do client"</string>
+    <string name="restriction_title_communicatorId">"ID de Communicator"</string>
+    <string name="restriction_title_disablePasscode">"Desativar tela de código"</string>
+    <string name="restriction_title_enableCacheManager">"Ativar administrador de cache"</string>
+    <string name="restriction_title_fioriURL">"URL de servidor Fiori"</string>
+    <string name="restriction_title_fioriURLIsSMP">"O URL de servidor Fiori é um servidor SMP"</string>
+    <string name="restriction_title_idpLogonURL">"URL de logon de provedor de identidade"</string>
+    <string name="restriction_title_keysize">"Tamanho da chave do provedor de certificado Afaria"</string>
+    <string name="restriction_title_oauth2.authorizationEndpoint">"Ponto de acesso autorização OAuth"</string>
+    <string name="restriction_title_oauth2.clientID">"ID de cliente do OAuth"</string>
+    <string name="restriction_title_oauth2.grantType">"Tipo de concessão OAuth"</string>
+    <string name="restriction_title_oauth2.tokenEndpoint">"Ponto de acesso de token OAuth"</string>
+    <string name="restriction_title_passcodePolicyAllowFingerprint">"Política de códigos permitir autenticação de impressão digital"</string>
+    <string name="restriction_title_passcodePolicyDefaultAllowed">"Padrão da política de códigos permitido"</string>
+    <string name="restriction_title_passcodePolicyExpirationDays">"Dias de expiração de política de códigos"</string>
+    <string name="restriction_title_passcodePolicyHasDigits">"A política de códigos tem dígitos"</string>
+    <string name="restriction_title_passcodePolicyHasLowerCaseLetters">"A política de códigos tem minúsculas"</string>
+    <string name="restriction_title_passcodePolicyHasSpecialLetters">"A política de códigos tem letras especiais"</string>
+    <string name="restriction_title_passcodePolicyHasUpperCaseLetters">"A política de códigos tem maiúsculas"</string>
+    <string name="restriction_title_passcodePolicyLockTimeout">"Timeout de bloqueio de política de códigos"</string>
+    <string name="restriction_title_passcodePolicyMinLength">"Comprimento mínimo de política de códigos"</string>
+    <string name="restriction_title_passcodePolicyMinUniqueChars">"Caracteres únicos mínimos de política de códigos"</string>
+    <string name="restriction_title_passcodePolicyRetryLimit">"Limite de repetição de política de códigos"</string>
+    <string name="restriction_title_prefetch">"Chamar previamente ativos da Web"</string>
+    <string name="result_address_book">Info de contato encontrada</string>
+    <string name="result_calendar">Evento de calendário encontrado</string>
+    <string name="result_email_address">Endereço de e-mail encontrado</string>
+    <string name="result_geo">Coordenadas geográficas encontradas</string>
+    <string name="result_isbn">Livro encontrado</string>
+    <string name="result_product">Produto encontrado</string>
+    <string name="result_sms">Endereço SMS encontrado</string>
+    <string name="result_tel">Número de telefone encontrado</string>
+    <string name="result_text">Texto simples encontrado</string>
+    <string name="result_uri">URL encontrado</string>
+    <string name="result_wifi">Configuração WLAN encontrada</string>
+    <string name="sap_copyright">"Copyright © 2015 SE. Todos os direitos reservados."</string>
+    <string name="sap_logo_description">"Logotipo da SAP"</string>
+    <string name="sbc_name">Pesquisa Google Book</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="username">"Nome do usuário"</string>
+    <string name="wifi_changing_network">Solicitando ligação à rede\u2026</string>
+</resources>

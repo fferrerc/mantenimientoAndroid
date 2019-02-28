@@ -1,0 +1,81 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="ABMcontactos.TGN-ABMcontactos.controller.RecipientsList">
+			<Page title="{i18n&gt;dldialog.title}" showNavButton="true" navButtonPress="onCancelNewVisit">
+				<content>
+					<Table 
+						id="destTable" 
+						inset="false" 
+						alternateRowColors="true" 
+						items="{
+							path: 'RecipientsModel>/RecipientSet',
+							filter: {
+								path: 'CompanyName',
+								operator: 'Contains',
+								value1: ''
+							},
+							sorter: {
+								path: 'CompanyName',
+								comparator: '.compareCompanyNameStrings'
+							},
+							parameters: {
+						        operationMode: 'Client'
+						    }
+						}"
+						mode="SingleSelectMaster" 
+						selectionChange="onRecipientItemPress" 
+						growing="true">
+						<headerToolbar>
+							<OverflowToolbar>
+								<ToolbarSpacer/>
+								<Button type="Default" text="{i18n&gt;btn.edit}" press="onEditRecipient" icon="sap-icon://edit" id="editDestBtn" enabled="{= ${States&gt;/oSelectedRecipientContext} ? true : false}" visible="false"/>
+								<Button
+									tooltip="Ordenar"
+									icon="sap-icon://sort"
+									press="handleSortButtonPressed" />
+								<SearchField
+									liveChange="onSearch"
+									width="200px"/>
+							</OverflowToolbar>
+						</headerToolbar>
+						<columns>
+							<Column width="4em">
+								<Text text="{i18n&gt;dldialog.column.type}"/>
+							</Column>
+							<Column width="2em">
+								<Text text="{i18n&gt;dldialog.column.id}"/>
+							</Column>
+							<Column width="8em">
+								<Text text="{i18n&gt;dldialog.column.office}"/>
+							</Column>
+							<Column width="8em" minScreenWidth="Tablet" demandPopin="true">
+								<Text text="{i18n&gt;dldialog.column.businessName}"/>
+							</Column>
+							<Column width="8em" minScreenWidth="Tablet" demandPopin="true">
+								<Text text="{i18n&gt;dldialog.column.activity}"/>
+							</Column>
+							<Column width="12em" minScreenWidth="Tablet" demandPopin="true">
+								<Text text="{i18n&gt;dldialog.column.coments}"/>
+							</Column>
+						</columns>
+						<items>
+							<ColumnListItem>
+								<cells>
+									<Text text="{RecipientsModel&gt;Type}"/>
+									<Text text="{RecipientsModel&gt;Id}"/>
+									<Text text="{RecipientsModel&gt;Office}"/>
+									<Text text="{RecipientsModel&gt;CompanyName}"/>
+									<Text text="{RecipientsModel&gt;Activity}"/>
+									<Text text="{RecipientsModel&gt;Comment}"/>
+								</cells>
+							</ColumnListItem>
+						</items>
+					</Table>
+				</content>
+				<footer>
+					<Toolbar>
+						<ToolbarSpacer/>
+						<Button type="Reject" text="{i18n&gt;btn.cancel}" press="onCancelNewVisit" icon="sap-icon://decline" />
+						<Button type="Accept" text="{i18n&gt;btn.select}" press="onNewVisitCreated" icon="sap-icon://accept" enabled="{= ${States>/oSelectedRecipientContext} ? true : false}"/>
+					</Toolbar>
+				</footer>
+			</Page>
+</mvc:View>

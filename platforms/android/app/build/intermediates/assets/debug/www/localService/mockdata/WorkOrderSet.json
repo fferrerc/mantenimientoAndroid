@@ -1,0 +1,151 @@
+[{
+	"Type": "Type 1",
+	"Description": "Description 1",
+	"Status": 1202,
+	"Id": 3970,
+	"Section": "Section 1",
+	"__metadata": {
+		"uri": "WorkOrderSet(3970)",
+		"type": "ZGW_APPROVE_MNT_SRV.WorkOrder"
+	},
+	"ToVisits": {
+		"__deferred": {
+			"uri": "WorkOrderSet(3970)/ToVisits"
+		}
+	}
+}, {
+	"Type": "Type 2",
+	"Description": "Description 2",
+	"Status": 1551,
+	"Id": 629,
+	"Section": "Section 2",
+	"__metadata": {
+		"uri": "WorkOrderSet(629)",
+		"type": "ZGW_APPROVE_MNT_SRV.WorkOrder"
+	},
+	"ToVisits": {
+		"__deferred": {
+			"uri": "WorkOrderSet(629)/ToVisits"
+		}
+	}
+}, {
+	"Type": "Type 3",
+	"Description": "Description 3",
+	"Status": 4828,
+	"Id": 4863,
+	"Section": "Section 3",
+	"__metadata": {
+		"uri": "WorkOrderSet(4863)",
+		"type": "ZGW_APPROVE_MNT_SRV.WorkOrder"
+	},
+	"ToVisits": {
+		"__deferred": {
+			"uri": "WorkOrderSet(4863)/ToVisits"
+		}
+	}
+}, {
+	"Type": "Type 4",
+	"Description": "Description 4",
+	"Status": 319,
+	"Id": 143,
+	"Section": "Section 4",
+	"__metadata": {
+		"uri": "WorkOrderSet(143)",
+		"type": "ZGW_APPROVE_MNT_SRV.WorkOrder"
+	},
+	"ToVisits": {
+		"__deferred": {
+			"uri": "WorkOrderSet(143)/ToVisits"
+		}
+	}
+}, {
+	"Type": "Type 5",
+	"Description": "Description 5",
+	"Status": 8138,
+	"Id": 6024,
+	"Section": "Section 5",
+	"__metadata": {
+		"uri": "WorkOrderSet(6024)",
+		"type": "ZGW_APPROVE_MNT_SRV.WorkOrder"
+	},
+	"ToVisits": {
+		"__deferred": {
+			"uri": "WorkOrderSet(6024)/ToVisits"
+		}
+	}
+}, {
+	"Type": "Type 6",
+	"Description": "Description 6",
+	"Status": 8236,
+	"Id": 7635,
+	"Section": "Section 6",
+	"__metadata": {
+		"uri": "WorkOrderSet(7635)",
+		"type": "ZGW_APPROVE_MNT_SRV.WorkOrder"
+	},
+	"ToVisits": {
+		"__deferred": {
+			"uri": "WorkOrderSet(7635)/ToVisits"
+		}
+	}
+}, {
+	"Type": "Type 7",
+	"Description": "Description 7",
+	"Status": 3131,
+	"Id": 8133,
+	"Section": "Section 7",
+	"__metadata": {
+		"uri": "WorkOrderSet(8133)",
+		"type": "ZGW_APPROVE_MNT_SRV.WorkOrder"
+	},
+	"ToVisits": {
+		"__deferred": {
+			"uri": "WorkOrderSet(8133)/ToVisits"
+		}
+	}
+}, {
+	"Type": "Type 8",
+	"Description": "Description 8",
+	"Status": 2488,
+	"Id": 1121,
+	"Section": "Section 8",
+	"__metadata": {
+		"uri": "WorkOrderSet(1121)",
+		"type": "ZGW_APPROVE_MNT_SRV.WorkOrder"
+	},
+	"ToVisits": {
+		"__deferred": {
+			"uri": "WorkOrderSet(1121)/ToVisits"
+		}
+	}
+}, {
+	"Type": "Type 9",
+	"Description": "Description 9",
+	"Status": 6552,
+	"Id": 940,
+	"Section": "Section 9",
+	"__metadata": {
+		"uri": "WorkOrderSet(940)",
+		"type": "ZGW_APPROVE_MNT_SRV.WorkOrder"
+	},
+	"ToVisits": {
+		"__deferred": {
+			"uri": "WorkOrderSet(940)/ToVisits"
+		}
+	}
+}, {
+	"Type": "Type 10",
+	"Description": "Description 10",
+	"Status": 5896,
+	"Id": 108,
+	"Section": "Section 10",
+	"__metadata": {
+		"uri": "WorkOrderSet(108)",
+		"type": "ZGW_APPROVE_MNT_SRV.WorkOrder"
+	},
+	"ToVisits": {
+		"__deferred": {
+			"uri": "WorkOrderSet(108)/ToVisits"
+		}
+	}
+}]

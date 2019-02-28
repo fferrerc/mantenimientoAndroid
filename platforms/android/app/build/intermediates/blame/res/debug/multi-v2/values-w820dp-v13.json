@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/mnt/workspace/Mantenimiento_Visitas/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "/root/.gradle/caches/transforms-1/files-1.1/AfariaProvider-3.16.17.aar/b03b993dd4a760dabd72d914c391b228/res/values-w820dp-v13/values-w820dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/AfariaProvider-3.16.17.aar/65a6d491d0e9bbbe897c7adea0772c1d/res/values-w820dp-v13/values-w820dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    }
+                }
+            ]
+        }
+    ]
+}

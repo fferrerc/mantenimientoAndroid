@@ -1,0 +1,357 @@
+<mvc:View controllerName="ABMcontactos.TGN-ABMcontactos.controller.Sync" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Page title="Sincronizacion" showNavButton="true" navButtonPress="_onNavBack">
+		<content>
+			<List items="{path : 'WorkOrderModel>/ErrorArchive' }" headerText="Gestion de errores" press="onShowDetail">
+				<StandardListItem title="{= 'Method: ' + ${WorkOrderModel>RequestMethod} + ', Code: ' + ${WorkOrderModel>HTTPStatusCode}} + ', Message: ' + ${WorkOrderModel>Message}} + ', RequestBody: ' + ${WorkOrderModel>RequestBody}}"
+					description="{States>Message}" icon="sap-icon://status-error" iconDensityAware="false" iconInset="false" info="{States>RequestURL}"
+					type="Navigation" press="onShowDetail"/>
+			</List>
+			<!--
+			<List items="{path : 'WorkOrderModel>/ErrorArchive' }">
+				<headerToolbar>
+					<Toolbar>
+						<ToolbarSpacer/>
+						<Title text="Gestion de errores" level="H2"/>
+						<ToolbarSpacer/>
+					</Toolbar>
+				</headerToolbar>
+				<items>
+					<CustomListItem>
+						<Panel expandable="true" expanded="false" width="auto" class="sapUiResponsiveMargin">
+							<headerToolbar>
+								<Toolbar height="3rem">
+									<Title text="12345"/>
+								</Toolbar>
+							</headerToolbar>
+							<content>
+								<FlexBox alignItems="Start" justifyContent="Center" class="sapUiSmallMarginBottom">
+									<items>
+										<Button text="Conservar" press="onPress" class="btn-conservar-datos sapUiTinyMarginEnd"/>
+										<Button text="Actualizar" press="onPress" class="btn-conservar-datos sapUiTinyMarginBegin"/>
+									</items>
+								</FlexBox>
+								<ObjectIdentifier title="Fecha:" class="field info-item-sync grey-background"/>
+								<FlexBox alignItems="Start" class="show-data-to-update grey-background">
+									<items>
+										<ObjectIdentifier title="12/12/2017" class="info-item-sync sapUiTinyMarginEnd">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+										<ObjectIdentifier title="12/12/2018" class="info-item-sync sapUiTinyMarginBegin">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+									</items>
+								</FlexBox>
+								<ObjectIdentifier title="Contacto:" class="field info-item-sync border-top"/>
+								<FlexBox alignItems="Start" class="show-data-to-update">
+									<items>
+										<ObjectIdentifier title="Mauricio macri" class="info-item-sync sapUiTinyMarginEnd">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+										<ObjectIdentifier title="Esteban quito" class="info-item-sync sapUiTinyMarginBegin">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+									</items>
+								</FlexBox>
+								<ObjectIdentifier title="Nota:" class="field info-item-sync border-top grey-background"/>
+								<FlexBox alignItems="Start" class="show-data-to-update grey-background">
+									<items>
+										<ObjectIdentifier title="Si" class="info-item-sync sapUiTinyMarginEnd">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+										<ObjectIdentifier title="No" class="info-item-sync sapUiTinyMarginBegin">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+									</items>
+								</FlexBox>
+								<ObjectIdentifier title="Firma:" class="field info-item-sync border-top"/>
+								<FlexBox alignItems="Start" class="show-data-to-update">
+									<items>
+										<ObjectIdentifier title="Si" class="info-item-sync sapUiTinyMarginEnd">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+										<ObjectIdentifier title="No" class="info-item-sync sapUiTinyMarginBegin">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+									</items>
+								</FlexBox>
+								<ObjectIdentifier title="Plano:" class="field info-item-sync border-top grey-background"/>
+								<FlexBox alignItems="Start" class="show-data-to-update grey-background">
+									<items>
+										<ObjectIdentifier title="Si" class="info-item-sync sapUiTinyMarginEnd">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+										<ObjectIdentifier title="No" class="info-item-sync sapUiTinyMarginBegin">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+									</items>
+								</FlexBox>
+								<ObjectIdentifier title="Material:" class="field info-item-sync border-top"/>
+								<FlexBox alignItems="Start" class="show-data-to-update">
+									<items>
+										<ObjectIdentifier title="Si" class="info-item-sync sapUiTinyMarginEnd">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+										<ObjectIdentifier title="No" class="info-item-sync sapUiTinyMarginBegin">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+									</items>
+								</FlexBox>
+								<ObjectIdentifier title="Resultado:" class="field info-item-sync border-top grey-background"/>
+								<FlexBox alignItems="Start" class="show-data-to-update grey-background">
+									<items>
+										<ObjectIdentifier title="Buena" class="info-item-sync sapUiTinyMarginEnd">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+										<ObjectIdentifier title="Buena" class="info-item-sync sapUiTinyMarginBegin">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+									</items>
+								</FlexBox>
+								<ObjectIdentifier title="Observaciones:" class="field info-item-sync border-top"/>
+								<FlexBox alignItems="Start" class="show-data-to-update">
+									<items>
+										<ObjectIdentifier title="Otro motivo" class="info-item-sync sapUiTinyMarginEnd">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+										<ObjectIdentifier title="Visita Rechazada" class="info-item-sync sapUiTinyMarginBegin">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+									</items>
+								</FlexBox>
+								<ObjectIdentifier title="Comentarios:" class="field info-item-sync border-top grey-background"/>
+								<FlexBox alignItems="Start" class="show-data-to-update grey-background">
+									<items>
+										<ObjectIdentifier
+											title="Lorem ipsum dolor st amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat"
+											class="info-item-sync sapUiTinyMarginEnd comentarios">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+										<ObjectIdentifier
+											title="Lorem ipsum dolor st amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat"
+											class="info-item-sync sapUiTinyMarginBegin comentarios">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+									</items>
+								</FlexBox>
+								<ObjectIdentifier title="Archivos:" class="field info-item-sync border-top"/>
+								<FlexBox alignItems="Start" class="show-data-to-update">
+									<items>
+										<ObjectIdentifier titleActive="true" titlePress="titleClicked" title="tex.pdf" class="info-item-sync sapUiTinyMarginEnd archivos">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+										<ObjectIdentifier titleActive="true" titlePress="titleClicked" title="otroarhivo.txt" class="info-item-sync sapUiTinyMarginEnd archivos">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+									</items>
+								</FlexBox>
+							</content>
+						</Panel>
+					</CustomListItem>
+					<CustomListItem>
+						<Panel expandable="true" expanded="false" width="auto" class="sapUiResponsiveMargin">
+							<headerToolbar>
+								<Toolbar height="3rem">
+									<Title text="12345"/>
+								</Toolbar>
+							</headerToolbar>
+							<content>
+								<FlexBox alignItems="Start" justifyContent="Center">
+									<items>
+										<Button text="Conservar" press="onPress" class="btn-conservar-datos sapUiTinyMarginEnd"/>
+										<Button text="Actualizar" press="onPress" class="btn-conservar-datos sapUiTinyMarginBegin"/>
+									</items>
+								</FlexBox>
+								<ObjectIdentifier title="Fecha:" class="field info-item-sync"/>
+								<FlexBox alignItems="Start" class="show-data-to-update">
+									<items>
+										<ObjectIdentifier title="12/12/2017" class="info-item-sync sapUiTinyMarginEnd">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+										<ObjectIdentifier title="12/12/2018" class="info-item-sync sapUiTinyMarginBegin">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+									</items>
+								</FlexBox>
+								<ObjectIdentifier title="Contacto:" class="field info-item-sync"/>
+								<FlexBox alignItems="Start" class="show-data-to-update">
+									<items>
+										<ObjectIdentifier title="Pepe" class="info-item-sync sapUiTinyMarginEnd">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+										<ObjectIdentifier title="Esteban quito" class="info-item-sync sapUiTinyMarginBegin">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+									</items>
+								</FlexBox>
+								<ObjectIdentifier title="Nota:" class="field info-item-sync"/>
+								<FlexBox alignItems="Start" class="show-data-to-update">
+									<items>
+										<ObjectIdentifier title="Si" class="info-item-sync sapUiTinyMarginEnd">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+										<ObjectIdentifier title="No" class="info-item-sync sapUiTinyMarginBegin">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+									</items>
+								</FlexBox>
+								<ObjectIdentifier title="Firma:" class="field info-item-sync"/>
+								<FlexBox alignItems="Start" class="show-data-to-update">
+									<items>
+										<ObjectIdentifier title="Si" class="info-item-sync sapUiTinyMarginEnd">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+										<ObjectIdentifier title="No" class="info-item-sync sapUiTinyMarginBegin">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+									</items>
+								</FlexBox>
+								<ObjectIdentifier title="Plano:" class="field info-item-sync"/>
+								<FlexBox alignItems="Start" class="show-data-to-update">
+									<items>
+										<ObjectIdentifier title="Si" class="info-item-sync sapUiTinyMarginEnd">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+										<ObjectIdentifier title="No" class="info-item-sync sapUiTinyMarginBegin">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+									</items>
+								</FlexBox>
+								<ObjectIdentifier title="Material:" class="field info-item-sync"/>
+								<FlexBox alignItems="Start" class="show-data-to-update">
+									<items>
+										<ObjectIdentifier title="Si" class="info-item-sync sapUiTinyMarginEnd">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+										<ObjectIdentifier title="No" class="info-item-sync sapUiTinyMarginBegin">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+									</items>
+								</FlexBox>
+								<ObjectIdentifier title="Resultado:" class="field info-item-sync"/>
+								<FlexBox alignItems="Start" class="show-data-to-update">
+									<items>
+										<ObjectIdentifier title="Buena" class="info-item-sync sapUiTinyMarginEnd">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+										<ObjectIdentifier title="Buena" class="info-item-sync sapUiTinyMarginBegin">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+									</items>
+								</FlexBox>
+								<ObjectIdentifier title="Observaciones:" class="field info-item-sync"/>
+								<FlexBox alignItems="Start" class="show-data-to-update">
+									<items>
+										<ObjectIdentifier title="Otro motivo" class="info-item-sync sapUiTinyMarginEnd">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+										<ObjectIdentifier title="Visita Rechazada" class="info-item-sync sapUiTinyMarginBegin">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+									</items>
+								</FlexBox>
+								<ObjectIdentifier title="Comentarios:" class="field info-item-sync"/>
+								<FlexBox alignItems="Start" class="show-data-to-update">
+									<items>
+										<ObjectIdentifier
+											title="Lorem ipsum dolor st amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat"
+											class="info-item-sync sapUiTinyMarginEnd comentarios">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+										<ObjectIdentifier
+											title="Lorem ipsum dolor st amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat"
+											class="info-item-sync sapUiTinyMarginBegin comentarios">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</ObjectIdentifier>
+									</items>
+								</FlexBox>
+							</content>
+						</Panel>
+					</CustomListItem>
+				</items>
+			</List>
+			-->
+		</content>
+		<footer>
+			<Toolbar>
+				<Button text="Borrar Mensajes" press="clearErrors"/>
+			</Toolbar>
+		</footer>
+	</Page>
+</mvc:View>

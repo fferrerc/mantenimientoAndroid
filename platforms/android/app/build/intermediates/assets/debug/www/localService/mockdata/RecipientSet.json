@@ -1,0 +1,171 @@
+[{
+	"Id": 792,
+	"Office": 9443,
+	"Type": "Type 1",
+	"Activity": "Activity 1",
+	"Section": "Section 1",
+	"Comment": "Comment 1",
+	"CompanyName": "CompanyName 1",
+	"__metadata": {
+		"uri": "RecipientSet(Id=792,Office=9443,Type='Type%201')",
+		"type": "ZGW_APPROVE_MNT_SRV.Recipient"
+	},
+	"ToContact": {
+		"__deferred": {
+			"uri": "RecipientSet(Id=792,Office=9443,Type='Type%201')/ToContact"
+		}
+	}
+}, {
+	"Id": 1898,
+	"Office": 1082,
+	"Type": "Type 2",
+	"Activity": "Activity 2",
+	"Section": "Section 2",
+	"Comment": "Comment 2",
+	"CompanyName": "CompanyName 2",
+	"__metadata": {
+		"uri": "RecipientSet(Id=1898,Office=1082,Type='Type%202')",
+		"type": "ZGW_APPROVE_MNT_SRV.Recipient"
+	},
+	"ToContact": {
+		"__deferred": {
+			"uri": "RecipientSet(Id=1898,Office=1082,Type='Type%202')/ToContact"
+		}
+	}
+}, {
+	"Id": 6618,
+	"Office": 2383,
+	"Type": "Type 3",
+	"Activity": "Activity 3",
+	"Section": "Section 3",
+	"Comment": "Comment 3",
+	"CompanyName": "CompanyName 3",
+	"__metadata": {
+		"uri": "RecipientSet(Id=6618,Office=2383,Type='Type%203')",
+		"type": "ZGW_APPROVE_MNT_SRV.Recipient"
+	},
+	"ToContact": {
+		"__deferred": {
+			"uri": "RecipientSet(Id=6618,Office=2383,Type='Type%203')/ToContact"
+		}
+	}
+}, {
+	"Id": 8548,
+	"Office": 6959,
+	"Type": "Type 4",
+	"Activity": "Activity 4",
+	"Section": "Section 4",
+	"Comment": "Comment 4",
+	"CompanyName": "CompanyName 4",
+	"__metadata": {
+		"uri": "RecipientSet(Id=8548,Office=6959,Type='Type%204')",
+		"type": "ZGW_APPROVE_MNT_SRV.Recipient"
+	},
+	"ToContact": {
+		"__deferred": {
+			"uri": "RecipientSet(Id=8548,Office=6959,Type='Type%204')/ToContact"
+		}
+	}
+}, {
+	"Id": 251,
+	"Office": 5925,
+	"Type": "Type 5",
+	"Activity": "Activity 5",
+	"Section": "Section 5",
+	"Comment": "Comment 5",
+	"CompanyName": "CompanyName 5",
+	"__metadata": {
+		"uri": "RecipientSet(Id=251,Office=5925,Type='Type%205')",
+		"type": "ZGW_APPROVE_MNT_SRV.Recipient"
+	},
+	"ToContact": {
+		"__deferred": {
+			"uri": "RecipientSet(Id=251,Office=5925,Type='Type%205')/ToContact"
+		}
+	}
+}, {
+	"Id": 2342,
+	"Office": 5615,
+	"Type": "Type 6",
+	"Activity": "Activity 6",
+	"Section": "Section 6",
+	"Comment": "Comment 6",
+	"CompanyName": "CompanyName 6",
+	"__metadata": {
+		"uri": "RecipientSet(Id=2342,Office=5615,Type='Type%206')",
+		"type": "ZGW_APPROVE_MNT_SRV.Recipient"
+	},
+	"ToContact": {
+		"__deferred": {
+			"uri": "RecipientSet(Id=2342,Office=5615,Type='Type%206')/ToContact"
+		}
+	}
+}, {
+	"Id": 6240,
+	"Office": 5720,
+	"Type": "Type 7",
+	"Activity": "Activity 7",
+	"Section": "Section 7",
+	"Comment": "Comment 7",
+	"CompanyName": "CompanyName 7",
+	"__metadata": {
+		"uri": "RecipientSet(Id=6240,Office=5720,Type='Type%207')",
+		"type": "ZGW_APPROVE_MNT_SRV.Recipient"
+	},
+	"ToContact": {
+		"__deferred": {
+			"uri": "RecipientSet(Id=6240,Office=5720,Type='Type%207')/ToContact"
+		}
+	}
+}, {
+	"Id": 775,
+	"Office": 9007,
+	"Type": "Type 8",
+	"Activity": "Activity 8",
+	"Section": "Section 8",
+	"Comment": "Comment 8",
+	"CompanyName": "CompanyName 8",
+	"__metadata": {
+		"uri": "RecipientSet(Id=775,Office=9007,Type='Type%208')",
+		"type": "ZGW_APPROVE_MNT_SRV.Recipient"
+	},
+	"ToContact": {
+		"__deferred": {
+			"uri": "RecipientSet(Id=775,Office=9007,Type='Type%208')/ToContact"
+		}
+	}
+}, {
+	"Id": 5023,
+	"Office": 1411,
+	"Type": "Type 9",
+	"Activity": "Activity 9",
+	"Section": "Section 9",
+	"Comment": "Comment 9",
+	"CompanyName": "CompanyName 9",
+	"__metadata": {
+		"uri": "RecipientSet(Id=5023,Office=1411,Type='Type%209')",
+		"type": "ZGW_APPROVE_MNT_SRV.Recipient"
+	},
+	"ToContact": {
+		"__deferred": {
+			"uri": "RecipientSet(Id=5023,Office=1411,Type='Type%209')/ToContact"
+		}
+	}
+}, {
+	"Id": 5794,
+	"Office": 8235,
+	"Type": "Type 10",
+	"Activity": "Activity 10",
+	"Section": "Section 10",
+	"Comment": "Comment 10",
+	"CompanyName": "CompanyName 10",
+	"__metadata": {
+		"uri": "RecipientSet(Id=5794,Office=8235,Type='Type%2010')",
+		"type": "ZGW_APPROVE_MNT_SRV.Recipient"
+	},
+	"ToContact": {
+		"__deferred": {
+			"uri": "RecipientSet(Id=5794,Office=8235,Type='Type%2010')/ToContact"
+		}
+	}
+}]

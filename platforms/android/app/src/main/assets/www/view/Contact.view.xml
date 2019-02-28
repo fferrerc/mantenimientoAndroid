@@ -1,0 +1,93 @@
+<mvc:View controllerName="ABMcontactos.TGN-ABMcontactos.controller.Contact" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m"
+	xmlns:f="sap.ui.layout.form">
+	<Page id="ContactPage" title="{i18n>ct.title}" showNavButton="true" navButtonPress="onNavBack">
+		<content>
+			<f:Form id="FormToolbar" editable="true">
+				<f:layout>
+					<f:ResponsiveGridLayout labelSpanXL="5" labelSpanL="5" labelSpanM="5" labelSpanS="12" emptySpanXL="0" emptySpanL="3" emptySpanM="3"
+						emptySpanS="0" columnsXL="1" columnsL="1" columnsM="1" singleContainerFullSize="false"/>
+				</f:layout>
+				<f:FormContainer>
+					<f:toolbar>
+						<Toolbar design="Info">
+							<Title text="{i18n>ct.toolbarText}" level="H5" titleStyle="H5"/>
+						</Toolbar>
+					</f:toolbar>
+					<f:FormElement label="{i18n>ct.label.title}">
+						<f:fields>
+							<Input value="{ path:'WorkOrderModel>Title' , type : 'ABMcontactos.TGN-ABMcontactos.custom.dataTypes.stringUptoTenChars' , constraints: {maxLength: 10}}" id="form_title"/>
+						</f:fields>
+					</f:FormElement>
+					<f:formElements>
+						<f:FormElement label="{i18n>ct.label.name}">
+							<f:fields>
+								<Input value="{ path:'WorkOrderModel>FirstName' , type : 'ABMcontactos.TGN-ABMcontactos.custom.dataTypes.nonEmptyString' }" id="form_name"
+									required="true"/>
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement label="{i18n>ct.label.lastname}">
+							<f:fields>
+								<Input value="{ path:'WorkOrderModel>LastName' , type : 'ABMcontactos.TGN-ABMcontactos.custom.dataTypes.nonEmptyString' }"
+									id="form_lastname" required="true"/>
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement label="{i18n>ct.label.charge}">
+							<f:fields>
+								<Input value="{ path:'WorkOrderModel>Position', type : 'ABMcontactos.TGN-ABMcontactos.custom.dataTypes.nonEmptyString' }" id="form_charge"
+									required="true"/>
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement label="{i18n>ct.label.email}">
+							<f:fields>
+								<Input
+									value="{ path:'WorkOrderModel>Email' , type : 'ABMcontactos.TGN-ABMcontactos.custom.dataTypes.email', constraints : { search : '\\S+@\\S+\\.\\S+' } }"
+									id="form_email"/>
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement label="{i18n>ct.label.phone}">
+							<f:fields>
+								<Input
+									value="{ path:'WorkOrderModel>Phone' , type : 'ABMcontactos.TGN-ABMcontactos.custom.dataTypes.phone', constraints : { minIntegerDigits: 0, maxIntegerDigits: 20 } }"
+									id="form_phone"/>
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement label="{i18n>ct.label.adress.street}">
+							<f:fields>
+								<Input value="{ path:'WorkOrderModel>Address/Street' , type : 'sap.ui.model.odata.type.String' }" id="form_adress_street"/>
+							</f:fields>
+						</f:FormElement>
+						<!--<f:FormElement label="{i18n>ct.label.adress.number}">
+							<f:fields>
+								<Input 
+								value="{ path:'WorkOrderModel>Address/Number' , 
+								type : 'ABMcontactos.TGN-ABMcontactos.custom.dataTypes.integer', 
+								constraints : { minIntegerDigits: 0, 
+												maxIntegerDigits: 5 } }" 
+								id="form_adress_number"/>
+							</f:fields>
+						</f:FormElement>-->
+						<f:FormElement label="{i18n>ct.label.adress.postalCode}">
+							<f:fields>
+								<Input
+									value="{ path:'WorkOrderModel>Address/PostalCode' , type : 'ABMcontactos.TGN-ABMcontactos.custom.dataTypes.integer', constraints : { minIntegerDigits: 0, maxIntegerDigits: 4 } }"
+									id="form_adress_postal_code"/>
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement label="{i18n>ct.label.validity}">
+							<f:fields>
+								<Switch id="form_validity" state="{WorkOrderModel>Valid}" customTextOn="{i18n>ct.customTextOn}" customTextOff="{i18n>ct.customTextOff}"/>
+							</f:fields>
+						</f:FormElement>
+					</f:formElements>
+				</f:FormContainer>
+			</f:Form>
+		</content>
+		<footer>
+			<Toolbar>
+				<ToolbarSpacer/>
+				<Button id="cancelBtn" text="{i18n>btn.cancel}" icon="sap-icon://decline" type="Reject" press="onNavBack"/>
+				<Button id="saveBtn" text="{i18n>btn.save}" icon="sap-icon://save" type="Accept" press="onSaveContact"/>
+			</Toolbar>
+		</footer>
+	</Page>
+</mvc:View>

@@ -1,0 +1,18 @@
+{
+	"bMessageOpen": false,
+	"bVisitEditableMode": false,
+	"bVisitSwitchesEditableMode": false,
+	"bVisitResultComboEditableMode": false,
+	"bVisitDatepickerValueState": "None",
+	"bVisitResultComboBoxValueState": "None",
+	"bNavToSyncDetailEnabled": false,
+	"bNewContact": false,
+	"bNewRecipient": false,
+	"oSelectedWorkOrderContext": "",
+	"oSelectedVisitContext": "",
+	"oSelectedContactContext": "",
+	"oSelectedRecipientContext": "",
+	"aProgressStates": [],
+	"bMessageStrip": false,
+	"sMessageStripContent": ""
+}

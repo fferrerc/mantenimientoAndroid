@@ -1,0 +1,22 @@
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+android {
+    defaultConfig {
+        ndk {
+            // Avoid 64 bit libraries.
+            abiFilters "armeabi-v7a", "x86"
+        }
+    }
+}
+
+// Apply values after project's build-extras.gradle
+cdvPluginPostBuildExtras.add({
+    dependencies {
+        compile(name:'ODataAPI-3.16.17', ext:'aar')
+        compile(name:'odata-plugin-4.1.11', ext:'aar')
+    }
+})

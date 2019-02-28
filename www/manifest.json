@@ -1,0 +1,377 @@
+{
+	"_version": "1.8.0",
+	"sap.app": {
+		"id": "ABMcontactos.TGN-ABMcontactos",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"sourceTemplate": {
+			"id": "servicecatalog.connectivityComponentForManifest",
+			"version": "0.0.0"
+		},
+		"dataSources": {
+			"ZEXECUTE_WO_SRV": {
+				"uri": "/TGN_MANT/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/metadata.xml"
+				}
+			},
+			"States": {
+				"uri": "model/mStates.json",
+				"type": "JSON"
+			},
+			"UserAttributes": {
+				"uri": "/services/userapi/currentUser",
+				"type": "JSON"
+			}
+		}
+	},
+	"sap.ui": {
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": [
+			"sap_hcb",
+			"sap_belize"
+		]
+	},
+	"sap.ui5": {
+		"handleValidation": true,
+		"rootView": {
+			"viewName": "ABMcontactos.TGN-ABMcontactos.view.App",
+			"type": "XML"
+		},
+		"dependencies": {
+			"minUI5Version": "1.30.0",
+			"libs": {
+				"sap.ui.layout": {},
+				"sap.ui.core": {},
+				"sap.m": {}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "ABMcontactos.TGN-ABMcontactos.i18n.i18n"
+				}
+			},
+			"i18nErrors": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "ABMcontactos.TGN-ABMcontactos.i18n.i18nErrors"
+				}
+			},
+			"WorkOrderModel": {
+				"uri": "/TGN_MANT/",
+				"type": "sap.ui.model.odata.v2.ODataModel",
+				"settings": {
+					"defaultOperationMode": "Server",
+					"defaultBindingMode": "TwoWay",
+					"defaultCountMode": "Request",
+					"useBatch": false
+				},
+				"dataSource": "ZEXECUTE_WO_SRV",
+				"preload": true
+			},
+			"States": {
+				"type": "sap.ui.model.json.JSONModel",
+				"dataSource": "States"
+			},
+			"UserAttributes": {
+				"type": "sap.ui.model.json.JSONModel",
+				"dataSource": "UserAttributes"
+			}
+		},
+		"resources": {
+			"css": [
+				{
+					"uri": "css/style.css"
+				}
+			]
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"async": true,
+				"viewPath": "ABMcontactos.TGN-ABMcontactos.view",
+				"controlAggregation": "pages",
+				"controlId": "idAppControl",
+				"bypassed": {
+					"target": "notFound"
+				},
+				"clearControlAggregation": false
+			},
+			"routes": [
+				{
+					"name": "WorkOrderList",
+					"pattern": "",
+					"target": [
+						"WorkOrderList"
+					]
+				},
+				{
+					"name": "VisitsList",
+					"pattern": "WO/{Id}/Visits",
+					"target": [
+						"VisitsList"
+					]
+				},
+				{
+					"name": "Visit",
+					"pattern": "WO/{WOId}/Visit/{RecipientId}/{RecipientOffice}/:RecipientType:",
+					"target": [
+						"Visit"
+					]
+				},
+				{
+					"name": "RecipientList",
+					"pattern": "Recipients",
+					"target": [
+						"RecipientList"
+					]
+				},
+				{
+					"name": "Recipient",
+					"pattern": "Recipients/{Id}/{Type}/{Office}",
+					"target": [
+						"Recipient"
+					]
+				},
+				{
+					"name": "ContactList",
+					"pattern": "Contacts/{RecipientId}/{RecipientType}/{RecipientOffice}",
+					"target": [
+						"ContactList"
+					]
+				},
+				{
+					"name": "Contact",
+					"pattern": "Contacts/{Id}/{RecipientId}/{Type}/{Office}",
+					"target": [
+						"Contact"
+					]
+				},
+				{
+					"name": "Sync",
+					"pattern": "Sync",
+					"target": [
+						"Sync"
+					]
+				},
+				{
+					"name": "SyncProgress",
+					"pattern": "SyncProgress",
+					"target": [
+						"SyncProgress"
+					]
+				},
+				{
+					"name": "SyncDetail",
+					"pattern": "SyncDetail/{requestid}",
+					"target": [
+						"SyncDetail"
+					]
+				}
+			],
+			"targets": {
+				"App": {
+					"viewType": "XML",
+					"viewName": "App"
+				},
+				"WorkOrderList": {
+					"viewType": "XML",
+					"viewName": "WorkOrderList",
+					"transition": "slide",
+					"clearControlAggregation": false,
+					"routerClass": "sap.m.routing.Router",
+					"async": true,
+					"viewPath": "ABMcontactos.TGN-ABMcontactos.view",
+					"controlAggregation": "pages",
+					"controlId": "idAppControl",
+					"viewLevel": 1,
+					"bypassed": {
+						"target": "notFound"
+					}
+				},
+				"VisitsList": {
+					"viewType": "XML",
+					"viewName": "VisitsList",
+					"transition": "slide",
+					"clearControlAggregation": false,
+					"routerClass": "sap.m.routing.Router",
+					"async": true,
+					"viewPath": "ABMcontactos.TGN-ABMcontactos.view",
+					"controlAggregation": "pages",
+					"controlId": "idAppControl",
+					"viewLevel": 1,
+					"bypassed": {
+						"target": "notFound"
+					}
+				},
+				"RecipientList": {
+					"viewType": "XML",
+					"viewName": "RecipientsList",
+					"transition": "slide",
+					"clearControlAggregation": false,
+					"routerClass": "sap.m.routing.Router",
+					"async": true,
+					"viewPath": "ABMcontactos.TGN-ABMcontactos.view",
+					"controlAggregation": "pages",
+					"controlId": "idAppControl",
+					"viewLevel": 3,
+					"bypassed": {
+						"target": "notFound"
+					}
+				},
+				"Recipient": {
+					"viewType": "XML",
+					"viewName": "Recipient",
+					"transition": "slide",
+					"clearControlAggregation": false,
+					"routerClass": "sap.m.routing.Router",
+					"async": true,
+					"viewPath": "ABMcontactos.TGN-ABMcontactos.view",
+					"controlAggregation": "pages",
+					"controlId": "idAppControl",
+					"viewLevel": 4,
+					"bypassed": {
+						"target": "notFound"
+					}
+				},
+				"Visit": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearControlAggregation": false,
+					"viewName": "Visit",
+					"routerClass": "sap.m.routing.Router",
+					"async": true,
+					"viewPath": "ABMcontactos.TGN-ABMcontactos.view",
+					"controlAggregation": "pages",
+					"controlId": "idAppControl",
+					"viewLevel": 2,
+					"bypassed": {
+						"target": "notFound"
+					}
+				},
+				"ContactList": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearControlAggregation": false,
+					"viewName": "ContactList",
+					"routerClass": "sap.m.routing.Router",
+					"async": true,
+					"viewPath": "ABMcontactos.TGN-ABMcontactos.view",
+					"controlAggregation": "pages",
+					"controlId": "idAppControl",
+					"viewLevel": 3,
+					"bypassed": {
+						"target": "notFound"
+					}
+				},
+				"Contact": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearControlAggregation": false,
+					"viewName": "Contact",
+					"routerClass": "sap.m.routing.Router",
+					"async": true,
+					"viewPath": "ABMcontactos.TGN-ABMcontactos.view",
+					"controlAggregation": "pages",
+					"controlId": "idAppControl",
+					"viewLevel": 4,
+					"bypassed": {
+						"target": "notFound"
+					}
+				},
+				"notFound": {
+					"viewName": "NotFound",
+					"viewId": "notFound",
+					"routerClass": "sap.m.routing.Router",
+					"viewType": "XML",
+					"async": true,
+					"viewPath": "ABMcontactos.TGN-ABMcontactos.view",
+					"controlAggregation": "pages",
+					"controlId": "idAppControl",
+					"clearControlAggregation": false,
+					"viewLevel": 1,
+					"bypassed": {
+						"target": "notFound"
+					}
+				},
+				"Sync": {
+					"routerClass": "sap.m.routing.Router",
+					"viewType": "XML",
+					"transition": "slide",
+					"clearControlAggregation": false,
+					"viewName": "Sync",
+					"viewPath": "ABMcontactos.TGN-ABMcontactos.view",
+					"async": true,
+					"controlAggregation": "pages",
+					"controlId": "idAppControl",
+					"bypassed": {
+						"target": "notFound"
+					}
+				},
+				"SyncProgress": {
+					"routerClass": "sap.m.routing.Router",
+					"viewType": "XML",
+					"transition": "slide",
+					"clearControlAggregation": false,
+					"viewName": "SyncProgress",
+					"viewPath": "ABMcontactos.TGN-ABMcontactos.view",
+					"async": true,
+					"controlAggregation": "pages",
+					"controlId": "idAppControl",
+					"bypassed": {
+						"target": "notFound"
+					}
+				},
+				"SyncDetail": {
+					"routerClass": "sap.m.routing.Router",
+					"viewType": "XML",
+					"transition": "slide",
+					"clearControlAggregation": false,
+					"viewName": "SyncDetail",
+					"viewPath": "ABMcontactos.TGN-ABMcontactos.view",
+					"async": true,
+					"controlAggregation": "pages",
+					"controlId": "idAppControl",
+					"bypassed": {
+						"target": "notFound"
+					}
+				}
+			}
+		}
+	},
+	"sap.platform.hcp": {
+		"uri": "webapp",
+		"_version": "1.1.0"
+	},
+	"sap.mobile": {
+		"definingRequests": {},
+		"stores": []
+	}
+}

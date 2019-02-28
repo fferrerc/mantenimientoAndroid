@@ -1,0 +1,221 @@
+[{
+	"Address": {
+		"PostalCode": "PostalCode 1",
+		"Street": "Street 1"
+	},
+	"Title": "Title 1",
+	"Phone": "Phone 1",
+	"Position": "Position 1",
+	"Section": "Section 1",
+	"Type": "RecipientType 1",
+	"LastName": "LastName 1",
+	"FirstName": "FirstName 1",
+	"Office": 8063,
+	"Email": "Email 1",
+	"Valid": true,
+	"WOId": 9456,
+	"Id": 6671,
+	"RecipientId": 2707,
+	"__metadata": {
+		"uri": "ContactSet(Type='Type%201',Office=9,Id=6671,RecipientId=2613)",
+		"type": "ZGW_APPROVE_MNT_SRV.Contact"
+	}
+}, {
+	"Address": {
+		"PostalCode": "PostalCode 2",
+		"Street": "Street 2"
+	},
+	"Title": "Title 2",
+	"Phone": "Phone 2",
+	"Position": "Position 2",
+	"Section": "Section 2",
+	"Type": "RecipientType 2",
+	"LastName": "LastName 2",
+	"FirstName": "FirstName 2",
+	"Office": 6936,
+	"Email": "Email 2",
+	"Valid": true,
+	"WOId": 8775,
+	"Id": 5101,
+	"RecipientId": 7616,
+	"__metadata": {
+		"uri": "ContactSet(Type='Type%202',Office=7960,Id=5101,RecipientId=7638)",
+		"type": "ZGW_APPROVE_MNT_SRV.Contact"
+	}
+}, {
+	"Address": {
+		"PostalCode": "PostalCode 3",
+		"Street": "Street 3"
+	},
+	"Title": "Title 3",
+	"Phone": "Phone 3",
+	"Position": "Position 3",
+	"Section": "Section 3",
+	"Type": "RecipientType 3",
+	"LastName": "LastName 3",
+	"FirstName": "FirstName 3",
+	"Office": 298,
+	"Email": "Email 3",
+	"Valid": false,
+	"WOId": 3983,
+	"Id": 9523,
+	"RecipientId": 6126,
+	"__metadata": {
+		"uri": "ContactSet(Type='Type%203',Office=100,Id=9523,RecipientId=8078)",
+		"type": "ZGW_APPROVE_MNT_SRV.Contact"
+	}
+}, {
+	"Address": {
+		"PostalCode": "PostalCode 4",
+		"Street": "Street 4"
+	},
+	"Title": "Title 4",
+	"Phone": "Phone 4",
+	"Position": "Position 4",
+	"Section": "Section 4",
+	"Type": "RecipientType 4",
+	"LastName": "LastName 4",
+	"FirstName": "FirstName 4",
+	"Office": 7367,
+	"Email": "Email 4",
+	"Valid": true,
+	"WOId": 7304,
+	"Id": 4853,
+	"RecipientId": 3029,
+	"__metadata": {
+		"uri": "ContactSet(Type='Type%204',Office=3324,Id=4853,RecipientId=4053)",
+		"type": "ZGW_APPROVE_MNT_SRV.Contact"
+	}
+}, {
+	"Address": {
+		"PostalCode": "PostalCode 5",
+		"Street": "Street 5"
+	},
+	"Title": "Title 5",
+	"Phone": "Phone 5",
+	"Position": "Position 5",
+	"Section": "Section 5",
+	"Type": "RecipientType 5",
+	"LastName": "LastName 5",
+	"FirstName": "FirstName 5",
+	"Office": 7636,
+	"Email": "Email 5",
+	"Valid": false,
+	"WOId": 5502,
+	"Id": 3812,
+	"RecipientId": 9819,
+	"__metadata": {
+		"uri": "ContactSet(Type='Type%205',Office=7495,Id=3812,RecipientId=6152)",
+		"type": "ZGW_APPROVE_MNT_SRV.Contact"
+	}
+}, {
+	"Address": {
+		"PostalCode": "PostalCode 6",
+		"Street": "Street 6"
+	},
+	"Title": "Title 6",
+	"Phone": "Phone 6",
+	"Position": "Position 6",
+	"Section": "Section 6",
+	"Type": "RecipientType 6",
+	"LastName": "LastName 6",
+	"FirstName": "FirstName 6",
+	"Office": 9459,
+	"Email": "Email 6",
+	"Valid": true,
+	"WOId": 9575,
+	"Id": 2884,
+	"RecipientId": 6909,
+	"__metadata": {
+		"uri": "ContactSet(Type='Type%206',Office=7116,Id=2884,RecipientId=6673)",
+		"type": "ZGW_APPROVE_MNT_SRV.Contact"
+	}
+}, {
+	"Address": {
+		"PostalCode": "PostalCode 7",
+		"Street": "Street 7"
+	},
+	"Title": "Title 7",
+	"Phone": "Phone 7",
+	"Position": "Position 7",
+	"Section": "Section 7",
+	"Type": "RecipientType 7",
+	"LastName": "LastName 7",
+	"FirstName": "FirstName 7",
+	"Office": 9509,
+	"Email": "Email 7",
+	"Valid": false,
+	"WOId": 6652,
+	"Id": 865,
+	"RecipientId": 445,
+	"__metadata": {
+		"uri": "ContactSet(Type='Type%207',Office=3050,Id=865,RecipientId=7131)",
+		"type": "ZGW_APPROVE_MNT_SRV.Contact"
+	}
+}, {
+	"Address": {
+		"PostalCode": "PostalCode 8",
+		"Street": "Street 8"
+	},
+	"Title": "Title 8",
+	"Phone": "Phone 8",
+	"Position": "Position 8",
+	"Section": "Section 8",
+	"Type": "RecipientType 8",
+	"LastName": "LastName 8",
+	"FirstName": "FirstName 8",
+	"Office": 2617,
+	"Email": "Email 8",
+	"Valid": false,
+	"WOId": 4001,
+	"Id": 5582,
+	"RecipientId": 9851,
+	"__metadata": {
+		"uri": "ContactSet(Type='Type%208',Office=4669,Id=5582,RecipientId=9889)",
+		"type": "ZGW_APPROVE_MNT_SRV.Contact"
+	}
+}, {
+	"Address": {
+		"PostalCode": "PostalCode 9",
+		"Street": "Street 9"
+	},
+	"Title": "Title 9",
+	"Phone": "Phone 9",
+	"Position": "Position 9",
+	"Section": "Section 9",
+	"Type": "RecipientType 9",
+	"LastName": "LastName 9",
+	"FirstName": "FirstName 9",
+	"Office": 3739,
+	"Email": "Email 9",
+	"Valid": true,
+	"WOId": 6534,
+	"Id": 5632,
+	"RecipientId": 8378,
+	"__metadata": {
+		"uri": "ContactSet(Type='Type%209',Office=2209,Id=5632,RecipientId=517)",
+		"type": "ZGW_APPROVE_MNT_SRV.Contact"
+	}
+}, {
+	"Address": {
+		"PostalCode": "PostalCode 10",
+		"Street": "Street 10"
+	},
+	"Title": "Title 10",
+	"Phone": "Phone 10",
+	"Position": "Position 10",
+	"Section": "Section 10",
+	"Type": "RecipientType 10",
+	"LastName": "LastName 10",
+	"FirstName": "FirstName 10",
+	"Office": 2311,
+	"Email": "Email 10",
+	"Valid": false,
+	"WOId": 8140,
+	"Id": 3899,
+	"RecipientId": 2182,
+	"__metadata": {
+		"uri": "ContactSet(Type='Type%2010',Office=5272,Id=3899,RecipientId=539)",
+		"type": "ZGW_APPROVE_MNT_SRV.Contact"
+	}
+}]

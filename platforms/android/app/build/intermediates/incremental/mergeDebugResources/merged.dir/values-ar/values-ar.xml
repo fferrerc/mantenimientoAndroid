@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="afaria_provider_name">"بيانات اعتماد Afaria"</string>
+    <string name="afariapassword_input">"أدخل كلمة مرور Afaria"</string>
+    <string name="afariauser_input">"أدخل اسم مستخدم Afaria"</string>
+    <string name="app_picker_name">تطبيقات</string>
+    <string name="authentication_required">"مطلوب المصادقة"</string>
+    <string name="basic_auth_message">"يتطلب الخادم %1$s اسم مستخدم وكلمة مرور."</string>
+    <string name="bookmark_picker_name">إشارات مرجعية</string>
+    <string name="button_add_calendar">إضافة إلى التقويم</string>
+    <string name="button_add_contact">إضافة جهة اتصال</string>
+    <string name="button_book_search">بحث في الكتب</string>
+    <string name="button_cancel">إلغاء</string>
+    <string name="button_custom_product_search">بحث مخصص</string>
+    <string name="button_dial">طلب رقم</string>
+    <string name="button_email">إرسال بريد</string>
+    <string name="button_get_directions">معرفة الاتجاهات</string>
+    <string name="button_mms">إرسال MMS</string>
+    <string name="button_ok">موافق</string>
+    <string name="button_open_browser">فتح المتصفح</string>
+    <string name="button_product_search">بحث عن منتجات</string>
+    <string name="button_search_book_contents">بحث في المحتويات</string>
+    <string name="button_share_app">التطبيق</string>
+    <string name="button_share_bookmark">إشارة مرجعية</string>
+    <string name="button_share_by_email">مشاركة عبر البريد</string>
+    <string name="button_share_by_sms">مشاركة عبر SMS</string>
+    <string name="button_share_clipboard">حافظة</string>
+    <string name="button_share_contact">جهة اتصال</string>
+    <string name="button_show_map">عرض الخريطة</string>
+    <string name="button_sms">إرسال SMS</string>
+    <string name="button_web_search">بحث في الويب</string>
+    <string name="button_wifi">الاتصال بشبك</string>
+    <string name="cancel">"إلغاء"</string>
+    <string name="cert_provider_description">"مزوِّد شهادة Afaria بحاجة إلى تنزيل شهادتك من الخادم. سيتم تخزين الشهادة الخاصة بك بشكل آمن."</string>
+    <string name="cert_provider_get">"موافق"</string>
+    <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"‏يتطلب أحد التطبيقات تحديثًا لتطبيق Android Wear."</string>
+    <string msgid="3046420540094071256" name="common_android_wear_update_text">"‏لن يتم تشغيل هذا التطبيق ما لم تحدِّث تطبيق Android Wear."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"‏تحديث Android Wear"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"‏تمكين خدمات Google Play"</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"‏لن يعمل هذا التطبيق ما لم يتم تمكين خدمات Google Play."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"‏تمكين خدمات Google Play"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"تم الطلب عن طريق <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"‏الحصول على خدمات Google Play"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"‏لن يتم تشغيل هذا التطبيق بدون خدمات Google Play، والتي لا تتوفر في هاتفك."</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"‏لن يتم تشغيل هذا التطبيق بدون خدمات Google Play، والتي لا تتوفر في جهازك اللوحي."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"‏الحصول على خدمات Google Play"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"الحساب الذي تمّ تحديده غير موجود على الجهاز. يُرجى اختيار حساب آخر."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"حساب غير صالح"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"‏يتطلب أحد التطبيقات تمكين خدمات Google Play."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"‏يتطلب الاتصال بخدمات Google Play وجود اتصال بيانات."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"خطأ في الشبكة"</string>
+    <string msgid="8120534356798772974" name="common_google_play_services_notification_needs_installation_title">"‏يتطلب أحد التطبيقات تثبيت خدمات Google Play."</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"‏يتطلب أحد التطبيقات تحديث خدمات Google Play."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"‏خطأ في خدمات Google Play"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"حدث خطأ أثناء تسجيل الدخول إلى الحساب المحدد. الرجاء اختيار حساب مختلف."</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"أخفق تسجيل الدخول"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"‏حدثت مشكلة غير معروفة في خدمات Google Play."</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"‏خدمات Google Play التي تستجيب لها بعض تطبيقاتك لا تعمل على جهازك. يُرجى الاتصال بجهة التصنيع للحصول على المساعدة."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"‏خدمات Google Play"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"تحديث"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"‏لن يتم تشغيل هذا التطبيق ما لم تحدِّث خدمات Google Play."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"‏تحديث خدمات Google Play"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"فتح على الهاتف"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"تسجيل الدخول"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"‏تسجيل الدخول باستخدام Google"</string>
+    <string msgid="5000919058582214855" name="commono_google_play_services_api_unavailable_text">"‏يتطلب هذا التطبيق خدمة أو أكثر من خدمات Google Play غير المتاحة حاليًا. الرجاء الاتصال بمطوّر البرامج للحصول على المساعدة."</string>
+    <string name="contents_contact">معلومات جهة اتصال</string>
+    <string name="contents_email">عنوان البريد</string>
+    <string name="contents_location">إحداثيات جغرافية</string>
+    <string name="contents_phone">رقم الهاتف</string>
+    <string name="contents_sms">عنوان SMS</string>
+    <string name="contents_text">نص عادي</string>
+    <string name="error_message">"حدث خطأ! يُرجى الاتصال بالمسؤول لديك."</string>
+    <string name="history_clear_one_history_text">حذف</string>
+    <string name="history_clear_text">مسح السجل</string>
+    <string name="history_email_title">سجل ماسح الرموز الشريطية</string>
+    <string name="history_empty">فارغ</string>
+    <string name="history_empty_detail">لم تسجل حتى الآن بمسح الباركود</string>
+    <string name="history_send">إرسال السجل</string>
+    <string name="history_title">سجل</string>
+    <string name="log_in">"تسجيل الدخول"</string>
+    <string name="logon_app_will_reload">"تم تغيير كلمة المرور. سيتم الآن إعادة تحميل الصفحة."</string>
+    <string name="logon_ok">"موافق"</string>
+    <string name="logon_password_changed">"تم تغيير كلمة المرور"</string>
+    <string name="menu_encode_mecard">استخدام MECARD</string>
+    <string name="menu_encode_vcard">استخدام vCard</string>
+    <string name="menu_help">تعليمات</string>
+    <string name="menu_history">سجل</string>
+    <string name="menu_settings">إعدادات</string>
+    <string name="menu_share">مشاركة</string>
+    <string name="msg_bulk_mode_scanned">معظم الدراسي : الباركود الممسوحة ضوئيا وحفظها</string>
+    <string name="msg_camera_framework_bug">عفوا، حدثت مشكلة في كاميرا جهاز Android. قد تحتاج إلى إعادة تشغيل الجهاز.</string>
+    <string name="msg_default_format">التنسيق</string>
+    <string name="msg_default_meta">البيانات الوصفية</string>
+    <string name="msg_default_mms_subject">أهلا</string>
+    <string name="msg_default_status">قم بوضع الرمز الشريطي داخل حدود صورة الكاميرا ليتم مسحه.</string>
+    <string name="msg_default_time">الوقت</string>
+    <string name="msg_default_type">النوع</string>
+    <string name="msg_encode_contents_failed">تعذر ترميز رمز شريطي من البيانات المتوفرة.</string>
+    <string name="msg_error">خطأ</string>
+    <string name="msg_google_books">Google</string>
+    <string name="msg_google_product">Google</string>
+    <string name="msg_intent_failed">عفوا، تعذر تشغيل التطبيق المطلوب. قد تكون محتويات الرمز الشريطي غير صحيحة.</string>
+    <string name="msg_invalid_value">قيمة غير صالحة</string>
+    <string name="msg_redirect">إعادة توجيه</string>
+    <string name="msg_sbc_book_not_searchable">عفوا، لا يمكن البحث في هذا الكتاب.</string>
+    <string name="msg_sbc_failed">عفوا، حدثت مشكلة في عملية البحث.</string>
+    <string name="msg_sbc_no_page_returned">لم يتم إرجاع أية صفحة</string>
+    <string name="msg_sbc_page">الصفحة</string>
+    <string name="msg_sbc_results">النتائج</string>
+    <string name="msg_sbc_searching_book">البحث في الكتاب</string>
+    <string name="msg_sbc_snippet_unavailable">الأجزاء غير متاحة</string>
+    <string name="msg_share_explanation">يمكنك مشاركة البيانات عن طريق عرض رمز شريطي على الشاشة ومسحه من خلال هاتف آخر.</string>
+    <string name="msg_share_text">أو اكتب بعض النص</string>
+    <string name="msg_sure">هل أنت متأكد؟</string>
+    <string name="msg_unmount_usb">رجاء إيقاف التخزين على USB للمتابعة.</string>
+    <string name="no_viewer_message">"لا يمكن إظهار هذا الملف. الرجاء تثبيت تطبيق Android يمكنه عرض نوع الملف هذا. %1$s"</string>
+    <string name="no_viewer_title">"لا يوجد عارض"</string>
+    <string name="password">"كلمة المرور"</string>
+    <string name="preferences_actions_title">عند العثور على رمز شريطي</string>
+    <string name="preferences_auto_focus_title">استخدام التركيز التلقائي</string>
+    <string name="preferences_auto_open_web_title">فتح صفحات الويب تلقائيا</string>
+    <string name="preferences_bulk_mode_summary">المسح الضوئي وحفظها بشكل مستمر العديد من الرموز الشريطية</string>
+    <string name="preferences_bulk_mode_title">جل وضع المسح الضوئي</string>
+    <string name="preferences_copy_to_clipboard_title">نسخ إلى الحافظة</string>
+    <string formatted="false" name="preferences_custom_product_search_summary">التبديلات : s٪ = المحتويات ،  f٪ = الشكل ، اكتب t٪ =</string>
+    <string name="preferences_custom_product_search_title">عنوان بحث مخصص</string>
+    <string name="preferences_decode_1D_industrial_title">1D الصناعية</string>
+    <string name="preferences_decode_1D_product_title">1D المنتج</string>
+    <string name="preferences_decode_Aztec_title">ازتك</string>
+    <string name="preferences_decode_Data_Matrix_title">فك رموز البيانات ماتريكس</string>
+    <string name="preferences_decode_PDF417_title">PDF417 (β)</string>
+    <string name="preferences_decode_QR_title">فك رموز QR</string>
+    <string name="preferences_device_bug_workarounds_title">الحلول جهاز علة</string>
+    <string name="preferences_disable_barcode_scene_mode_title">لا توجد طريقة الباركود المشهد</string>
+    <string name="preferences_disable_continuous_focus_summary">استخدام وضع معيار التركيز فقط</string>
+    <string name="preferences_disable_continuous_focus_title">لا التركيز المستمر</string>
+    <string name="preferences_disable_exposure_title">لا تعرض</string>
+    <string name="preferences_disable_metering_title">لا القياس</string>
+    <string name="preferences_front_light_auto">أوتوماتيكي</string>
+    <string name="preferences_front_light_off">غير فعال</string>
+    <string name="preferences_front_light_on">نشط</string>
+    <string name="preferences_front_light_summary">تقوم بتحسين عملية المسح في إضاءة ضعيفة في بعض الهواتف، ولكن يمكن أن يتسبب في حدوث سطوع</string>
+    <string name="preferences_front_light_title">استخدم إضاءة أمامية</string>
+    <string name="preferences_general_title">إعدادات عامة</string>
+    <string name="preferences_history_summary">تخزين عمليات الفحص الخاص بك في التاريخ</string>
+    <string name="preferences_history_title">أضف إلى التاريخ</string>
+    <string name="preferences_invert_scan_summary">مسح الباركود لأبيض على خلفية سوداء. لا تتوفر على بعض الأجهزة.</string>
+    <string name="preferences_invert_scan_title">عكس المسح الضوئي</string>
+    <string name="preferences_name">إعدادات</string>
+    <string name="preferences_orientation_title">أي التناوب التلقائي</string>
+    <string name="preferences_play_beep_title">صوت تنبيه</string>
+    <string name="preferences_remember_duplicates_summary">بفحص مخزن متعددة من نفس الباركود في التاريخ</string>
+    <string name="preferences_remember_duplicates_title">تذكر التكرارات</string>
+    <string name="preferences_result_title">إعدادات النتائج</string>
+    <string name="preferences_scanning_title">عندما لمسح الباركود</string>
+    <string name="preferences_search_country">ابحث عن بلد</string>
+    <string name="preferences_supplemental_summary">محاولة لاسترداد مزيد من المعلومات حول محتويات الباركود</string>
+    <string name="preferences_supplemental_title">استرداد مزيد من المعلومات</string>
+    <string name="preferences_vibrate_title">اهتزاز</string>
+    <string name="progress_message">"شهادة Afaria مطلوبة"</string>
+    <string name="restriction_description_allowSavingFormCredentials">"السماح بحفظ بيانات اعتماد النموذج وملئها مسبقًا في المستقبل."</string>
+    <string name="restriction_description_appID">"معرف التطبيق المستخدم لتحديد تطبيق مخزن البيانات. إذا كنت تستخدم SMP، فيجب أن يكون ذلك المعرف متسقًا مع معرف التطبيق المستهدف. لاحظ أن هذه القيمة مختلفة عن اسم الحزمة، والتي يتم استخدامها بشكل رئيسي لتحديد التطبيق الخاص بك في متاجر التطبيقات."</string>
+    <string name="restriction_description_appName">"خاصية اختيارية مستخدمة لتخصيص اسم تطبيق Fiori الذي يظهر على شاشة تسجيل الدخول. اسم التطبيق هو SAP Fiori Client افتراضيًا. عندما يكون هذا الحقل فارغًا، يتم استخدام الإعداد الافتراضي."</string>
+    <string name="restriction_description_authType">"حدد نوع التفويض فقط لـ OAuth (كـ OAuth2) أو SAML (كـ saml2.web.post)."</string>
+    <string name="restriction_description_autoSelectSingleCert">"في حالة توفر شهادة عميل واحدة فقط، فحدد تلك الشهادة تلقائيًا للمصادقة المتبادلة."</string>
+    <string name="restriction_description_certificate">"مزوِّد شهادة العميل"</string>
+    <string name="restriction_description_communicatorId">"معرف أداة الاتصال لتسجيل SAP Mobile Platform/‏SAP HANA Cloud Platform لخدمات الأجهزة المتنقلة. الافتراضي هو REST."</string>
+    <string name="restriction_description_disablePasscode">"لا تظهر شاشة رمز المرور عندما تكون صوابًا. يجب أن تكون خطأ عند تمكين الدعم متعدد المستخدمين."</string>
+    <string name="restriction_description_enableCacheManager">"تمكين البرنامج الإضافي لمدير التخزين المؤقت."</string>
+    <string name="restriction_description_fioriURL">"الرابط الكامل للتطبيق المستهدف. إذا كان التطبيق الخاص بك لا يستخدم SMP، فسينتقل مباشرة إلى هذا الرابط بمجرد اكتمال تسجيل الدخول. وإذا كان التطبيق الخاص بك يستخدم SMP، فسيتم تحليل هذا الرابط واستخدامه بالطريقة التالية: 1. يحدد مخطط الرابط (الذي يجب أن يكون HTTP أو HTTPS) القيمة الأولية لإشارة \'https\' في مربع حوار التسجيل. وعلى نحو مماثل، يحدد المضيف والمنفذ في الرابط القيم الأولية المقابلة لهما في مربع حوار التسجيل مع تعيين الوضع الافتراضي للمنفذ إلى 443 إذا لم يكن محددًا. 2. يتم إرفاق لاحقة الرابط (كل شيء بعد المضيف والمنفذ) إلى الرابط الذي قام المستخدم بالتسجيل إليه. وعلى الرغم من احتمالية تماثل ذلك مع المخطط والمضيف والمنفذ من 1، إلا أن المستخدم يمتلك فرصة تغيير هذه القيم. لكن لا يمكن تغيير اللاحقة. إذا كنت تستخدم SMP، فحدد المخطط والمضيف والمنفذ لخادم SMP متبوعًا بلاحقة نقطة نهاية Fiori. على سبيل المثال: \'https://my.smp.server:8081/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html\'"</string>
+    <string name="restriction_description_fioriURLIsSMP">"إذا كنت تستخدم SMP، فقم بتعيين ذلك إلى \'صواب\' لتنفيذ التسجيل."</string>
+    <string name="restriction_description_idpLogonURL">"رابط يعيد تحميل تسجيل دخول إلى مزود هوية باسم مستخدم/رمز مرور يُمرَّر من SAP Authenticator لتسجيل دخول لمرة واحدة"</string>
+    <string name="restriction_description_keysize">"وسيطة اختيارية لموفر شهادات Afaria. تعمل هذه الوسيطة على تعيين معدل البت للمفاتيح العامة/الخاصة. ويتم تعيين القيمة الفارغة أو غير الصالحة إلى 2048 افتراضيًا."</string>
+    <string name="restriction_description_oauth2.authorizationEndpoint">"الرابط الذي يفوِّض المستخدم."</string>
+    <string name="restriction_description_oauth2.clientID">"معرف العميل الذي يحدد التطبيق."</string>
+    <string name="restriction_description_oauth2.grantType">"نوع الضمان المطلوب استخدامه."</string>
+    <string name="restriction_description_oauth2.tokenEndpoint">"رابط لتحصل على الرموز المميزة من خلاله."</string>
+    <string name="restriction_description_passcodePolicyAllowFingerprint">"سياسة رمز المرور لمخزن البيانات. ملاحظة: إذا كنت تستخدم SAP Mobile Platform، فسيتم تحديد سياسة رمز المرور بواسطة الخادم."</string>
+    <string name="restriction_description_passcodePolicyDefaultAllowed">"سياسة رمز المرور لمخزن البيانات. ملاحظة: إذا كنت تستخدم SMP، فسيتم تحديد سياسة رمز المرور بواسطة الخادم."</string>
+    <string name="restriction_description_passcodePolicyExpirationDays">"سياسة رمز المرور لمخزن البيانات. ملاحظة: إذا كنت تستخدم SMP، فسيتم تحديد سياسة رمز المرور بواسطة الخادم."</string>
+    <string name="restriction_description_passcodePolicyHasDigits">"سياسة رمز المرور لمخزن البيانات. ملاحظة: إذا كنت تستخدم SMP، فسيتم تحديد سياسة رمز المرور بواسطة الخادم."</string>
+    <string name="restriction_description_passcodePolicyHasLowerCaseLetters">"سياسة رمز المرور لمخزن البيانات. ملاحظة: إذا كنت تستخدم SMP، فسيتم تحديد سياسة رمز المرور بواسطة الخادم."</string>
+    <string name="restriction_description_passcodePolicyHasSpecialLetters">"سياسة رمز المرور لمخزن البيانات. ملاحظة: إذا كنت تستخدم SMP، فسيتم تحديد سياسة رمز المرور بواسطة الخادم."</string>
+    <string name="restriction_description_passcodePolicyHasUpperCaseLetters">"سياسة رمز المرور لمخزن البيانات. ملاحظة: إذا كنت تستخدم SMP، فسيتم تحديد سياسة رمز المرور بواسطة الخادم."</string>
+    <string name="restriction_description_passcodePolicyLockTimeout">"سياسة رمز المرور لمخزن البيانات. ملاحظة: إذا كنت تستخدم SMP، فسيتم تحديد سياسة رمز المرور بواسطة الخادم."</string>
+    <string name="restriction_description_passcodePolicyMinLength">"سياسة رمز المرور لمخزن البيانات. ملاحظة: إذا كنت تستخدم SMP، فسيتم تحديد سياسة رمز المرور بواسطة الخادم."</string>
+    <string name="restriction_description_passcodePolicyMinUniqueChars">"سياسة رمز المرور لمخزن البيانات. ملاحظة: إذا كنت تستخدم SMP، فسيتم تحديد سياسة رمز المرور بواسطة الخادم."</string>
+    <string name="restriction_description_passcodePolicyRetryLimit">"سياسة رمز المرور لمخزن البيانات. ملاحظة: إذا كنت تستخدم SMP، فسيتم تحديد سياسة رمز المرور بواسطة الخادم."</string>
+    <string name="restriction_description_prefetch">"استدعاء أصول ويب تطبيق SAP Fiori من خادم الواجهة الأمامية لتطبيق SAP Fiori وتنزيلها إلى جهاز المستخدم. بعد التنزيل الأولي، استدعاء وتنزيل أية تحديثات للتطبيق من خادم الواجهة الأمامية لتطبيق SAP Fiori."</string>
+    <string name="restriction_title_allowSavingFormCredentials">"حفظ بيانات اعتماد النموذج"</string>
+    <string name="restriction_title_appID">"معرف التطبيق"</string>
+    <string name="restriction_title_appName">"اسم التطبيق"</string>
+    <string name="restriction_title_authType">"نوع التفويض"</string>
+    <string name="restriction_title_autoSelectSingleCert">"تحديد مزوِّد شهادة العميل تلقائيًا"</string>
+    <string name="restriction_title_certificate">"مزوِّد شهادة العميل"</string>
+    <string name="restriction_title_communicatorId">"معرف أداة الاتصال"</string>
+    <string name="restriction_title_disablePasscode">"تعطيل شاشة رمز المرور"</string>
+    <string name="restriction_title_enableCacheManager">"تمكين مدير التخزين المؤقت"</string>
+    <string name="restriction_title_fioriURL">"رابط خادم Fiori"</string>
+    <string name="restriction_title_fioriURLIsSMP">"رابط خادم Fiori هو خادم SMP"</string>
+    <string name="restriction_title_idpLogonURL">"رابط تسجيل الدخول إلى مزوِّد الهوية"</string>
+    <string name="restriction_title_keysize">"حجم مفتاح مزوِّد شهادات Afaria"</string>
+    <string name="restriction_title_oauth2.authorizationEndpoint">"نقطة نهاية تفويض OAuth"</string>
+    <string name="restriction_title_oauth2.clientID">"معرف عميل OAuth"</string>
+    <string name="restriction_title_oauth2.grantType">"نوع ضمان OAuth"</string>
+    <string name="restriction_title_oauth2.tokenEndpoint">"نقطة انتهاء الرمز المميز لـ OAuth"</string>
+    <string name="restriction_title_passcodePolicyAllowFingerprint">"سياسة رمز المرور: السماح بمصادقة البصمة"</string>
+    <string name="restriction_title_passcodePolicyDefaultAllowed">"مسموح بالإعداد الافتراضي في سياسة رمز المرور"</string>
+    <string name="restriction_title_passcodePolicyExpirationDays">"أيام انتهاء الصلاحية في سياسة رمز المرور"</string>
+    <string name="restriction_title_passcodePolicyHasDigits">"تتضمن سياسة رمز المرور أرقام"</string>
+    <string name="restriction_title_passcodePolicyHasLowerCaseLetters">"تتضمن سياسة رمز المرور أحرف صغيرة"</string>
+    <string name="restriction_title_passcodePolicyHasSpecialLetters">"تتضمن سياسة رمز المرور أحرف خاصة"</string>
+    <string name="restriction_title_passcodePolicyHasUpperCaseLetters">"تتضمن سياسة رمز المرور أحرف كبيرة"</string>
+    <string name="restriction_title_passcodePolicyLockTimeout">"انتهاء مهلة التأمين في سياسة رمز المرور"</string>
+    <string name="restriction_title_passcodePolicyMinLength">"الحد الأدنى للطول في سياسة رمز المرور"</string>
+    <string name="restriction_title_passcodePolicyMinUniqueChars">"الحد الأدنى للأحرف الفريدة في سياسة رمز المرور"</string>
+    <string name="restriction_title_passcodePolicyRetryLimit">"حد إعادة المحاولة في سياسة رمز المرور"</string>
+    <string name="restriction_title_prefetch">"استدعاء مسبق لأصول الويب"</string>
+    <string name="result_address_book">تم العثور على معلومات جهة الاتصال</string>
+    <string name="result_calendar">تم العثور على حدث التقويم</string>
+    <string name="result_email_address">تم العثور على عنوان البريد</string>
+    <string name="result_geo">تم العثور على الإحداثيات الجغرافية</string>
+    <string name="result_isbn">تم العثور على الكتاب</string>
+    <string name="result_product">تم العثور على المنتج</string>
+    <string name="result_sms">تم العثور على عنوان SMS</string>
+    <string name="result_tel">تم العثور على رقم الهاتف</string>
+    <string name="result_text">تم العثور على نص عادي</string>
+    <string name="result_uri">تم العثور على العنوان</string>
+    <string name="result_wifi">العثور على التكوين اللاسلك</string>
+    <string name="sap_copyright">"حقوق النشر © لشركة 2015 SE. جميع الحقوق محفوظة."</string>
+    <string name="sap_logo_description">"شعار SAP"</string>
+    <string name="sbc_name">البحث في Google Book</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
+    <string name="username">"اسم المستخدم"</string>
+    <string name="wifi_changing_network">طلب الاتصال بالشبكة\u2026</string>
+</resources>

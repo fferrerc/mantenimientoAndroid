@@ -1,0 +1,140 @@
+
+@media only screen and (min-width: 360px) and (max-width: 400px){
+/* Alineacion de textos en cabecera */
+	.sapMPanel .sapMHBox .sapMFlexItem:last-child .sapMText{
+		width: 13rem !important;
+	}
+}
+
+@media only screen and (min-width: 401px){
+/* Alineacion de textos en cabecera */
+	.sapMPanel .sapMHBox .sapMFlexItem:last-child .sapMText{
+		width: 16rem !important;
+	}
+}
+
+.sapMTB-Info-CTX>.sapMTitle {
+	color: #c14646;
+}
+
+.sapMTB-Info-CTX.sapMTB {
+	background: transparent;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.separate{
+	margin: 10px 0px 0px 0px;
+	padding-top: 10px;
+	width: 100%;
+	border-top: 2px solid grey;
+}
+
+.field span{
+	text-decoration: underline !important;
+	font-size: 18px;
+	font-weight: bold;
+}
+.grey-background{
+	background-color: #f7f7f7;
+}
+.orange-background {
+	background-color: #da8e20;
+}
+.info-item-sync{
+	padding-left: 10px;
+    padding-right: 10px;
+    line-height: 2;
+}
+
+.comentarios .sapMText.sapMTextMaxWidth.sapUiSelectable{
+	overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;  
+        margin-bottom: 10px
+}
+
+.grey-color {
+	color: #C0C0C0 !important;
+}
+
+.show-data-to-update .sapMFlexBoxBGTransparent.sapMFlexItem.sapMFlexItemAlignAuto{
+	width:100%;
+}
+
+.archivos a{
+	text-decoration: underline !important;
+}
+
+.border-top {
+	border-top: solid darkgrey 2px;
+}
+
+.title-progress-bar {
+	font-size: 18px !important;
+}
+
+
+.blue-tgn {
+	color: #0b448f !important;
+}
+
+.sapMPIBarPositive {
+    background: #0b448f !important;
+}
+
+
+.sapMPIBarRemaining {
+    background: #eff4f9 !important;
+}
+
+.item-progress {
+	text-align: center !important;
+}
+
+.item-progress-last {
+	margin-bottom: 48px !important;
+}
+
+/* Listado de Ordenes de trabajo */
+.WOList li{
+	padding: 0.5rem 0rem 0.5rem 1rem;
+}
+
+
+/* Alineacion de boton en cabecera */
+.sapMPanelWrappingDivTb .sapMBtn{
+	height:1rem;
+	padding:0;
+}
+/* Semaforo de status */
+.StatusLight:nth-child(6){
+	margin-right:0 !important;
+}
+.StatusLight:nth-child(7){
+	margin-right:0 !important;
+	margin-left:0 !important;
+}
+.StatusLight:last-child{
+	margin-left:0 !important;
+}
+.StatusLight.sapMObjStatusWarning .sapMObjStatusIcon {
+    color: #FDE81B;
+}
+.StatusLight.sapMObjStatusNone .sapMObjStatusIcon {
+    color: #CCCCCC;
+}
+.StatusLight .sapMObjStatusIcon {
+    padding-right: 0;
+}
+
+/* icono tipo de visita */
+.visitTypeIcon.sapUiIcon::before{
+    font-weight: bolder;
+}
+
+
+
+tr[data-visitDone="X"], tr[data-visitDone="X"] + tr{
+  background: #d9ffb3 !important;
+}

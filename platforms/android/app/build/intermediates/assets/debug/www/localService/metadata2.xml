@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx"
+	xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:sap="http://www.sap.com/Protocols/SAPData">
+	<edmx:DataServices m:DataServiceVersion="2.0">
+		<Schema Namespace="ZGW_GUARDIAPASIVA_SRV_01" xml:lang="es" sap:schema-version="1" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+			<EntityType Name="Responsible" sap:content-version="1">
+				<Key><PropertyRef Name="id"/></Key><Property Name="activity" Type="Edm.String" MaxLength="80" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="category" Type="Edm.String" MaxLength="70" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="cellphone" Type="Edm.String" MaxLength="100" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="center" Type="Edm.String" MaxLength="90" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="date" Type="Edm.String" MaxLength="10" sap:creatable="false" sap:updatable="false"/><Property Name="dateFrom" Type="Edm.String" MaxLength="10" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="dateTo" Type="Edm.String" MaxLength="10" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="descenter" Type="Edm.String" MaxLength="150" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="file" Type="Edm.String" MaxLength="70" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="function" Type="Edm.String" MaxLength="150" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="id" Type="Edm.String" Nullable="false" MaxLength="70" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="name" Type="Edm.String" MaxLength="240" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="opGuard" Type="Edm.String" MaxLength="70" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="phone" Type="Edm.String" MaxLength="100" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="responsibleArea" Type="Edm.String" MaxLength="90" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="guardType" Type="Edm.String" MaxLength="10" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="system" Type="Edm.String" MaxLength="70" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/></EntityType>
+			<EntityType Name="Guard" sap:content-version="1">
+				<Key><PropertyRef Name="id"/></Key><Property Name="activity" Type="Edm.String" MaxLength="80" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="category" Type="Edm.String" MaxLength="70" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="cellphone" Type="Edm.String" MaxLength="100" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="center" Type="Edm.String" MaxLength="90" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="date" Type="Edm.String" MaxLength="10" sap:creatable="false" sap:updatable="false"/><Property Name="dateFrom" Type="Edm.String" MaxLength="10" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="dateTo" Type="Edm.String" MaxLength="10" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="descenter" Type="Edm.String" MaxLength="150" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="file" Type="Edm.String" MaxLength="70" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="function" Type="Edm.String" MaxLength="150" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="id" Type="Edm.String" Nullable="false" MaxLength="70" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="name" Type="Edm.String" MaxLength="240" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="opGuard" Type="Edm.String" MaxLength="70" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="phone" Type="Edm.String" MaxLength="100" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="responsibleArea" Type="Edm.String" MaxLength="90" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="guardType" Type="Edm.String" MaxLength="10" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="system" Type="Edm.String" MaxLength="70" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/></EntityType>
+			<EntityContainer Name="ZGW_GUARDIAPASIVA_SRV_01_Entities" m:IsDefaultEntityContainer="true" sap:supported-formats="atom json xlsx"><EntitySet Name="ResponsibleCollection" EntityType="ZGW_GUARDIAPASIVA_SRV_01.Responsible" sap:content-version="1"/><EntitySet Name="GuardCollection" EntityType="ZGW_GUARDIAPASIVA_SRV_01.Guard" sap:content-version="1"/></EntityContainer><atom:link rel="self" href="https://mobile.svc.br1.hana.ondemand.com/TGN_GUARDIA_PASIVA/$metadata" xmlns:atom="http://www.w3.org/2005/Atom"/><atom:link rel="latest-version" href="https://mobile.svc.br1.hana.ondemand.com/TGN_GUARDIA_PASIVA/$metadata"
+				xmlns:atom="http://www.w3.org/2005/Atom"/></Schema>
+	</edmx:DataServices>
+</edmx:Edmx>

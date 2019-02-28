@@ -1,0 +1,25 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+	controllerName="ABMcontactos.TGN-ABMcontactos.controller.Recipient" xmlns:html="http://www.w3.org/1999/xhtml">
+			<Page id="recipientPage" title="{= ${States>/bNewRecipient} ? ${i18n>rview.title.new} : ${i18n>rview.title.edit}}" showNavButton="true"
+				navButtonPress="onCancelRecipient">
+				<content>
+					<VBox class="sapUiSmallMargin" id="destDetailBox">
+						<Label text="{i18n>dldialog.label.businessName}"/>
+						<Input id="destBusinessName" type="Text" value="{WorkOrderModel>CompanyName}"/>
+						<Label text="{i18n>dldialog.label.activity}" class="sapUiSmallMarginTop"/>
+						<Input id="destActivity" type="Text" value="{
+						path:'WorkOrderModel>Activity',
+						type : 'ABMcontactos.TGN-ABMcontactos.custom.dataTypes.Int8'}"/>
+						<Label text="{i18n>dldialog.label.coments}" class="sapUiSmallMarginTop"/>
+						<TextArea height="80px" width="100%" id="destComents" value="{WorkOrderModel>Comment}"/>
+					</VBox>
+				</content>
+				<footer>
+					<Toolbar>
+						<ToolbarSpacer/>
+						<Button type="Accept" text="{i18n&gt;btn.save}" press="onSaveRecipient" icon="sap-icon://save" id="selectDestBtn"/>
+						<Button type="Reject" text="{i18n&gt;btn.cancel}" press="onCancelRecipient" icon="sap-icon://decline" />
+					</Toolbar>
+				</footer>
+			</Page>
+</mvc:View>

@@ -1,0 +1,13 @@
+repositories {
+   jcenter()
+}
+
+// Apply values after project's build-extras.gradle
+cdvPluginPostBuildExtras.add({
+    dependencies {
+        compile "org.aspectj:aspectjrt:1.8.5"
+        compile "com.googlecode.mp4parser:isoparser:1.0.6"
+        compile "com.android.support:support-v4:27.1.1"
+        compile(name:'voicerecording-plugin-4.1.11', ext:'aar')
+    }
+})

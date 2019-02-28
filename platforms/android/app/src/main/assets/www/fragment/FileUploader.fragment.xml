@@ -1,0 +1,33 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:u="sap.ui.unified">
+	<Dialog id="fileUploaderDialog" title="{i18n>fudialog.title}" contentWidth="400px">
+		<l:VerticalLayout class="sapUiContentPadding" width="100%">
+			<l:content>
+				<VBox>
+					<Label text="{i18n>fudialog.typeLabel}" design="Bold"/>
+					<Select forceSelection="true" id="AttachmentTypeSelect"
+						items="{ path: 'WorkOrderModel>/ComboSet', sorter: { path: 'Key' }, filters : [ { path : 'comboId', operator : 'EQ', value1 : 'AttachmentType'} ] }"
+						change="onChangeFilter" width="100%" enabled="{States>/bVisitEditableMode}">
+						<items>
+							<core:Item key="{WorkOrderModel>Key}" text="{WorkOrderModel>Value}"/>
+						</items>
+					</Select>
+				</VBox>
+				<UploadCollection id="UploadCollection" multiple="true" sameFilenameAllowed="true" instantUpload="false"
+					noDataDescription="{i18n>fudialog.uploaderPlaceholder}" change="onChange" fileDeleted="onFileDeleted" typeMissmatch="onTypeMissmatch"
+					uploadComplete="onUploadComplete" beforeUploadStarts="onBeforeUploadStarts" uploadUrl="/TGN_MANT/AttachmentSet"
+					items="{ path: 'WorkOrderModel>ToAttachments', sorter: { path: 'FileName' } }">
+					<items>
+						<UploadCollectionItem documentId="{WorkOrderModel>WOId} {WorkOrderModel>VId} - {WorkOrderModel>FileName}"
+							fileName="{WorkOrderModel>FileName}" mimeType="{WorkOrderModel>MimeType}" enableDelete="true" visibleDelete="true" selected="true"
+							url='{WorkOrderModel>__metadata/media_src}'></UploadCollectionItem>
+					</items>
+				</UploadCollection>
+			</l:content>
+		</l:VerticalLayout>
+		<buttons>
+			<Button text="{i18n>btn.cancel}" press="onCloseFileUploaderDialog" icon="sap-icon://decline"/>
+			<Button text="{i18n>fudialog.btnUpload}" press="onStartUpload" icon="sap-icon://accept" enabled="{WorkOrderModel>FileName}"
+				id="uploadFileBtn"/>
+		</buttons>
+	</Dialog>
+</core:FragmentDefinition>

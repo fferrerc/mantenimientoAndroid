@@ -1,0 +1,2 @@
+# Referenced at /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:56
+-keep class android.support.multidex.MultiDexApplication { <init>(...); }

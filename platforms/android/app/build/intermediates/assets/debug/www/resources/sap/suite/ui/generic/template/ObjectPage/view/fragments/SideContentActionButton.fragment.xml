@@ -1,0 +1,13 @@
+<core:FragmentDefinition xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1" xmlns="sap.m" xmlns:uxap="sap.uxap" xmlns:core="sap.ui.core">
+	<template:if test="{parts: [{path: 'entitySet>name'}, {path: 'facet>'}, {path: 'manifestViewExtensions>'}], formatter: 'sap.suite.ui.generic.template.js.AnnotationHelper.getSideContentExtensionPoint'}">
+		<uxap:actions>
+			<template:with path="parameter>/" helper="sap.suite.ui.generic.template.js.StableIdHelper.preparePathForStableId" var="facetId">
+				<template:if test="{= ${facetId>}.buildFacetId(${facet>})}" />			
+				<Button id="{:= ${parameter>/stableId}.getStableId({ type:'ObjectPageSection', subType:'SideContentButton', sFacet: ${facetId>id}}) }"
+						text="{parts: [{path: 'entitySet>name'}, {path: 'facet>'}], formatter: 'sap.suite.ui.generic.template.js.AnnotationHelper.getTextForSideContentButton'}"
+						type = "Transparent"
+						press = "._templateEventHandlers.onToggleDynamicSideContent" />
+			</template:with>
+		</uxap:actions> 
+	</template:if>
+</core:FragmentDefinition>

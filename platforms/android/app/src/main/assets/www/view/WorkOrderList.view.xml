@@ -1,0 +1,41 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+	controllerName="ABMcontactos.TGN-ABMcontactos.controller.WorkOrderList" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="{i18n>ml.title}">
+		<headerContent>
+			<Button icon="sap-icon://synchronize" tooltip="{i18n>ml.btn.synchronizeTooltip}" press="pressSync" visible="{States>/bIsOnline}"/>
+			
+		</headerContent>
+		<content>
+			<List class="WOList" items="{path : 'WorkOrderModel>/WorkOrderSet'}" id="ordenesList">
+				<headerToolbar>
+					<Toolbar>
+						<Title text="Ordenes de trabajo" level="H2"/>
+						<ToolbarSpacer/>
+					</Toolbar>
+				</headerToolbar>
+				<items>
+					<CustomListItem type="Navigation" press="onWorkOrderPress">
+						<HBox width='100%' wrap='Wrap' alignContent="Center">
+							<items>
+								<Title width="5rem" id="tableHeader" text="{WorkOrderModel>Id}"/>
+								<Text width="3rem" text="{WorkOrderModel>Type}"/>
+								<ToolbarSpacer>
+									<layoutData>
+										<FlexItemData growFactor='1'></FlexItemData>
+									</layoutData>
+								</ToolbarSpacer>
+								<Button width="4rem" icon="sap-icon://create-form" id="btnNewVisit" visible="false" press="onPressNewVisitBtn"/>
+								<HBox width='3rem'>
+									<ObjectStatus class="StatusLight" state="{path:'WorkOrderModel>Status', formatter:'.formatter.statusText1'}" icon="sap-icon://circle-task-2"/>
+									<ObjectStatus class="StatusLight" state="{path:'WorkOrderModel>Status', formatter:'.formatter.statusText2'}" icon="sap-icon://circle-task-2"/>
+									<ObjectStatus class="StatusLight" state="{path:'WorkOrderModel>Status', formatter:'.formatter.statusText3'}" icon="sap-icon://circle-task-2"/>
+								</HBox>
+								<Text width="16rem" text="{WorkOrderModel>Description}"/>
+							</items>
+						</HBox>
+					</CustomListItem>
+				</items>
+			</List>
+		</content>
+	</Page>
+</mvc:View>

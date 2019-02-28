@@ -1,0 +1,10 @@
+<core:FragmentDefinition
+    xmlns:core="sap.ui.core"
+    xmlns="sap.m"
+    xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1">
+    <VBox>
+        <Title text="{entityType>@com.sap.vocabularies.UI.v1.HeaderInfo/Title/Value/@@.MODEL.value}"
+            wrapping="true" class="sapUiTinyMarginTop"/>
+        <Text text="{entityType>@com.sap.vocabularies.UI.v1.HeaderInfo/Description/Value/@@.MODEL.value}"/>
+    </VBox>
+</core:FragmentDefinition>

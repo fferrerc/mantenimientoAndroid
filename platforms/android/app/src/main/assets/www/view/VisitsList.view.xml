@@ -1,0 +1,51 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+	controllerName="ABMcontactos.TGN-ABMcontactos.controller.VisitsList" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page id="workOrderDetail" showNavButton="true" navButtonPress="onNavback">
+		<headerContent>
+			<Title text="{parts: [ 'i18n>vs.titleVisits', 'WorkOrderModel>Id'], formatter: 'jQuery.sap.formatMessage'}"/>
+			<Button width="4rem" icon="sap-icon://create-form" id="btnNewVisit" press="onPressNewVisitBtn"/>
+		</headerContent>
+		<content>
+			<Table items="{path: 'WorkOrderModel>/VisitHeadSet', parameters : {expand:'ToVisitDetail'}}" id="visitasList" growing="true"
+				growingThreshold="5">
+				<columns>
+					<Column id="tipocolumn">
+						<Text text="{i18n>ml.table.column.type}" id="tipocolumnTitle"/>
+					</Column>
+					<Column id="visittypecolumn">
+						<Text text="{i18n>ml.table.column.visittype}" id="tipovisitacolumnTitle"/>
+					</Column>
+					<Column id="idcolumn">
+						<Text text="{i18n>ml.table.column.id}" id="idcolumnTitle"/>
+					</Column>
+					<Column id="officeColumn">
+						<Text text="{i18n>ml.table.column.office}" id="officeColumnTitle"/>
+					</Column>
+					<Column id="nameColumn" demandPopin="true" hAlign="Center" minScreenWidth="Tablet">
+						<Text text="{i18n>ml.table.column.description}" id="nameColumnTitle"/>
+					</Column>
+					<Column id="realizationDateColumn" demandPopin="true" hAlign="Center" minScreenWidth="Tablet">
+						<Text text="{i18n>ml.table.column.realizationDate}" id="realizationDateColumnTitle"/>
+					</Column>
+				</columns>
+				<items>
+					<ColumnListItem type="Navigation" press="onPressVisita">
+						<customData>
+							<core:CustomData key="visitDone" value="{path:'WorkOrderModel>RealizationDate', formatter:'.formatter.visitDone'}" writeToDom="true"></core:CustomData>
+						</customData>
+						<cells>
+							<ObjectIdentifier title="{WorkOrderModel>RecipientType}"/>
+							<core:Icon class="visitTypeIcon" width="2rem" size="1.5rem" src="{path:'WorkOrderModel>VisitType', formatter:'.formatter.visitTypeIcon'}"
+								color="{path:'WorkOrderModel>VisitType', formatter:'.formatter.visitTypeColor'}"/>
+							<ObjectIdentifier title="{WorkOrderModel>RecipientId}"/>
+							<ObjectIdentifier title="{WorkOrderModel>RecipientOffice}"/>
+							<ObjectIdentifier title="{WorkOrderModel>RecipientCompany}"/>
+							<Label design="Bold"
+								text="{ path: 'WorkOrderModel>RealizationDate', type:'sap.ui.model.odata.type.DateTime', formatOptions: { UTC: false }, constraints: { isDateOnly: true, displayFormat: 'Date' } }"></Label>
+						</cells>
+					</ColumnListItem>
+				</items>
+			</Table>
+		</content>
+	</Page>
+</mvc:View>

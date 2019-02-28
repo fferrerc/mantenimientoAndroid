@@ -1,0 +1,44 @@
+{
+  "kapsel-plugin-odata": {
+    "source": {
+      "type": "local",
+      "path": "/var/kapsel/plugins/odata"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "kapsel-plugin-multidex": {
+    "source": {
+      "type": "local",
+      "path": "/var/kapsel/plugins/multidex"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-android-support-gradle-release": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-android-support-gradle-release@2.0.1"
+    },
+    "is_top_level": true,
+    "variables": {
+      "ANDROID_SUPPORT_VERSION": "26.0.2"
+    }
+  },
+  "es6-promise-plugin": {
+    "source": {
+      "type": "registry",
+      "id": "es6-promise-plugin@*"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-exit": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-exit@1.0.2"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

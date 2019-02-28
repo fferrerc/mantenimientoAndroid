@@ -1,0 +1,2 @@
+// Copyright (c) 2009-2017 SAP SE, All Rights Reserved
+sap.ui.define([],function(){"use strict";var A={init:function(c){},getAppInfo:function(u){return this._resolveHashFragment("#"+u.get("hash"));},_resolveHashFragment:function(s){var p=sap.ushell.Container.getService("URLParsing").parseShellHash(s),d=new jQuery.Deferred();sap.ushell.Container.getService("NavTargetResolution").resolveHashFragment(s).done(function(r){r.navigationMode="embedded";d.resolve({oHash:p,oTarget:r});}).fail(function(m){d.reject(m);});return d.promise();}};return A;},false);

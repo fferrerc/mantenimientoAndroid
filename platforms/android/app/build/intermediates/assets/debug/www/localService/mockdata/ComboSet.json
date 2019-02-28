@@ -1,0 +1,101 @@
+[{
+	"comboId": "Result",
+	"Value": "Buena",
+	"Key": 1993,
+	"__metadata": {
+		"uri": "ComboSet(comboId='comboId%201',Key=1993)",
+		"type": "ZEXECUTE_WO_SRV.Combo"
+	}
+}, {
+	"comboId": "Result",
+	"Value": "Mala",
+	"Key": 4854,
+	"__metadata": {
+		"uri": "ComboSet(comboId='comboId%202',Key=4854)",
+		"type": "ZEXECUTE_WO_SRV.Combo"
+	}
+}, {
+	"comboId": "Result",
+	"Value": "No Califica",
+	"Key": 8004,
+	"__metadata": {
+		"uri": "ComboSet(comboId='comboId%203',Key=8004)",
+		"type": "ZEXECUTE_WO_SRV.Combo"
+	}
+}, {
+	"comboId": "Observation",
+	"Value": "El destinatario se mudó",
+	"Key": 9626,
+	"__metadata": {
+		"uri": "ComboSet(comboId='comboId%204',Key=9626)",
+		"type": "ZEXECUTE_WO_SRV.Combo"
+	}
+}, {
+	"comboId": "Observation",
+	"Value": "Destinatario Inexistente",
+	"Key": 6191,
+	"__metadata": {
+		"uri": "ComboSet(comboId='comboId%205',Key=6191)",
+		"type": "ZEXECUTE_WO_SRV.Combo"
+	}
+}, {
+	"comboId": "Observation",
+	"Value": "Dirección desconocida",
+	"Key": 4181,
+	"__metadata": {
+		"uri": "ComboSet(comboId='comboId%206',Key=4181)",
+		"type": "ZEXECUTE_WO_SRV.Combo"
+	}
+}, {
+	"comboId": "VisitType",
+	"Value": "Obligatoria",
+	"Key": 7095,
+	"__metadata": {
+		"uri": "ComboSet(comboId='comboId%207',Key=7095)",
+		"type": "ZEXECUTE_WO_SRV.Combo"
+	}
+}, {
+	"comboId": "VisitType",
+	"Value": "Deseable",
+	"Key": 2857,
+	"__metadata": {
+		"uri": "ComboSet(comboId='comboId%208',Key=2857)",
+		"type": "ZEXECUTE_WO_SRV.Combo"
+	}
+}, {
+	"comboId": "AttachmentType",
+	"Value": "Notificación",
+	"Key": 4870,
+	"__metadata": {
+		"uri": "ComboSet(comboId='comboId%209',Key=4870)",
+		"type": "ZEXECUTE_WO_SRV.Combo"
+	}
+}, {
+	"comboId": "AttachmentType",
+	"Value": "Documentación",
+	"Key": 6386,
+	"__metadata": {
+		"uri": "ComboSet(comboId='comboId%2010',Key=6386)",
+		"type": "ZEXECUTE_WO_SRV.Combo"
+	}
+}, {
+	"comboId": "Office",
+	"Key": 1234,
+	"Value": "Rosario"
+}, {
+	"Key": 1245,
+	"comboId": "Office",
+	"Value": "Oficina 2"
+}, {
+	"comboId": "Observation",
+	"Value": "Cerrado / Ausente",
+	"Key": 5523
+}, {
+	"comboId": "Observation",
+	"Value": "Visita Rechazada",
+	"Key": 14678
+}, {
+	"Value": "Otro motivo",
+	"comboId": "Observation",
+	"Key": 4676
+}]

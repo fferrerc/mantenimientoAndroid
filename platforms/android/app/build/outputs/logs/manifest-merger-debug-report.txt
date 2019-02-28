@@ -1,0 +1,554 @@
+-- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:18:9-20:20
+	android:grantUriPermissions
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:18:92-126
+	android:authorities
+		INJECTED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:18:19-66
+	android:exported
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:18:67-91
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:18:127-181
+manifest
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:2:1-73:12
+INJECTED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:2:1-73:12
+INJECTED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:2:1-73:12
+INJECTED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:2:1-73:12
+MERGED from [com.google.android.gms:play-services-gcm:7.3.0] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/play-services-gcm-7.3.0.aar/181918698de3d21615e298c15a02ac35/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-base:7.3.0] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/play-services-base-7.3.0.aar/24ca5eb424a2c1d898b33a0fa0a03cf4/AndroidManifest.xml:16:1-26:12
+MERGED from [com.android.support:support-v4:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/e07fd49c0b621c0b9f9ee9a61be27f0e/AndroidManifest.xml:17:1-31:12
+MERGED from [:barcodescanner-release-2.1.5:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/91e81e7c50eba29fb16765cf9f6c7ea3/AndroidManifest.xml:2:1-14:12
+MERGED from [net.zetetic:android-database-sqlcipher:3.5.9] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/android-database-sqlcipher-3.5.9.aar/759ddc5146320c8e3b23b5e179fa8817/AndroidManifest.xml:2:1-11:12
+MERGED from [:corelibs-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/corelibs-plugin-4.1.11.aar/0b51fae9d4e3887e4714351cc2128682/AndroidManifest.xml:2:1-11:12
+MERGED from [:Common-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/Common-3.16.17.aar/c3beff154fdc819f819226e411882e32/AndroidManifest.xml:2:1-11:12
+MERGED from [:Connectivity-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/Connectivity-3.16.17.aar/57e30f5e69d7fba12b1c4bca9bce2cb6/AndroidManifest.xml:2:1-11:12
+MERGED from [:ClientHubSLL-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/ClientHubSLL-3.16.17.aar/e28b382d84d8215ea6b7dc8d7494e808/AndroidManifest.xml:2:1-11:12
+MERGED from [:CoreServices-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/CoreServices-3.16.17.aar/dc9769b7fe7f719605cf173ac08e1ef8/AndroidManifest.xml:2:1-11:12
+MERGED from [:Request-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/Request-3.16.17.aar/b562460175689e41eee86f542ddf854e/AndroidManifest.xml:2:1-13:12
+MERGED from [:DataVaultLib-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/DataVaultLib-3.16.17.aar/16566135c57b311ffb4162dc9b039349/AndroidManifest.xml:2:1-11:12
+MERGED from [:ClientLog-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/ClientLog-3.16.17.aar/4826b31f7f14c9b79a92a47000a6f44d/AndroidManifest.xml:2:1-11:12
+MERGED from [:SupportabilityFacade-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/SupportabilityFacade-3.16.17.aar/12a63486af6b217f209e68ec67fd120f/AndroidManifest.xml:2:1-11:12
+MERGED from [:HttpConversation-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/HttpConversation-3.16.17.aar/9b5c60de66802b09a5adb5ab54f5c4dc/AndroidManifest.xml:2:1-11:12
+MERGED from [:HttpConvAuthFlows-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/HttpConvAuthFlows-3.16.17.aar/85589400ba0eda2f5371ba0d45d46dcf/AndroidManifest.xml:2:1-15:12
+MERGED from [:E2ETrace-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/E2ETrace-3.16.17.aar/4ec5d19076d5d69188fcc99b9c03c0d1/AndroidManifest.xml:2:1-11:12
+MERGED from [:apppreferences-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/apppreferences-plugin-4.1.11.aar/745917dad4ddbc07270f18f395015add/AndroidManifest.xml:2:1-11:12
+MERGED from [:i18n-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/i18n-plugin-4.1.11.aar/88b15c11ee4c16b28557c798b3b24d9b/AndroidManifest.xml:2:1-11:12
+MERGED from [:authproxy-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/authproxy-plugin-4.1.11.aar/b734eca5738ae26a553843d22cbb5d71/AndroidManifest.xml:2:1-11:12
+MERGED from [:MAFLogonCore-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/MAFLogonCore-3.16.17.aar/4f400319a89cbe3529ba7a8ee53f2a89/AndroidManifest.xml:2:1-11:12
+MERGED from [:MAFLogger-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/MAFLogger-3.16.17.aar/c763d8186580c15f001ce8d71575fa25/AndroidManifest.xml:2:1-11:12
+MERGED from [:CommonCertificateProvider-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/CommonCertificateProvider-3.16.17.aar/bf6acbe67a2f91e3a129509e905e5929/AndroidManifest.xml:2:1-11:12
+MERGED from [:AfariaProvider-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/AfariaProvider-3.16.17.aar/65a6d491d0e9bbbe897c7adea0772c1d/AndroidManifest.xml:2:1-18:12
+MERGED from [:XscriptParser-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/XscriptParser-3.16.17.aar/fdc088ed097ab4b223de9d498da33a77/AndroidManifest.xml:2:1-11:12
+MERGED from [:logon-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/logon-plugin-4.1.11.aar/4e5750d8a8933fd74a856810a874400e/AndroidManifest.xml:2:1-11:12
+MERGED from [:appupdate-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/appupdate-plugin-4.1.11.aar/506e89fbcb421aeec4108b0a928fc444/AndroidManifest.xml:2:1-11:12
+MERGED from [:attachmentviewer-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/attachmentviewer-plugin-4.1.11.aar/7a652ee09d8ce32cf1c9bbf5e43f1f0c/AndroidManifest.xml:2:1-11:12
+MERGED from [:calendar-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/calendar-plugin-4.1.11.aar/37083037bbb29855a594307193e9fcc6/AndroidManifest.xml:2:1-11:12
+MERGED from [:e2etrace-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/e2etrace-plugin-4.1.11.aar/5430877a947118b0cd4c56d76b8314b2/AndroidManifest.xml:2:1-11:12
+MERGED from [:encryptedstorage-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/encryptedstorage-plugin-4.1.11.aar/e74d1d840085f91c91fcbe68622d45e3/AndroidManifest.xml:2:1-11:12
+MERGED from [:logger-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/logger-plugin-4.1.11.aar/6b0da4a8ec54bdebd32cb9b02fd6ec33/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/cfdacbaadf9be58961eab67efe31b379/AndroidManifest.xml:17:1-22:12
+MERGED from [:ODataAPI-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/ODataAPI-3.16.17.aar/20640749eb89ee1f279340d3113899a9/AndroidManifest.xml:2:1-11:12
+MERGED from [:odata-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/odata-plugin-4.1.11.aar/9f35e24c79d3d65038fc1cdedc48e2cf/AndroidManifest.xml:2:1-11:12
+MERGED from [:settings-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/settings-plugin-4.1.11.aar/d7f7a17e1670b4948d7fb6e62a193086/AndroidManifest.xml:2:1-11:12
+MERGED from [:pushlegacy-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/pushlegacy-plugin-4.1.11.aar/e66c6723265d6ca3d3f061855d7368ef/AndroidManifest.xml:2:1-11:12
+MERGED from [:usage-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/usage-plugin-4.1.11.aar/50c45a5050b459a90a2f7f2352d69e6a/AndroidManifest.xml:2:1-11:12
+MERGED from [:Usage-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/Usage-3.16.17.aar/5b7fa05b1e690ab54643d511d7380ae4/AndroidManifest.xml:2:1-13:12
+MERGED from [:voicerecording-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/voicerecording-plugin-4.1.11.aar/aa938c2d7aebc3922889b5654a390fbf/AndroidManifest.xml:2:1-11:12
+MERGED from [:CordovaLib] /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:1-27:12
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/c359a64549ef8d1613101033823306f9/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/451a4d9bbf906fc489bced9828406f68/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/4a94bae307bd76fb8f49384688c55cb9/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/457f352038a0a2d3ae4b9e0e93e73790/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/bc04601972c75a24718d5e01f7d5707f/AndroidManifest.xml:17:1-31:12
+INJECTED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:2:1-73:12
+INJECTED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:2:1-73:12
+INJECTED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:2:1-73:12
+	package
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:2:102-160
+		INJECTED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:2:75-101
+		INJECTED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml
+	android:hardwareAccelerated
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:2:11-45
+	xmlns:android
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:2:161-219
+	android:versionCode
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:2:46-74
+		INJECTED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml
+supports-screens
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:3:5-191
+	android:largeScreens
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:3:49-76
+	android:smallScreens
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:3:132-159
+	android:normalScreens
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:3:77-105
+	android:xlargeScreens
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:3:160-188
+	android:resizeable
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:3:106-131
+	android:anyDensity
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:3:23-48
+uses-permission#android.permission.INTERNET
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:5:5-47:19
+MERGED from [com.google.android.gms:play-services-gcm:7.3.0] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/play-services-gcm-7.3.0.aar/181918698de3d21615e298c15a02ac35/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-gcm:7.3.0] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/play-services-gcm-7.3.0.aar/181918698de3d21615e298c15a02ac35/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.3.0] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/play-services-base-7.3.0.aar/24ca5eb424a2c1d898b33a0fa0a03cf4/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-base:7.3.0] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/play-services-base-7.3.0.aar/24ca5eb424a2c1d898b33a0fa0a03cf4/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/e07fd49c0b621c0b9f9ee9a61be27f0e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/e07fd49c0b621c0b9f9ee9a61be27f0e/AndroidManifest.xml:25:5-29:19
+MERGED from [:barcodescanner-release-2.1.5:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/91e81e7c50eba29fb16765cf9f6c7ea3/AndroidManifest.xml:11:5-12:19
+MERGED from [:barcodescanner-release-2.1.5:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/91e81e7c50eba29fb16765cf9f6c7ea3/AndroidManifest.xml:11:5-12:19
+MERGED from [:HttpConvAuthFlows-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/HttpConvAuthFlows-3.16.17.aar/85589400ba0eda2f5371ba0d45d46dcf/AndroidManifest.xml:11:5-13:19
+MERGED from [:HttpConvAuthFlows-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/HttpConvAuthFlows-3.16.17.aar/85589400ba0eda2f5371ba0d45d46dcf/AndroidManifest.xml:11:5-13:19
+MERGED from [:AfariaProvider-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/AfariaProvider-3.16.17.aar/65a6d491d0e9bbbe897c7adea0772c1d/AndroidManifest.xml:11:5-16:19
+MERGED from [:AfariaProvider-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/AfariaProvider-3.16.17.aar/65a6d491d0e9bbbe897c7adea0772c1d/AndroidManifest.xml:11:5-16:19
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/c359a64549ef8d1613101033823306f9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/c359a64549ef8d1613101033823306f9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/451a4d9bbf906fc489bced9828406f68/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/451a4d9bbf906fc489bced9828406f68/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/4a94bae307bd76fb8f49384688c55cb9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/4a94bae307bd76fb8f49384688c55cb9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/457f352038a0a2d3ae4b9e0e93e73790/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/457f352038a0a2d3ae4b9e0e93e73790/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/bc04601972c75a24718d5e01f7d5707f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/bc04601972c75a24718d5e01f7d5707f/AndroidManifest.xml:25:5-29:19
+	android:supportsRtl
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:5:242-268
+	android:label
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:5:81-113
+	android:hardwareAccelerated
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:5:18-52
+	android:icon
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:5:53-80
+	android:networkSecurityConfig
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:5:174-241
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:5:114-173
+activity#com.sap.webide.x1bfe0d4848174ddd9e95818db6c0f615.MainActivity
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:6:9-17:20
+	android:label
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:6:97-134
+	android:launchMode
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:6:135-165
+	android:windowSoftInputMode
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:6:257-299
+	android:configChanges
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:6:19-96
+	android:theme
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:6:194-256
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:6:166-193
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:7:13-10:29
+	android:label
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:7:28-65
+action#android.intent.action.MAIN
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:8:17-69
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:8:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:9:17-77
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:9:27-74
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:11:13-16:29
+action#android.intent.action.VIEW
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:12:17-69
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:12:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:13:17-76
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:13:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:14:17-78
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:14:27-75
+data
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:15:17-104
+	android:scheme
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:15:23-101
+activity#com.sap.mp.cordova.plugins.apppreferences.PrefsActivity
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:21:9-221
+	android:configChanges
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:21:19-96
+	android:theme
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:21:168-218
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:21:97-167
+activity#com.sap.smp.client.httpc.authflows.SAML2AuthActivity
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:22:9-201
+	android:excludeFromRecents
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:22:97-130
+	android:configChanges
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:22:19-96
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:22:131-198
+activity#com.sap.smp.client.httpc.authflows.OTPAuthActivity
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:23:9-199
+	android:excludeFromRecents
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:23:97-130
+	android:configChanges
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:23:19-96
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:23:131-196
+activity#com.sap.mp.cordova.plugins.authProxy.AuthProxyOTPAuthActivity
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:24:9-210
+	android:excludeFromRecents
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:24:97-130
+	android:configChanges
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:24:19-96
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:24:131-207
+meta-data#com.sap.afaria
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:25:9-136
+	android:value
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:25:50-133
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:25:20-49
+meta-data#android.content.APP_RESTRICTIONS
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:26:9-107
+	android:resource
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:26:68-104
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:26:20-67
+meta-data#com.sap.SystemCertProvider
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:27:9-125
+	android:value
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:27:62-122
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:27:20-61
+provider#com.sap.mp.cordova.plugins.attachmentViewer.FileProviderWithWorkaround
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:28:9-30:20
+	android:grantUriPermissions
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:28:138-172
+	android:authorities
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:28:19-112
+	android:exported
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:28:113-137
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:28:173-258
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:29:13-111
+	android:resource
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:29:75-108
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:29:24-74
+activity#com.google.zxing.client.android.CaptureActivity
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:31:9-311
+	android:clearTaskOnLaunch
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:31:19-51
+	android:windowSoftInputMode
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:31:261-308
+	android:exported
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:31:114-138
+	android:configChanges
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:31:52-113
+	android:theme
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:31:202-260
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:31:139-201
+activity#com.google.zxing.client.android.encode.EncodeActivity
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:32:9-112
+	android:label
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:32:19-40
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:32:41-109
+provider#com.sap.mp.cordova.plugins.logger.LoggerFileProvider
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:33:9-35:20
+	android:grantUriPermissions
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:33:128-162
+	android:authorities
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:33:19-102
+	android:exported
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:33:103-127
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:33:163-230
+service#com.sap.mp.cordova.plugins.odata.RefreshIntentService
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:36:9-114
+	android:exported
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:36:18-42
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:36:43-111
+activity#com.sap.mp.push.PushHandlerActivity
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:37:9-72
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:37:19-69
+receiver#com.sap.mp.push.PushGCMBroadCastReciever
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:38:9-44:20
+	android:permission
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:38:75-135
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:38:19-74
+intent-filter#com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION+com.sap.webide.x1bfe0d4848174ddd9e95818db6c0f615
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:39:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:40:17-81
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:40:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:41:17-86
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:41:25-83
+category#com.sap.webide.x1bfe0d4848174ddd9e95818db6c0f615
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:42:17-93
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:42:27-90
+service#com.sap.mp.push.PushIntentService
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:45:9-69
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:45:18-66
+meta-data#com.google.android.gms.version
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:46:9-122
+MERGED from [com.google.android.gms:play-services-base:7.3.0] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/play-services-base-7.3.0.aar/24ca5eb424a2c1d898b33a0fa0a03cf4/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.3.0] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/play-services-base-7.3.0.aar/24ca5eb424a2c1d898b33a0fa0a03cf4/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:46:66-119
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:46:20-65
+uses-sdk
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:48:5-74
+INJECTED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:48:5-74
+MERGED from [com.google.android.gms:play-services-gcm:7.3.0] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/play-services-gcm-7.3.0.aar/181918698de3d21615e298c15a02ac35/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gcm:7.3.0] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/play-services-gcm-7.3.0.aar/181918698de3d21615e298c15a02ac35/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.3.0] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/play-services-base-7.3.0.aar/24ca5eb424a2c1d898b33a0fa0a03cf4/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.3.0] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/play-services-base-7.3.0.aar/24ca5eb424a2c1d898b33a0fa0a03cf4/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/e07fd49c0b621c0b9f9ee9a61be27f0e/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/e07fd49c0b621c0b9f9ee9a61be27f0e/AndroidManifest.xml:21:5-23:54
+MERGED from [:barcodescanner-release-2.1.5:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/91e81e7c50eba29fb16765cf9f6c7ea3/AndroidManifest.xml:7:5-9:41
+MERGED from [:barcodescanner-release-2.1.5:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/91e81e7c50eba29fb16765cf9f6c7ea3/AndroidManifest.xml:7:5-9:41
+MERGED from [net.zetetic:android-database-sqlcipher:3.5.9] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/android-database-sqlcipher-3.5.9.aar/759ddc5146320c8e3b23b5e179fa8817/AndroidManifest.xml:7:5-9:41
+MERGED from [net.zetetic:android-database-sqlcipher:3.5.9] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/android-database-sqlcipher-3.5.9.aar/759ddc5146320c8e3b23b5e179fa8817/AndroidManifest.xml:7:5-9:41
+MERGED from [:corelibs-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/corelibs-plugin-4.1.11.aar/0b51fae9d4e3887e4714351cc2128682/AndroidManifest.xml:7:5-9:41
+MERGED from [:corelibs-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/corelibs-plugin-4.1.11.aar/0b51fae9d4e3887e4714351cc2128682/AndroidManifest.xml:7:5-9:41
+MERGED from [:Common-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/Common-3.16.17.aar/c3beff154fdc819f819226e411882e32/AndroidManifest.xml:7:5-9:41
+MERGED from [:Common-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/Common-3.16.17.aar/c3beff154fdc819f819226e411882e32/AndroidManifest.xml:7:5-9:41
+MERGED from [:Connectivity-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/Connectivity-3.16.17.aar/57e30f5e69d7fba12b1c4bca9bce2cb6/AndroidManifest.xml:7:5-9:41
+MERGED from [:Connectivity-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/Connectivity-3.16.17.aar/57e30f5e69d7fba12b1c4bca9bce2cb6/AndroidManifest.xml:7:5-9:41
+MERGED from [:ClientHubSLL-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/ClientHubSLL-3.16.17.aar/e28b382d84d8215ea6b7dc8d7494e808/AndroidManifest.xml:7:5-9:41
+MERGED from [:ClientHubSLL-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/ClientHubSLL-3.16.17.aar/e28b382d84d8215ea6b7dc8d7494e808/AndroidManifest.xml:7:5-9:41
+MERGED from [:CoreServices-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/CoreServices-3.16.17.aar/dc9769b7fe7f719605cf173ac08e1ef8/AndroidManifest.xml:7:5-9:41
+MERGED from [:CoreServices-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/CoreServices-3.16.17.aar/dc9769b7fe7f719605cf173ac08e1ef8/AndroidManifest.xml:7:5-9:41
+MERGED from [:Request-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/Request-3.16.17.aar/b562460175689e41eee86f542ddf854e/AndroidManifest.xml:7:5-9:41
+MERGED from [:Request-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/Request-3.16.17.aar/b562460175689e41eee86f542ddf854e/AndroidManifest.xml:7:5-9:41
+MERGED from [:DataVaultLib-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/DataVaultLib-3.16.17.aar/16566135c57b311ffb4162dc9b039349/AndroidManifest.xml:7:5-9:41
+MERGED from [:DataVaultLib-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/DataVaultLib-3.16.17.aar/16566135c57b311ffb4162dc9b039349/AndroidManifest.xml:7:5-9:41
+MERGED from [:ClientLog-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/ClientLog-3.16.17.aar/4826b31f7f14c9b79a92a47000a6f44d/AndroidManifest.xml:7:5-9:41
+MERGED from [:ClientLog-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/ClientLog-3.16.17.aar/4826b31f7f14c9b79a92a47000a6f44d/AndroidManifest.xml:7:5-9:41
+MERGED from [:SupportabilityFacade-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/SupportabilityFacade-3.16.17.aar/12a63486af6b217f209e68ec67fd120f/AndroidManifest.xml:7:5-9:41
+MERGED from [:SupportabilityFacade-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/SupportabilityFacade-3.16.17.aar/12a63486af6b217f209e68ec67fd120f/AndroidManifest.xml:7:5-9:41
+MERGED from [:HttpConversation-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/HttpConversation-3.16.17.aar/9b5c60de66802b09a5adb5ab54f5c4dc/AndroidManifest.xml:7:5-9:41
+MERGED from [:HttpConversation-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/HttpConversation-3.16.17.aar/9b5c60de66802b09a5adb5ab54f5c4dc/AndroidManifest.xml:7:5-9:41
+MERGED from [:HttpConvAuthFlows-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/HttpConvAuthFlows-3.16.17.aar/85589400ba0eda2f5371ba0d45d46dcf/AndroidManifest.xml:7:5-9:41
+MERGED from [:HttpConvAuthFlows-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/HttpConvAuthFlows-3.16.17.aar/85589400ba0eda2f5371ba0d45d46dcf/AndroidManifest.xml:7:5-9:41
+MERGED from [:E2ETrace-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/E2ETrace-3.16.17.aar/4ec5d19076d5d69188fcc99b9c03c0d1/AndroidManifest.xml:7:5-9:41
+MERGED from [:E2ETrace-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/E2ETrace-3.16.17.aar/4ec5d19076d5d69188fcc99b9c03c0d1/AndroidManifest.xml:7:5-9:41
+MERGED from [:apppreferences-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/apppreferences-plugin-4.1.11.aar/745917dad4ddbc07270f18f395015add/AndroidManifest.xml:7:5-9:41
+MERGED from [:apppreferences-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/apppreferences-plugin-4.1.11.aar/745917dad4ddbc07270f18f395015add/AndroidManifest.xml:7:5-9:41
+MERGED from [:i18n-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/i18n-plugin-4.1.11.aar/88b15c11ee4c16b28557c798b3b24d9b/AndroidManifest.xml:7:5-9:41
+MERGED from [:i18n-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/i18n-plugin-4.1.11.aar/88b15c11ee4c16b28557c798b3b24d9b/AndroidManifest.xml:7:5-9:41
+MERGED from [:authproxy-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/authproxy-plugin-4.1.11.aar/b734eca5738ae26a553843d22cbb5d71/AndroidManifest.xml:7:5-9:41
+MERGED from [:authproxy-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/authproxy-plugin-4.1.11.aar/b734eca5738ae26a553843d22cbb5d71/AndroidManifest.xml:7:5-9:41
+MERGED from [:MAFLogonCore-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/MAFLogonCore-3.16.17.aar/4f400319a89cbe3529ba7a8ee53f2a89/AndroidManifest.xml:7:5-9:41
+MERGED from [:MAFLogonCore-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/MAFLogonCore-3.16.17.aar/4f400319a89cbe3529ba7a8ee53f2a89/AndroidManifest.xml:7:5-9:41
+MERGED from [:MAFLogger-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/MAFLogger-3.16.17.aar/c763d8186580c15f001ce8d71575fa25/AndroidManifest.xml:7:5-9:41
+MERGED from [:MAFLogger-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/MAFLogger-3.16.17.aar/c763d8186580c15f001ce8d71575fa25/AndroidManifest.xml:7:5-9:41
+MERGED from [:CommonCertificateProvider-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/CommonCertificateProvider-3.16.17.aar/bf6acbe67a2f91e3a129509e905e5929/AndroidManifest.xml:7:5-9:41
+MERGED from [:CommonCertificateProvider-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/CommonCertificateProvider-3.16.17.aar/bf6acbe67a2f91e3a129509e905e5929/AndroidManifest.xml:7:5-9:41
+MERGED from [:AfariaProvider-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/AfariaProvider-3.16.17.aar/65a6d491d0e9bbbe897c7adea0772c1d/AndroidManifest.xml:7:5-9:41
+MERGED from [:AfariaProvider-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/AfariaProvider-3.16.17.aar/65a6d491d0e9bbbe897c7adea0772c1d/AndroidManifest.xml:7:5-9:41
+MERGED from [:XscriptParser-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/XscriptParser-3.16.17.aar/fdc088ed097ab4b223de9d498da33a77/AndroidManifest.xml:7:5-9:41
+MERGED from [:XscriptParser-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/XscriptParser-3.16.17.aar/fdc088ed097ab4b223de9d498da33a77/AndroidManifest.xml:7:5-9:41
+MERGED from [:logon-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/logon-plugin-4.1.11.aar/4e5750d8a8933fd74a856810a874400e/AndroidManifest.xml:7:5-9:41
+MERGED from [:logon-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/logon-plugin-4.1.11.aar/4e5750d8a8933fd74a856810a874400e/AndroidManifest.xml:7:5-9:41
+MERGED from [:appupdate-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/appupdate-plugin-4.1.11.aar/506e89fbcb421aeec4108b0a928fc444/AndroidManifest.xml:7:5-9:41
+MERGED from [:appupdate-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/appupdate-plugin-4.1.11.aar/506e89fbcb421aeec4108b0a928fc444/AndroidManifest.xml:7:5-9:41
+MERGED from [:attachmentviewer-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/attachmentviewer-plugin-4.1.11.aar/7a652ee09d8ce32cf1c9bbf5e43f1f0c/AndroidManifest.xml:7:5-9:41
+MERGED from [:attachmentviewer-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/attachmentviewer-plugin-4.1.11.aar/7a652ee09d8ce32cf1c9bbf5e43f1f0c/AndroidManifest.xml:7:5-9:41
+MERGED from [:calendar-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/calendar-plugin-4.1.11.aar/37083037bbb29855a594307193e9fcc6/AndroidManifest.xml:7:5-9:41
+MERGED from [:calendar-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/calendar-plugin-4.1.11.aar/37083037bbb29855a594307193e9fcc6/AndroidManifest.xml:7:5-9:41
+MERGED from [:e2etrace-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/e2etrace-plugin-4.1.11.aar/5430877a947118b0cd4c56d76b8314b2/AndroidManifest.xml:7:5-9:41
+MERGED from [:e2etrace-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/e2etrace-plugin-4.1.11.aar/5430877a947118b0cd4c56d76b8314b2/AndroidManifest.xml:7:5-9:41
+MERGED from [:encryptedstorage-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/encryptedstorage-plugin-4.1.11.aar/e74d1d840085f91c91fcbe68622d45e3/AndroidManifest.xml:7:5-9:41
+MERGED from [:encryptedstorage-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/encryptedstorage-plugin-4.1.11.aar/e74d1d840085f91c91fcbe68622d45e3/AndroidManifest.xml:7:5-9:41
+MERGED from [:logger-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/logger-plugin-4.1.11.aar/6b0da4a8ec54bdebd32cb9b02fd6ec33/AndroidManifest.xml:7:5-9:41
+MERGED from [:logger-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/logger-plugin-4.1.11.aar/6b0da4a8ec54bdebd32cb9b02fd6ec33/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/cfdacbaadf9be58961eab67efe31b379/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/cfdacbaadf9be58961eab67efe31b379/AndroidManifest.xml:20:5-43
+MERGED from [:ODataAPI-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/ODataAPI-3.16.17.aar/20640749eb89ee1f279340d3113899a9/AndroidManifest.xml:7:5-9:41
+MERGED from [:ODataAPI-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/ODataAPI-3.16.17.aar/20640749eb89ee1f279340d3113899a9/AndroidManifest.xml:7:5-9:41
+MERGED from [:odata-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/odata-plugin-4.1.11.aar/9f35e24c79d3d65038fc1cdedc48e2cf/AndroidManifest.xml:7:5-9:41
+MERGED from [:odata-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/odata-plugin-4.1.11.aar/9f35e24c79d3d65038fc1cdedc48e2cf/AndroidManifest.xml:7:5-9:41
+MERGED from [:settings-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/settings-plugin-4.1.11.aar/d7f7a17e1670b4948d7fb6e62a193086/AndroidManifest.xml:7:5-9:41
+MERGED from [:settings-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/settings-plugin-4.1.11.aar/d7f7a17e1670b4948d7fb6e62a193086/AndroidManifest.xml:7:5-9:41
+MERGED from [:pushlegacy-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/pushlegacy-plugin-4.1.11.aar/e66c6723265d6ca3d3f061855d7368ef/AndroidManifest.xml:7:5-9:41
+MERGED from [:pushlegacy-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/pushlegacy-plugin-4.1.11.aar/e66c6723265d6ca3d3f061855d7368ef/AndroidManifest.xml:7:5-9:41
+MERGED from [:usage-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/usage-plugin-4.1.11.aar/50c45a5050b459a90a2f7f2352d69e6a/AndroidManifest.xml:7:5-9:41
+MERGED from [:usage-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/usage-plugin-4.1.11.aar/50c45a5050b459a90a2f7f2352d69e6a/AndroidManifest.xml:7:5-9:41
+MERGED from [:Usage-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/Usage-3.16.17.aar/5b7fa05b1e690ab54643d511d7380ae4/AndroidManifest.xml:7:5-9:41
+MERGED from [:Usage-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/Usage-3.16.17.aar/5b7fa05b1e690ab54643d511d7380ae4/AndroidManifest.xml:7:5-9:41
+MERGED from [:voicerecording-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/voicerecording-plugin-4.1.11.aar/aa938c2d7aebc3922889b5654a390fbf/AndroidManifest.xml:7:5-9:41
+MERGED from [:voicerecording-plugin-4.1.11:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/voicerecording-plugin-4.1.11.aar/aa938c2d7aebc3922889b5654a390fbf/AndroidManifest.xml:7:5-9:41
+MERGED from [:CordovaLib] /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/c359a64549ef8d1613101033823306f9/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/c359a64549ef8d1613101033823306f9/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/451a4d9bbf906fc489bced9828406f68/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/451a4d9bbf906fc489bced9828406f68/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/4a94bae307bd76fb8f49384688c55cb9/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/4a94bae307bd76fb8f49384688c55cb9/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/457f352038a0a2d3ae4b9e0e93e73790/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/457f352038a0a2d3ae4b9e0e93e73790/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/bc04601972c75a24718d5e01f7d5707f/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/bc04601972c75a24718d5e01f7d5707f/AndroidManifest.xml:21:5-23:58
+INJECTED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:48:5-74
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/e07fd49c0b621c0b9f9ee9a61be27f0e/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:48:42-71
+	android:minSdkVersion
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:48:15-41
+		INJECTED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:49:5-81
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:49:22-78
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:50:5-72
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:50:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:51:5-73
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:51:22-70
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:52:5-71
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:52:22-68
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:53:5-81
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:53:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:54:5-79
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:54:22-76
+uses-feature#android.hardware.location.gps
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:55:5-66
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:55:19-63
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:56:5-79
+MERGED from [:Request-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/Request-3.16.17.aar/b562460175689e41eee86f542ddf854e/AndroidManifest.xml:11:5-79
+MERGED from [:Request-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/Request-3.16.17.aar/b562460175689e41eee86f542ddf854e/AndroidManifest.xml:11:5-79
+MERGED from [:Usage-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/Usage-3.16.17.aar/5b7fa05b1e690ab54643d511d7380ae4/AndroidManifest.xml:11:5-79
+MERGED from [:Usage-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/Usage-3.16.17.aar/5b7fa05b1e690ab54643d511d7380ae4/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:56:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:57:5-80
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:57:22-77
+uses-permission#com.sap.mobile.clientHub.CLIENTHUB_ACCESS_PERMISSION
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:58:5-92
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:58:22-89
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:59:5-74
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:59:22-71
+uses-permission#android.permission.CAMERA
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:60:5-65
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:60:22-62
+uses-permission#android.permission.FLASHLIGHT
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:61:5-69
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:61:22-66
+uses-feature#android.hardware.camera
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:62:5-84
+	android:required
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:62:58-81
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:62:19-57
+uses-permission#android.permission.READ_CALENDAR
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:63:5-72
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:63:22-69
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:64:5-73
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:64:22-70
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:65:5-66
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:65:22-63
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:66:5-68
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:66:22-65
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:67:5-68
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:67:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:68:5-82
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:68:22-79
+permission#com.sap.webide.x1bfe0d4848174ddd9e95818db6c0f615.permission.C2D_MESSAGE
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:69:5-142
+	android:protectionLevel
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:69:104-139
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:69:17-103
+uses-permission#com.sap.webide.x1bfe0d4848174ddd9e95818db6c0f615.permission.C2D_MESSAGE
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:70:5-111
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:70:22-108
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:71:5-71
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:71:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:72:5-80
+	android:name
+		ADDED from /Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/src/main/AndroidManifest.xml:72:22-77
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/e07fd49c0b621c0b9f9ee9a61be27f0e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/c359a64549ef8d1613101033823306f9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/c359a64549ef8d1613101033823306f9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/451a4d9bbf906fc489bced9828406f68/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/451a4d9bbf906fc489bced9828406f68/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/4a94bae307bd76fb8f49384688c55cb9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/4a94bae307bd76fb8f49384688c55cb9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/457f352038a0a2d3ae4b9e0e93e73790/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/457f352038a0a2d3ae4b9e0e93e73790/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/bc04601972c75a24718d5e01f7d5707f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/bc04601972c75a24718d5e01f7d5707f/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/e07fd49c0b621c0b9f9ee9a61be27f0e/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.0.2] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/e07fd49c0b621c0b9f9ee9a61be27f0e/AndroidManifest.xml:27:13-51
+activity#com.sap.smp.client.httpc.authflows.oauth2.OAuth2AuthActivity
+ADDED from [:HttpConvAuthFlows-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/HttpConvAuthFlows-3.16.17.aar/85589400ba0eda2f5371ba0d45d46dcf/AndroidManifest.xml:12:9-97
+	android:name
+		ADDED from [:HttpConvAuthFlows-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/HttpConvAuthFlows-3.16.17.aar/85589400ba0eda2f5371ba0d45d46dcf/AndroidManifest.xml:12:19-94
+activity#com.sap.smp.client.android.afariaprovider.ProviderActivity
+ADDED from [:AfariaProvider-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/AfariaProvider-3.16.17.aar/65a6d491d0e9bbbe897c7adea0772c1d/AndroidManifest.xml:12:9-15:63
+	android:label
+		ADDED from [:AfariaProvider-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/AfariaProvider-3.16.17.aar/65a6d491d0e9bbbe897c7adea0772c1d/AndroidManifest.xml:14:13-57
+	android:theme
+		ADDED from [:AfariaProvider-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/AfariaProvider-3.16.17.aar/65a6d491d0e9bbbe897c7adea0772c1d/AndroidManifest.xml:15:13-60
+	android:name
+		ADDED from [:AfariaProvider-3.16.17:] /Users/nataliaferraro/.gradle/caches/transforms-1/files-1.1/AfariaProvider-3.16.17.aar/65a6d491d0e9bbbe897c7adea0772c1d/AndroidManifest.xml:13:13-86

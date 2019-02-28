@@ -1,0 +1,8 @@
+<core:FragmentDefinition
+    xmlns:core="sap.ui.core"
+    xmlns="sap.m">
+    <ObjectMarker type="{= !%{IsActiveEntity} ? 'Draft' : (%{HasDraftEntity} ? (%{DraftAdministrativeData/InProcessByUser} ? 'Locked' : 'Unsaved') : 'Flagged') }"
+    visibility="IconOnly"
+    visible="{= !(${ui>/editable} === 'Editable') &amp;&amp; ${HasDraftEntity} }"
+    press=".editFlow.onDraftLinkPressed($event, '{entitySet>@sapui.name}')"/>
+</core:FragmentDefinition>

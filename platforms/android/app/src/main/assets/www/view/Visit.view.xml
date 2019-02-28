@@ -1,0 +1,163 @@
+<mvc:View controllerName="ABMcontactos.TGN-ABMcontactos.controller.Visit" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:f="sap.ui.layout.form" xmlns:l="sap.ui.layout" xmlns:core="sap.ui.core">
+	<Page id="visitPage"
+		title="{parts: [ 'i18n>vs.title', 'WorkOrderModel>WOId', 'WorkOrderModel>RecipientId' ], formatter: 'jQuery.sap.formatMessage'}"
+		showNavButton="true" navButtonPress="onCancelVisitDetail">
+		<headerContent id="header">
+			<Button icon="sap-icon://edit" press="onEditVisit" visible="false"/>
+		</headerContent>
+		<MessageStrip
+				id="messageStrip"
+				text="Default (Information) with default icon and close button:"
+				type="Error"
+				showIcon="true"
+				class="sapUiMediumMarginBottom"
+				visible="{States>/bMessageStrip}">
+				</MessageStrip>
+		<content>
+			<VBox id="visitGrid">
+				<l:Grid class="sapUiSmallMarginTop" >
+					<l:content>
+						<VBox>
+							<Label text="{i18n>vs.recipient.label}" design="Bold"/>
+							<Input value="{WorkOrderModel>RecipientCompany}" editable="false" id="recipientInput"/>
+							<layoutData>
+								<l:GridData span="L3 M3" indent="L1 M1"/>
+							</layoutData>
+						</VBox>
+						<VBox>
+							<Label text="{i18n>vs.date.label}" design="Bold" required="true"/>
+							<DatePicker id="dateField" 
+								value="{path: 'WorkOrderModel>RealizationDate', type:'sap.ui.model.odata.type.DateTime', formatOptions: { UTC: false }, constraints: { isDateOnly: true, displayFormat: 'Date' }}"
+								width="100%" editable="{States>/bVisitEditableMode}" valueState="{States>/bVisitDatepickerValueState}"/>
+							<layoutData>
+								<l:GridData span="L3 M3" indent="L1 M1"/>
+							</layoutData>
+						</VBox>
+						<VBox>
+							<Label text="{i18n>vs.contact.label}" design="Bold"/>
+							<FlexBox alignItems="Start">
+								<items>
+									<Input id="contactInput" type="Text" editable="false" value="{WorkOrderModel>LastName} {WorkOrderModel>FirstName}" width="100%">
+										<layoutData>
+											<FlexItemData growFactor="3"/>
+										</layoutData>
+									</Input>
+									<Button icon="sap-icon://employee-lookup" press="onOpenContactList" width="100%" tooltip="Contactos" enabled="{States>/bVisitEditableMode}">
+										<layoutData>
+											<FlexItemData growFactor="1"/>
+										</layoutData>
+									</Button>
+								</items>
+							</FlexBox>
+							<layoutData>
+								<l:GridData span="L2 M3" indent="L1 M1"/>
+							</layoutData>
+						</VBox>
+					</l:content>
+				</l:Grid>
+				<l:Grid class="sapUiSmallMarginTop">
+					<l:content>
+						<VBox>
+							<Label text="{i18n>vs.note.label}" design="Bold"/>
+							<Switch id="SwitchNote" state="{WorkOrderModel>Note}" customTextOn="{i18n>vs.customTextOn}" customTextOff="{i18n>vs.customTextOff}"
+								enabled="{States>/bVisitSwitchesEditableMode}"/>
+							<layoutData>
+								<l:GridData span="L2 M2 S5" indent="L1 M1 S1"/>
+							</layoutData>
+						</VBox>
+						<VBox>
+							<Label text="{i18n>vs.firm.label}" design="Bold"/>
+							<Switch id="SwitchSignature" state="{WorkOrderModel>Signature}" customTextOn="{i18n>vs.customTextOn}" customTextOff="{i18n>vs.customTextOff}"
+								enabled="{States>/bVisitSwitchesEditableMode}"/>
+							<layoutData>
+								<l:GridData span="L2 M2 S5" indent="L1 M1 S1"/>
+							</layoutData>
+						</VBox>
+						<VBox>
+							<Label text="{i18n>vs.sketch.label}" design="Bold"/>
+							<Switch id="SwitchBlueprint" state="{WorkOrderModel>Blueprint}" customTextOn="{i18n>vs.customTextOn}" customTextOff="{i18n>vs.customTextOff}"
+								enabled="{States>/bVisitSwitchesEditableMode}"/>
+							<layoutData>
+								<l:GridData span="L2 M2 S5" indent="L1 M1 S1"/>
+							</layoutData>
+						</VBox>
+						<VBox>
+							<Label text="{i18n>vs.material.label}" design="Bold"/>
+							<Switch id="SwitchMaterial" state="{WorkOrderModel>Material}" customTextOn="{i18n>vs.customTextOn}" customTextOff="{i18n>vs.customTextOff}"
+								enabled="{States>/bVisitSwitchesEditableMode}"/>
+							<layoutData>
+								<l:GridData span="L2 M2 S5" indent="L1 M1 S1"/>
+							</layoutData>
+						</VBox>
+					</l:content>
+				</l:Grid>
+				<l:Grid class="sapUiSmallMarginTop">
+					<l:content>
+						<VBox>
+							<Label text="{i18n>vs.result.label}" design="Bold" required="true"/>
+							<Select forceSelection="false" id="resultCombo"
+								items="{ path: 'WorkOrderModel>/ComboSet', sorter: { path: 'Key' }, filters : [ { path : 'comboId', operator : 'EQ', value1 : 'Result'} ] }"
+								 width="100%" enabled="{States>/bVisitResultComboEditableMode}" valueState="{States>/bVisitResultComboBoxValueState}" selectedKey="{WorkOrderModel>ResultId}">
+								<items>
+									<core:Item key="{WorkOrderModel>Key}" text="{WorkOrderModel>Value}"/>
+								</items>
+							</Select>
+							<layoutData>
+								<l:GridData span="L3 M3" indent="L1 M1"/>
+							</layoutData>
+						</VBox>
+						<VBox>
+							<Label text="{i18n>vs.observations.label}" design="Bold"/>
+							<Select id="observationCombo"
+								items="{ path: 'WorkOrderModel>/ComboSet', sorter: { path: 'Key' }, filters : [ { path : 'comboId', operator : 'EQ', value1 : 'Observation'} ] }"
+								change="onChangeObservation" width="100%" enabled="{States>/bVisitEditableMode}" selectedKey="{WorkOrderModel>ObservationId}">
+								<items>
+									<core:Item key="{WorkOrderModel>Key}" text="{WorkOrderModel>Value}"/>
+								</items>
+							</Select>
+							<layoutData>
+								<l:GridData span="L3 M3" indent="L1 M1"/>
+							</layoutData>
+						</VBox>
+						<VBox>
+							<Label text="{i18n>vs.files.label}" design="Bold"/>
+							<Button icon="sap-icon://add-document" press="onOpenFileUploader" text="{i18n>vs.files.btnText}" width="100%"
+								enabled="{States>/bVisitEditableMode}"/>
+							<layoutData>
+								<l:GridData span="L2 M2" indent="L1 M1"/>
+							</layoutData>
+						</VBox>
+					</l:content>
+				</l:Grid>
+				<l:Grid class="sapUiSmallMarginTop">
+					<l:content>
+						<VBox>
+							<Label text="{i18n>vs.coments.label}" design="Bold"/>
+							<TextArea placeholder="{i18n>vs.coments.placeholder}" height="80px" width="100%"
+								value="{path: 'WorkOrderModel>Comment',
+										type : 'ABMcontactos.TGN-ABMcontactos.custom.dataTypes.stringMLength' }"
+								editable="{States>/bVisitEditableMode}"
+								maxLength="100"/>
+							<HBox justifyContent="End">
+								<Text text=" {i18n>vs.coments.maxlength100}" class="grey-color" />
+							</HBox>
+							<layoutData>
+								<l:GridData span="L10 M10" indent="L1 M1"/>
+							</layoutData>
+						</VBox>
+					</l:content>
+				</l:Grid>
+			</VBox>
+		</content>
+		<footer>
+			<Toolbar>
+				<ToolbarSpacer/>
+				<Button id="cancelBtn" text="{i18n>btn.cancel}" icon="sap-icon://decline" type="Reject" press="onCancelVisitDetail"
+					visible="{States>/bVisitEditableMode}"/>
+				<Button id="saveBtn" text="{i18n>btn.save}" icon="sap-icon://save" type="Accept" press="onSaveVisitDetail"
+					visible="{States>/bVisitEditableMode}"/>
+			</Toolbar>
+		</footer>
+	</Page>
+</mvc:View>

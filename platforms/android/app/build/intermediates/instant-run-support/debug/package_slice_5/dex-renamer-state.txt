@@ -1,0 +1,4 @@
+#Wed Feb 27 11:38:40 ART 2019
+base.0=/Users/nataliaferraro/Documents/Mantenimiento_Visitas/platforms/android/app/build/intermediates/transforms/dexMerger/debug/6
+path.0=classes.dex
+renamed.0=classes.dex

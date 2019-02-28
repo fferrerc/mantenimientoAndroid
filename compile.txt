@@ -1,0 +1,260 @@
+Android Studio project detected
+ANDROID_HOME=/usr/local/android/android-sdk-linux
+JAVA_HOME=/usr/local/sapjvm
+studio
+To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/4.0.1/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Parallel execution with configuration on demand is an incubating feature.
+:wrapper
+
+BUILD SUCCESSFUL in 3s
+1 actionable task: 1 executed
+Subproject Path: CordovaLib
+Subproject Path: app
+Downloading https://services.gradle.org/distributions/gradle-4.1-all.zip
+.....................................................................................
+Unzipping /root/.gradle/wrapper/dists/gradle-4.1-all/bzyivzo6n839fup2jbap0tjew/gradle-4.1-all.zip to /root/.gradle/wrapper/dists/gradle-4.1-all/bzyivzo6n839fup2jbap0tjew
+Set executable permissions for: /root/.gradle/wrapper/dists/gradle-4.1-all/bzyivzo6n839fup2jbap0tjew/gradle-4.1/bin/gradle
+Starting a Gradle Daemon (subsequent builds will be faster)
+Parallel execution with configuration on demand is an incubating feature.
+Download https://maven.google.com/com/android/tools/build/gradle/3.0.1/gradle-3.0.1.pom
+Download https://maven.google.com/com/android/tools/build/gradle-core/3.0.1/gradle-core-3.0.1.pom
+Download https://maven.google.com/com/android/tools/build/gradle-api/3.0.1/gradle-api-3.0.1.pom
+Download https://maven.google.com/com/android/databinding/compilerCommon/3.0.1/compilerCommon-3.0.1.pom
+Download https://maven.google.com/com/android/tools/build/builder/3.0.1/builder-3.0.1.pom
+Download https://maven.google.com/com/android/tools/lint/lint/26.0.1/lint-26.0.1.pom
+Download https://maven.google.com/com/android/tools/external/org-jetbrains/uast/26.0.1/uast-26.0.1.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib/1.1.3-2/kotlin-stdlib-1.1.3-2.pom
+Download https://maven.google.com/com/android/tools/build/transform-api/2.0.0-deprecated-use-gradle-api/transform-api-2.0.0-deprecated-use-gradle-api.pom
+Download https://jcenter.bintray.com/net/sf/proguard/proguard-gradle/5.3.3/proguard-gradle-5.3.3.pom
+Download https://jcenter.bintray.com/org/ow2/asm/asm/5.1/asm-5.1.pom
+Download https://jcenter.bintray.com/org/ow2/asm/asm-analysis/5.1/asm-analysis-5.1.pom
+Download https://jcenter.bintray.com/com/google/protobuf/protobuf-java/3.0.0/protobuf-java-3.0.0.pom
+Download https://jcenter.bintray.com/org/jacoco/org.jacoco.report/0.7.4.201502262128/org.jacoco.report-0.7.4.201502262128.pom
+Download https://jcenter.bintray.com/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128.pom
+Download https://jcenter.bintray.com/org/ow2/asm/asm-util/5.1/asm-util-5.1.pom
+Download https://jcenter.bintray.com/org/ow2/asm/asm-commons/5.1/asm-commons-5.1.pom
+Download https://jcenter.bintray.com/net/sf/proguard/proguard-parent/5.3.3/proguard-parent-5.3.3.pom
+Download https://jcenter.bintray.com/org/ow2/asm/asm-parent/5.1/asm-parent-5.1.pom
+Download https://jcenter.bintray.com/com/google/protobuf/protobuf-parent/3.0.0/protobuf-parent-3.0.0.pom
+Download https://jcenter.bintray.com/org/jacoco/org.jacoco.build/0.7.4.201502262128/org.jacoco.build-0.7.4.201502262128.pom
+Download https://maven.google.com/com/android/tools/sdklib/26.0.1/sdklib-26.0.1.pom
+Download https://maven.google.com/com/android/tools/build/builder-model/3.0.1/builder-model-3.0.1.pom
+Download https://maven.google.com/com/android/tools/ddms/ddmlib/26.0.1/ddmlib-26.0.1.pom
+Download https://maven.google.com/com/android/tools/build/manifest-merger/26.0.1/manifest-merger-26.0.1.pom
+Download https://maven.google.com/com/android/tools/build/apksig/3.0.1/apksig-3.0.1.pom
+Download https://maven.google.com/com/android/tools/sdk-common/26.0.1/sdk-common-26.0.1.pom
+Download https://maven.google.com/com/android/tools/analytics-library/tracker/26.0.1/tracker-26.0.1.pom
+Download https://maven.google.com/com/android/tools/common/26.0.1/common-26.0.1.pom
+Download https://maven.google.com/com/android/tools/analytics-library/protos/26.0.1/protos-26.0.1.pom
+Download https://maven.google.com/com/android/tools/build/builder-test-api/3.0.1/builder-test-api-3.0.1.pom
+Download https://maven.google.com/com/android/tools/analytics-library/shared/26.0.1/shared-26.0.1.pom
+Download https://jcenter.bintray.com/org/bouncycastle/bcprov-jdk15on/1.56/bcprov-jdk15on-1.56.pom
+Download https://jcenter.bintray.com/org/ow2/asm/asm-tree/5.1/asm-tree-5.1.pom
+Download https://jcenter.bintray.com/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.pom
+Download https://jcenter.bintray.com/org/bouncycastle/bcpkix-jdk15on/1.56/bcpkix-jdk15on-1.56.pom
+Download https://jcenter.bintray.com/it/unimi/dsi/fastutil/7.2.0/fastutil-7.2.0.pom
+Download https://maven.google.com/com/android/tools/lint/lint-checks/26.0.1/lint-checks-26.0.1.pom
+Download https://jcenter.bintray.com/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.pom
+Download https://jcenter.bintray.com/com/google/guava/guava/22.0/guava-22.0.pom
+Download https://jcenter.bintray.com/com/google/guava/guava-parent/22.0/guava-parent-22.0.pom
+Download https://maven.google.com/com/android/databinding/baseLibrary/3.0.1/baseLibrary-3.0.1.pom
+Download https://jcenter.bintray.com/org/jetbrains/annotations/13.0/annotations-13.0.pom
+Download https://jcenter.bintray.com/net/sf/proguard/proguard-base/5.3.3/proguard-base-5.3.3.pom
+Download https://maven.google.com/com/android/tools/repository/26.0.1/repository-26.0.1.pom
+Download https://maven.google.com/com/android/tools/dvlib/26.0.1/dvlib-26.0.1.pom
+Download https://maven.google.com/com/android/tools/layoutlib/layoutlib-api/26.0.1/layoutlib-api-26.0.1.pom
+Download https://jcenter.bintray.com/com/google/code/gson/gson/2.3/gson-2.3.pom
+Download https://jcenter.bintray.com/org/apache/commons/commons-compress/1.12/commons-compress-1.12.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.2.6/httpclient-4.2.6.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcomponents-client/4.2.6/httpcomponents-client-4.2.6.pom
+Download https://jcenter.bintray.com/org/apache/commons/commons-parent/39/commons-parent-39.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/project/7/project-7.pom
+Download https://jcenter.bintray.com/org/apache/apache/16/apache-16.pom
+Download https://maven.google.com/com/android/tools/lint/lint-api/26.0.1/lint-api-26.0.1.pom
+Download https://jcenter.bintray.com/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.pom
+Download https://jcenter.bintray.com/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.pom
+Download https://jcenter.bintray.com/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.pom
+Download https://jcenter.bintray.com/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom
+Download https://jcenter.bintray.com/com/google/errorprone/error_prone_parent/2.0.18/error_prone_parent-2.0.18.pom
+Download https://jcenter.bintray.com/org/codehaus/mojo/animal-sniffer-parent/1.14/animal-sniffer-parent-1.14.pom
+Download https://jcenter.bintray.com/org/codehaus/mojo/mojo-parent/34/mojo-parent-34.pom
+Download https://jcenter.bintray.com/org/codehaus/codehaus-parent/4/codehaus-parent-4.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.2.5/httpcore-4.2.5.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcomponents-core/4.2.5/httpcomponents-core-4.2.5.pom
+Download https://maven.google.com/com/android/tools/external/com-intellij/intellij-core/26.0.1/intellij-core-26.0.1.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-reflect/1.1.3-2/kotlin-reflect-1.1.3-2.pom
+Download https://jcenter.bintray.com/org/jetbrains/trove4j/trove4j/20160824/trove4j-20160824.pom
+Download https://maven.google.com/com/android/tools/annotations/26.0.1/annotations-26.0.1.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-reflect/1.1.3-2/kotlin-reflect-1.1.3-2.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib/1.1.3-2/kotlin-stdlib-1.1.3-2.jar
+Download https://maven.google.com/com/android/tools/build/gradle/3.0.1/gradle-3.0.1.jar
+Download https://maven.google.com/com/android/tools/lint/lint-checks/26.0.1/lint-checks-26.0.1.jar
+Download https://maven.google.com/com/android/tools/lint/lint/26.0.1/lint-26.0.1.jar
+Download https://maven.google.com/com/android/tools/external/org-jetbrains/uast/26.0.1/uast-26.0.1.jar
+Download https://maven.google.com/com/android/tools/lint/lint-api/26.0.1/lint-api-26.0.1.jar
+Download https://maven.google.com/com/android/tools/build/gradle-core/3.0.1/gradle-core-3.0.1.jar
+Download https://maven.google.com/com/android/databinding/compilerCommon/3.0.1/compilerCommon-3.0.1.jar
+Download https://jcenter.bintray.com/org/ow2/asm/asm-analysis/5.1/asm-analysis-5.1.jar
+Download https://jcenter.bintray.com/org/ow2/asm/asm-commons/5.1/asm-commons-5.1.jar
+Download https://jcenter.bintray.com/org/ow2/asm/asm-util/5.1/asm-util-5.1.jar
+Download https://maven.google.com/com/android/tools/repository/26.0.1/repository-26.0.1.jar
+Download https://maven.google.com/com/android/tools/build/manifest-merger/26.0.1/manifest-merger-26.0.1.jar
+Download https://maven.google.com/com/android/tools/build/gradle-api/3.0.1/gradle-api-3.0.1.jar
+Download https://maven.google.com/com/android/tools/sdklib/26.0.1/sdklib-26.0.1.jar
+Download https://maven.google.com/com/android/tools/sdk-common/26.0.1/sdk-common-26.0.1.jar
+Download https://maven.google.com/com/android/tools/build/builder/3.0.1/builder-3.0.1.jar
+Download https://jcenter.bintray.com/org/ow2/asm/asm-tree/5.1/asm-tree-5.1.jar
+Download https://jcenter.bintray.com/org/ow2/asm/asm/5.1/asm-5.1.jar
+Download https://jcenter.bintray.com/org/jacoco/org.jacoco.report/0.7.4.201502262128/org.jacoco.report-0.7.4.201502262128.jar
+Download https://jcenter.bintray.com/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128.jar
+Download https://jcenter.bintray.com/net/sf/proguard/proguard-gradle/5.3.3/proguard-gradle-5.3.3.jar
+Download https://jcenter.bintray.com/com/google/protobuf/protobuf-java/3.0.0/protobuf-java-3.0.0.jar
+Download https://maven.google.com/com/android/tools/analytics-library/tracker/26.0.1/tracker-26.0.1.jar
+Download https://maven.google.com/com/android/tools/analytics-library/shared/26.0.1/shared-26.0.1.jar
+Download https://maven.google.com/com/android/tools/analytics-library/protos/26.0.1/protos-26.0.1.jar
+Download https://maven.google.com/com/android/tools/build/transform-api/2.0.0-deprecated-use-gradle-api/transform-api-2.0.0-deprecated-use-gradle-api.jar
+Download https://maven.google.com/com/android/tools/build/builder-model/3.0.1/builder-model-3.0.1.jar
+Download https://maven.google.com/com/android/tools/build/builder-test-api/3.0.1/builder-test-api-3.0.1.jar
+Download https://jcenter.bintray.com/org/bouncycastle/bcpkix-jdk15on/1.56/bcpkix-jdk15on-1.56.jar
+Download https://maven.google.com/com/android/tools/ddms/ddmlib/26.0.1/ddmlib-26.0.1.jar
+Download https://maven.google.com/com/android/tools/layoutlib/layoutlib-api/26.0.1/layoutlib-api-26.0.1.jar
+Download https://jcenter.bintray.com/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar
+Download https://maven.google.com/com/android/tools/dvlib/26.0.1/dvlib-26.0.1.jar
+Download https://maven.google.com/com/android/tools/common/26.0.1/common-26.0.1.jar
+Download https://maven.google.com/com/android/tools/build/apksig/3.0.1/apksig-3.0.1.jar
+Download https://jcenter.bintray.com/it/unimi/dsi/fastutil/7.2.0/fastutil-7.2.0.jar
+Download https://jcenter.bintray.com/org/bouncycastle/bcprov-jdk15on/1.56/bcprov-jdk15on-1.56.jar
+Download https://jcenter.bintray.com/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.jar
+Download https://jcenter.bintray.com/com/google/guava/guava/22.0/guava-22.0.jar
+Download https://jcenter.bintray.com/org/jetbrains/annotations/13.0/annotations-13.0.jar
+Download https://maven.google.com/com/android/databinding/baseLibrary/3.0.1/baseLibrary-3.0.1.jar
+Download https://jcenter.bintray.com/net/sf/proguard/proguard-base/5.3.3/proguard-base-5.3.3.jar
+Download https://jcenter.bintray.com/com/google/code/gson/gson/2.3/gson-2.3.jar
+Download https://maven.google.com/com/android/tools/annotations/26.0.1/annotations-26.0.1.jar
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.2.6/httpclient-4.2.6.jar
+Download https://jcenter.bintray.com/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar
+Download https://jcenter.bintray.com/org/apache/commons/commons-compress/1.12/commons-compress-1.12.jar
+Download https://jcenter.bintray.com/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar
+Download https://jcenter.bintray.com/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar
+Download https://jcenter.bintray.com/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.2.5/httpcore-4.2.5.jar
+Download https://jcenter.bintray.com/org/jetbrains/trove4j/trove4j/20160824/trove4j-20160824.jar
+Download https://maven.google.com/com/android/tools/external/com-intellij/intellij-core/26.0.1/intellij-core-26.0.1.jar
+Download https://jcenter.bintray.com/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.pom
+Download https://jcenter.bintray.com/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar
+Invalid https.proxyPort '', using default 443
+Invalid https.proxyPort '', using default 443
+publishNonDefault is deprecated and has no effect anymore. All variants are now published.
+Download https://repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar
+Invalid https.proxyPort '', using default 443
+Invalid https.proxyPort '', using default 443
++-----------------------------------------------------------------
+| cordova-android-support-gradle-release: 26.0.2
++-----------------------------------------------------------------
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
+The Task.leftShift(Closure) method has been deprecated and is scheduled to be removed in Gradle 5.0. Please use Task.doLast(Action) instead.
+	at build_7dowvjf7l464nx1semvui1gb3.run(/mnt/workspace/Mantenimiento_Visitas/platforms/android/app/build.gradle:167)
+:app:preBuild
+:CordovaLib:preBuild UP-TO-DATE
+:app:preBuild UP-TO-DATE
+:app:prepareLintJar
+:CordovaLib:preDebugBuild UP-TO-DATE
+:CordovaLib:compileDebugAidl
+:app:generateDebugResValues
+:app:createDebugCompatibleScreenManifests
+:CordovaLib:compileDebugRenderscript
+:app:splitsDiscoveryTaskDebug
+:CordovaLib:checkDebugManifest
+:CordovaLib:generateDebugBuildConfig
+:CordovaLib:prepareLintJar
+:app:mergeDebugShaders
+:CordovaLib:generateDebugResValues
+:CordovaLib:generateDebugResources
+:CordovaLib:packageDebugResources
+:app:compileDebugShaders
+:CordovaLib:platformAttrExtractor
+:app:generateDebugAssets
+:app:mergeDebugJniLibFolders
+:CordovaLib:processDebugManifest
+:app:validateSigningDebug
+:CordovaLib:javaPreCompileDebug
+:CordovaLib:processDebugJavaRes NO-SOURCE
+:CordovaLib:packageDebugRenderscript
+:app:preDebugBuild
+:CordovaLib:packageDebugRenderscript NO-SOURCE
+:CordovaLib:mergeDebugShaders
+:CordovaLib:compileDebugShaders
+:CordovaLib:generateDebugAssets
+:CordovaLib:mergeDebugAssets
+:CordovaLib:compileDebugNdk NO-SOURCE
+:CordovaLib:mergeDebugJniLibFolders
+:CordovaLib:transformNativeLibsWithMergeJniLibsForDebug
+:CordovaLib:transformNativeLibsWithIntermediateJniLibsForDebug
+:CordovaLib:processDebugResources
+:CordovaLib:generateDebugSources
+:CordovaLib:compileDebugJavaWithJavac
+Download https://maven.google.com/com/android/support/support-v4/26.0.2/support-v4-26.0.2.pom
+Download https://jcenter.bintray.com/net/zetetic/android-database-sqlcipher/3.5.9/android-database-sqlcipher-3.5.9.pom
+Download https://jcenter.bintray.com/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+Download https://jcenter.bintray.com/cz/msebera/android/httpclient/4.4.1.1/httpclient-4.4.1.1.pom
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Download https://jcenter.bintray.com/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+Download https://jcenter.bintray.com/com/googlecode/mp4parser/isoparser/1.0.6/isoparser-1.0.6.pom
+Download https://jcenter.bintray.com/org/aspectj/aspectjrt/1.8.5/aspectjrt-1.8.5.pom
+Download https://maven.google.com/com/android/support/support-compat/26.0.2/support-compat-26.0.2.pom
+:CordovaLib:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+Download https://maven.google.com/com/android/support/support-media-compat/26.0.2/support-media-compat-26.0.2.pom
+Download https://maven.google.com/com/android/support/support-core-ui/26.0.2/support-core-ui-26.0.2.pom
+Download https://maven.google.com/com/android/support/support-fragment/26.0.2/support-fragment-26.0.2.pom
+Download https://maven.google.com/com/android/support/support-core-utils/26.0.2/support-core-utils-26.0.2.pom
+Download https://maven.google.com/com/android/support/support-annotations/26.0.2/support-annotations-26.0.2.pom
+Download https://maven.google.com/com/android/support/multidex/1.0.2/multidex-1.0.2.pom
+Download https://maven.google.com/com/android/support/support-v4/26.0.2/support-v4-26.0.2.aar
+Download https://maven.google.com/com/android/support/support-media-compat/26.0.2/support-media-compat-26.0.2.aar
+Download https://jcenter.bintray.com/net/zetetic/android-database-sqlcipher/3.5.9/android-database-sqlcipher-3.5.9.aar
+Download https://maven.google.com/com/android/support/support-compat/26.0.2/support-compat-26.0.2.aar
+Download https://maven.google.com/com/android/support/support-fragment/26.0.2/support-fragment-26.0.2.aar
+Download https://maven.google.com/com/android/support/support-core-ui/26.0.2/support-core-ui-26.0.2.aar
+Download https://maven.google.com/com/android/support/multidex/1.0.2/multidex-1.0.2.aar
+Download https://maven.google.com/com/android/support/support-core-utils/26.0.2/support-core-utils-26.0.2.aar
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:javaPreCompileDebug
+Download https://jcenter.bintray.com/cz/msebera/android/httpclient/4.4.1.1/httpclient-4.4.1.1.jar
+Download https://maven.google.com/com/android/support/support-annotations/26.0.2/support-annotations-26.0.2.jar
+Download https://jcenter.bintray.com/org/aspectj/aspectjrt/1.8.5/aspectjrt-1.8.5.jar
+Download https://jcenter.bintray.com/com/googlecode/mp4parser/isoparser/1.0.6/isoparser-1.0.6.jar
+Download https://jcenter.bintray.com/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+:app:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /mnt/workspace/Mantenimiento_Visitas/platforms/android/app/src/main/java/org/apache/cordova/file/AssetFilesystem.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugAssets
+:app:transformClassesWithStackFramesFixerForDebug
+:app:transformClassesWithDesugarForDebug
+:app:transformClassesWithDexBuilderForDebug
+:app:transformClassesWithMultidexlistForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:app:cdvBuildDebug
+
+BUILD SUCCESSFUL in 1m 51s
+46 actionable tasks: 46 executed
+Built the following apk(s): 
+	/mnt/workspace/Mantenimiento_Visitas/platforms/android/app/build/outputs/apk/debug/app-debug.apk

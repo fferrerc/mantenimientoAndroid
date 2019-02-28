@@ -1,0 +1,41 @@
+<core:FragmentDefinition xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1"
+						 xmlns="sap.m"
+						 xmlns:core="sap.ui.core"
+						 xmlns:mdc="sap.ui.mdc.base"
+						 xmlns:form="sap.ui.layout.form"
+						 template:require="{
+							MODEL: 'sap/ui/model/odata/v4/AnnotationHelper',
+							COMMON: 'sap/ui/mdc/odata/v4/CommonHelper',
+							FIELD: 'sap/ui/mdc/odata/v4/field/FieldHelper'
+						 }">
+
+	<form:SimpleForm>
+		<template:repeat list="{action>$Parameter}" var="parameter">
+
+			<!-- In case of bound actions the first parameter shall be ignored -->
+			<template:if test="{= !${action>$IsBound} || ${parameter>$Name} !== ${action>$Parameter/0/$Name} }">
+
+				<Label text="{parameter>$Name}"/>  <!-- TODO how to get label? -->
+				<!--
+                    TODOs: 	edit mode, can there be also field control?
+                            value help
+                            additional value? (= text annotation)
+                            text arrangement?
+                            multipleLines?
+                -->
+
+				<!-- TODO: use new value helper -->
+				<mdc:Field
+						value="{parameter>@@FIELD.value}"
+						editMode="Editable"
+						width="100%"
+						required="{= ${parameter>$Nullable} === false }"
+						change="{= '.handleChange($event, \'' + ${parameter>$Name} + '\')' }"
+						valueState="{= '{/$valueState/' + ${parameter>$Name} + '}' }"
+						valueStateText="{= '{/$valueStateText/' + ${parameter>$Name} + '}' }"
+				>
+				</mdc:Field>
+			</template:if>
+		</template:repeat>
+	</form:SimpleForm>
+</core:FragmentDefinition>

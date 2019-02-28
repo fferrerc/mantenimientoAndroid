@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: ODataAPI-3.16.17:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ODataAPI-3.16.17.aar/20640749eb89ee1f279340d3113899a9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ODataAPI-3.16.17.aar/20640749eb89ee1f279340d3113899a9/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

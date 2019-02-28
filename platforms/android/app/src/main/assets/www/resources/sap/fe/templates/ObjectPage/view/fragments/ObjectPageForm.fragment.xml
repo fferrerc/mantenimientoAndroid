@@ -1,0 +1,63 @@
+<core:FragmentDefinition
+	xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1"
+	xmlns="sap.m"
+	xmlns:odata="sap.ui.mdc.odata.v4"
+	xmlns:core="sap.ui.core">
+	<HBox class="sapUiSmallMargin">
+		<template:if test="{= ${facet>Target/$AnnotationPath}.split('/').length > 1}">
+			<template:then>
+				<template:if test="{= ${facet>Target/$AnnotationPath}.indexOf('com.sap.vocabularies.UI.v1.FieldGroup') > -1}">
+					<template:then>
+						<odata:Form id="{path: 'facet>', formatter: 'sap.fe.templates.ObjectPage.AnnotationHelper.getStableIdPartFromFacet'}::Form"
+								metadataContexts="{ model: 'facet', path:'Target/$AnnotationPath/Data', name: 'dataFieldCollection'},{ model:'entitySet',path:'',name:'entitySet'}"
+								editMode="{ui>/editable}"
+								formTitle="{facet>@@.MODEL.label}"
+								idPrefix="{= ${metaPath>/currentPath}.get().replace(RegExp('[@\/#]','g'),'::') }"
+								binding="{facet>Target/$AnnotationPath@@sap.fe.templates.ObjectPage.AnnotationHelper.getBindingPathForOPTableandForm}"/>
+					</template:then>
+					<template:elseif test="{= ${facet>Target/$AnnotationPath}.indexOf('com.sap.vocabularies.UI.v1.Identification') > -1}">
+						<odata:Form id="{path: 'facet>', formatter: 'sap.fe.templates.ObjectPage.AnnotationHelper.getStableIdPartFromFacet'}::Form"
+								metadataContexts="{ model: 'facet', path:'Target/$AnnotationPath', name: 'dataFieldCollection'},{ model:'entitySet',path:'',name:'entitySet'}"
+								editMode="{ui>/editable}"
+								formTitle="{facet>@@.MODEL.label}"
+								idPrefix="{= ${metaPath>/currentPath}.get().replace(RegExp('[@\/#]','g'),'::') }"
+								binding="{facet>Target/$AnnotationPath@@sap.fe.templates.ObjectPage.AnnotationHelper.getBindingPathForOPTableandForm}"/>
+					</template:elseif>
+					<template:elseif test="{= ${facet>Target/$AnnotationPath}.indexOf('com.sap.vocabularies.UI.v1.DataPoint') > -1}">
+						<odata:Form id="{path: 'facet>', formatter: 'sap.fe.templates.ObjectPage.AnnotationHelper.getStableIdPartFromFacet'}::Form"
+								metadataContexts="{ model: 'facet', path:'', name: 'dataFieldCollection'},{ model:'entitySet',path:'',name:'entitySet'}"
+								editMode="{ui>/editable}"
+								formTitle="{facet>@@.MODEL.label}"
+								idPrefix="{= ${metaPath>/currentPath}.get().replace(RegExp('[@\/#]','g'),'::') }"
+								binding="{facet>Target/$AnnotationPath@@sap.fe.templates.ObjectPage.AnnotationHelper.getBindingPathForOPTableandForm}"/>
+					</template:elseif>
+				</template:if>
+			</template:then>
+			<template:else>
+				<template:if test="{= ${facet>Target/$AnnotationPath}.indexOf('com.sap.vocabularies.UI.v1.FieldGroup') > -1}">
+					<template:then>
+						<odata:Form id="{path: 'facet>', formatter: 'sap.fe.templates.ObjectPage.AnnotationHelper.getStableIdPartFromFacet'}::Form"
+								metadataContexts="{ model: 'facet', path:'Target/$AnnotationPath/Data', name: 'dataFieldCollection'},{ model:'entitySet',path:'',name:'entitySet'}"
+								editMode="{ui>/editable}"
+								idPrefix="{= ${metaPath>/currentPath}.get().replace(RegExp('[@\/#]','g'),'::') }"
+								formTitle="{facet>@@.MODEL.label}"/>
+					</template:then>
+					<template:elseif test="{= ${facet>Target/$AnnotationPath}.indexOf('com.sap.vocabularies.UI.v1.Identification') > -1}">
+						<odata:Form id="{path: 'facet>', formatter: 'sap.fe.templates.ObjectPage.AnnotationHelper.getStableIdPartFromFacet'}::Form"
+								metadataContexts="{ model: 'facet', path:'Target/$AnnotationPath', name: 'dataFieldCollection'},{ model:'entitySet',path:'',name:'entitySet'}"
+								editMode="{ui>/editable}"
+								idPrefix="{= ${metaPath>/currentPath}.get().replace(RegExp('[@\/#]','g'),'::') }"
+								formTitle="{facet>@@.MODEL.label}"/>
+					</template:elseif>
+					<template:elseif test="{= ${facet>Target/$AnnotationPath}.indexOf('com.sap.vocabularies.UI.v1.DataPoint') > -1}">
+						<odata:Form id="{path: 'facet>', formatter: 'sap.fe.templates.ObjectPage.AnnotationHelper.getStableIdPartFromFacet'}::Form"
+								metadataContexts="{ model: 'facet', path:'', name: 'dataFieldCollection'},{ model:'entitySet',path:'',name:'entitySet'}"
+								editMode="{ui>/editable}"
+								idPrefix="{= ${metaPath>/currentPath}.get().replace(RegExp('[@\/#]','g'),'::') }"
+								formTitle="{facet>@@.MODEL.label}"/>
+					</template:elseif>
+				</template:if>
+			</template:else>
+		</template:if>
+	</HBox>
+</core:FragmentDefinition>

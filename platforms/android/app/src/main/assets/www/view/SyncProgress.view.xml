@@ -1,0 +1,86 @@
+<mvc:View controllerName="ABMcontactos.TGN-ABMcontactos.controller.SyncProgress" xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:mvc="sap.ui.core.mvc" xmlns:l="sap.ui.layout" displayBlock="true" xmlns="sap.m">
+	<Page title="{i18n>sprogress.title}" showNavButton="true" navButtonPress="_onNavBack" >
+		<headerContent>
+			<Button icon="sap-icon://detail-view" press="onDetails" visible="{States>/bNavToSyncDetailEnabled}"/>
+			<!-- visible="{States>/bNavToSyncDetailEnabled}" -->
+		</headerContent>
+		<content>
+			<VBox class="sapUiMediumMargin" justifyContent="Center" >
+				<Label text="{i18n>sprogress.progressindicator.title}" />
+				<ProgressIndicator
+					height="40px"
+					width="100%"
+					class="sapUiSmallMarginTop sapUiMediumMarginBottom"
+					percentValue="{oModelProgress>/percentProgress}"
+					displayValue="{oModelProgress>/percentProgress} %"
+					showValue="true"
+					state="None"
+					displayOnly="true" />
+				<HBox justifyContent="Center">
+					<Text text="{oModelProgress>/stateComment}" />
+				</HBox>
+			</VBox>
+			
+			<!--<List
+				items="{States>/aProgressStates}"
+				headerText="{i18n>sprogress.eventList.title}">
+				<StandardListItem
+					title="{= 'State: ' + ${States>state}  + ', File Size: ' + ${States>fileSize}}"
+					description="{= 'Bytes Sent: ' + ${States>bytesSent} + ', Bytes Recevied: ' + ${States>bytesRecv} }"
+					icon="{States>icon}"
+					iconDensityAware="false"
+					iconInset="false" 
+					info="{States>dateAndTime}" 
+					/>
+			</List>-->
+		
+			<!--
+			<FlexBox
+					height="100%"
+					direction="Column"
+					alignItems="Center"
+					justifyContent="Center">
+					<items>
+						<VBox width="80%" class="sapUiSmallMarginBottom item-progress">
+							<Label text="Estado" design="Bold" class="title-progress-bar blue-tgn"/>
+							<Text text="{States>/oProgress/state}"> </Text>
+						</VBox>
+						
+						<VBox width="80%" class="sapUiSmallMarginBottom item-progress">
+							<Label text="Bytes enviados" design="Bold" class="title-progress-bar blue-tgn"/>
+							<Text text="{States>/oProgress/bytesSent}"> </Text>
+						</VBox>
+						
+						<VBox width="80%" class="sapUiSmallMarginBottom item-progress">
+							<Label text="Bytes recibidos" design="Bold" class="title-progress-bar blue-tgn"/>
+							<Text text="{States>/oProgress/bytesRecv}"> </Text>
+						</VBox>
+						
+						<VBox width="80%" class="sapUiSmallMarginBottom item-progress">
+							<Label text="Tamaño del Store" design="Bold" class="title-progress-bar blue-tgn"/>
+							<Text text="{States>/oProgress/fileSize}"> </Text>
+						</VBox>
+					
+						
+						<VBox width="80%" class="sapUiSmallMarginBottom item-progress">
+							<Label text="Tarea x1" design="Bold" class="title-progress-bar blue-tgn"/>
+							<ProgressIndicator state="Success" percentValue="40" id="progress_task_work_x1"/>
+						</VBox>
+							<VBox width="80%" class="sapUiSmallMarginTopBottom item-progress">
+							<Label text="Tarea x2" design="Bold" class="title-progress-bar blue-tgn"/>
+							<ProgressIndicator state="Success" id="progress_task_work_x2"/>
+						</VBox>
+						
+						<VBox width="80%" class="sapUiSmallMarginTop item-progress item-progress-last">
+							<Label text="Tarea x3" design="Bold" class="title-progress-bar blue-tgn"/>
+							<ProgressIndicator state="Success" id="progress_task_work_x3"/>
+						</VBox>
+						
+						
+					</items>
+				</FlexBox>
+				-->
+		</content>
+	</Page>
+</mvc:View>

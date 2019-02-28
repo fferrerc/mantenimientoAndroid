@@ -1,0 +1,2 @@
+// Copyright (c) 2009-2017 SAP SE, All Rights Reserved
+sap.ui.define(["sap/ushell/appRuntime/ui5/AppRuntimeService"],function(A){"use strict";var S={init:function(){sap.ushell.Container.getService("ShellNavigation").init(function(){});},getId:function(){return"sap.ushell.services.ShellNavigation";},isTrustedPostMessageSource:function(){return true;},getHandlers:function(){return{};}};return S;},false);

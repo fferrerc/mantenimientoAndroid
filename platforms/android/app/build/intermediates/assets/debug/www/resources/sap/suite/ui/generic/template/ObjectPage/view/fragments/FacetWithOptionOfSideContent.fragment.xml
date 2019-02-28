@@ -1,0 +1,24 @@
+<core:FragmentDefinition xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1"
+						 xmlns="sap.m" xmlns:layout="sap.ui.layout" xmlns:core="sap.ui.core">
+	<template:if test="{parts: [{path: 'entitySet>name'}, {path: 'facet>'}, {path: 'manifestViewExtensions>'}], formatter: 'sap.suite.ui.generic.template.js.AnnotationHelper.getSideContentExtensionPoint'}">
+		<template:then>
+			<template:with path="parameter>/" helper="sap.suite.ui.generic.template.js.StableIdHelper.preparePathForStableId" var="facetId">
+				<template:if test="{= ${facetId>}.buildFacetId(${facet>})}" />			
+				<layout:DynamicSideContent  id="{:= ${parameter>/stableId}.getStableId({ type:'ObjectPageSection', subType:'DynamicSideContent', sFacet: ${facetId>id}}) }"
+											sideContentPosition="{parts: [{path: 'entitySet>name'}, {path: 'facet>'}, {path: 'manifestViewExtensions>'}], formatter: 'sap.suite.ui.generic.template.js.AnnotationHelper.getSideContentPosition'}"
+											equalSplit="{parts: [{path: 'entitySet>name'}, {path: 'facet>'}, {path: 'manifestViewExtensions>'}], formatter: 'sap.suite.ui.generic.template.js.AnnotationHelper.getEqualSplitValue'}"
+											showSideContent="false">
+					<layout:mainContent>
+						<core:Fragment fragmentName="sap.suite.ui.generic.template.fragments.Facet" type="XML"/>
+					</layout:mainContent>
+					<layout:sideContent>
+						<core:ExtensionPoint name="{parts: [{path: 'entitySet>name'}, {path: 'facet>'}, {path: 'manifestViewExtensions>'}], formatter: 'sap.suite.ui.generic.template.js.AnnotationHelper.getSideContentExtensionPoint'}"/>
+					</layout:sideContent>
+				</layout:DynamicSideContent>
+			</template:with>
+		</template:then>
+		<template:else>
+			<core:Fragment fragmentName="sap.suite.ui.generic.template.fragments.Facet" type="XML"/>
+		</template:else>
+	</template:if>	
+</core:FragmentDefinition>

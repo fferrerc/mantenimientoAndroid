@@ -1,0 +1,28 @@
+<core:FragmentDefinition
+    xmlns:m="sap.m"
+    xmlns:odata="sap.ui.mdc.odata.v4"
+    xmlns:core="sap.ui.core"
+    xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1" template:require="{OP: 'sap/fe/templates/ObjectPage/AnnotationHelper', MODEL: 'sap/ui/model/odata/v4/AnnotationHelper'}">
+    <m:VBox >
+        <m:Label text="{entityType>@com.sap.vocabularies.UI.v1.HeaderInfo/Title/@@MODEL.label} : " class="sapUiTinyMarginEnd" />
+        <odata:Field editMode="Editable" idPrefix="EditableHeaderField" metadataContexts="{ model: 'entitySet', path:'',  name: 'entitySet'},{ model: 'entityType', path:'@com.sap.vocabularies.UI.v1.HeaderInfo/Title',  name: 'dataField'}" />
+        <m:Label text="{entityType>@com.sap.vocabularies.UI.v1.HeaderInfo/Description/@@MODEL.label} : " class="sapUiTinyMarginEnd" />
+        <odata:Field editMode="Editable" idPrefix="EditableHeaderField" metadataContexts="{ model: 'entitySet', path:'',  name: 'entitySet'},{ model: 'entityType', path:'@com.sap.vocabularies.UI.v1.HeaderInfo/Description',  name: 'dataField'}" />
+    </m:VBox>
+    <template:repeat list="{entityType>@com.sap.vocabularies.UI.v1.HeaderFacets}" var="facet">
+        <template:if test="{facet>Facets}">
+            <template:then>
+                <template:repeat list="{facet>Facets}" var="facet">
+                    <template:if test="{= ${metaPath>/currentPath}.set('/') }" />
+                    <core:Fragment fragmentName="sap.fe.templates.ObjectPage.view.fragments.ObjectPageBlockandMoreBlocks" type="XML"/>
+                    <template:if test="{= ${metaPath>/currentPath}.set('../') }" />
+                </template:repeat>
+            </template:then>
+            <template:else>
+                <template:if test="{= ${metaPath>/currentPath}.set('/') }" />
+                <core:Fragment fragmentName="sap.fe.templates.ObjectPage.view.fragments.ObjectPageBlockandMoreBlocks" type="XML"/>
+                <template:if test="{= ${metaPath>/currentPath}.set('../') }" />
+            </template:else>
+        </template:if>
+    </template:repeat>
+</core:FragmentDefinition>
